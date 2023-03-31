@@ -133,3 +133,7 @@ In contrast to the dispute period mechanism, zk shortens the time from weeks to 
 ### What is zkPoS exactly?
 
 A component that simply gets valid block header by proving Ethereum consensus with zk.
+
+### ...Still got questions?
+
+Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).
