@@ -1,4 +1,4 @@
-# Use zkAutomation
+# Introduction
 
 Developers can use zkAutomation by deploying their automation program through Hyper Oracle's Web App. They simply need to specify their target contract, target function, and source (when to trigger). For more complex trigger conditions, developers can choose to either trigger automation every N-th block (in scenarios like a keeper bot) or use a zkGraph as the off-chain source.
 

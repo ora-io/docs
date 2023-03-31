@@ -1,8 +1,4 @@
-# Develop Guide
-
-### Dev Guide
-
-Coming soon...
+# Features
 
 ### **Subgraph-Equivalence**
 

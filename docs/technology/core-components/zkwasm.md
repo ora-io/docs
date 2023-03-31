@@ -1,5 +1,5 @@
 ---
-description: Power zkGraph with ZK
+description: Power zkGraph with ZK, "VM" of Hyper Oracle Network
 ---
 
 # zkWASM

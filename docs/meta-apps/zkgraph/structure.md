@@ -1,4 +1,4 @@
-# Structure of zkGraph
+# Structure
 
 A zkGraph is customizable and programmable, consisting of three main components:
 

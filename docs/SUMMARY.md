@@ -6,13 +6,12 @@
 ## Meta Apps
 
 * [zkGraph](meta-apps/zkgraph/README.md)
-  * [Intro to zkGraph](meta-apps/zkgraph/intro-to-zkgraph.md)
-  * [Structure of zkGraph](meta-apps/zkgraph/structure-of-zkgraph.md)
-  * [Develop Guide](meta-apps/zkgraph/develop-guide.md)
+  * [Structure](meta-apps/zkgraph/structure.md)
+  * [Features](meta-apps/zkgraph/features.md)
 * [zkAutomation](meta-apps/zkautomation/README.md)
-  * [Use zkAutomation](meta-apps/zkautomation/use-zkautomation.md)
+  * [Introduction](meta-apps/zkautomation/introduction.md)
 * [zkIndexing](meta-apps/zkindexing/README.md)
-  * [Use zkIndexing](meta-apps/zkindexing/use-zkindexing.md)
+  * [Introduction](meta-apps/zkindexing/introduction.md)
 
 ## Technology
 
@@ -26,10 +25,11 @@
 
 * [Roadmap](resources/roadmap.md)
 * [Glossary](resources/glossary.md)
+* [FAQ](resources/faq.md)
 
 ## Get in touch
 
-* [Discord](https://discord.gg/MgyYbW9dQj)
-* [Twitter](https://twitter.com/HyperOracle)
 * [Mirror](https://mirror.xyz/hyperoracleblog.eth)
+* [Twitter](https://twitter.com/HyperOracle)
 * [GitHub](https://github.com/hyperoracle)
+* [Discord](https://discord.gg/MgyYbW9dQj)

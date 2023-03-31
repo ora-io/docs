@@ -1,4 +1,4 @@
-# Use zkIndexing
+# Introduction
 
 To utilize zkIndexing, developers need to utilize a zkGraph to define the indexing behaviors and querying schema.
 

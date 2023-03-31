@@ -1,5 +1,5 @@
 ---
-description: Trustless Block Header Fetching, the “Data Source” in Hyper Oracle Network
+description: Trustless Block Header Fetching, "Data Source" of Hyper Oracle Network
 ---
 
 # zkPoS
