@@ -18,7 +18,7 @@ We want to support AssemblyScript code of zkGraph for Subgraph-equivalence. This
 
 Output oracles such as The Graph have fisherman mechanism ([doc](https://thegraph.com/docs/en/network/indexing/#what-are-disputes-and-where-can-i-view-them), [code](https://github.com/graphprotocol/contracts/blob/dev/contracts/disputes/DisputeManager.sol)). It is kind of like Optimistic Rollups' fault/fraud proof, but without verifiability and decentralization. How it works is that during a week-long dispute period, someone can stake their token to challenge the computation (indexing or querying) and result of a node operator (indexer), and arbitrator council decides if challenge gets accepted.
 
-I/O oracles such as Gelato Network and Keep3r Network have goverance for security. Some of them are [not permissionless](https://docs.gelato.network/introduction/executor-operators#who-can-become-an-executor) now and requires legal bindings for operating a node. The networks with [governance as security mechanism](https://docs.keep3r.network/roles/governance) requires someone to challenge a node operator (executor) on their governance platform (usually a forum) and members will manually examine the challenge.
+I/O oracles such as Gelato Network and Keep3r Network have governance for security. Some of them are [not permissionless](https://docs.gelato.network/introduction/executor-operators#who-can-become-an-executor) now and requires legal bindings for operating a node. The networks with [governance as security mechanism](https://docs.keep3r.network/roles/governance) requires someone to challenge a node operator (executor) on their governance platform (usually a forum) and members will manually examine the challenge.
 
 ### Is zk necessary for an oracle network?
 
