@@ -16,6 +16,8 @@ We want to support AssemblyScript code of zkGraph for Subgraph-equivalence. This
 
 ### What are security mechanisms for other oracle networks?
 
+First, traditional oracle networks are mostly based on "PoS". [PoS in oracle networks is always insecure](https://mirror.xyz/hyperoracleblog.eth/RA-c\_9ydwKhSo-KV2Ti5Fu4YwThxSTQuBrlLX1\_huFw).
+
 Output oracles such as The Graph have fisherman mechanism ([doc](https://thegraph.com/docs/en/network/indexing/#what-are-disputes-and-where-can-i-view-them), [code](https://github.com/graphprotocol/contracts/blob/dev/contracts/disputes/DisputeManager.sol)). It is kind of like Optimistic Rollups' fault/fraud proof, but without verifiability and decentralization. How it works is that during a week-long dispute period, someone can stake their token to challenge the computation (indexing or querying) and result of a node operator (indexer), and arbitrator council decides if challenge gets accepted.
 
 I/O oracles such as Gelato Network and Keep3r Network have governance for security. Some of them are [not permissionless](https://docs.gelato.network/introduction/executor-operators#who-can-become-an-executor) now and requires legal bindings for operating a node. The networks with [governance as security mechanism](https://docs.keep3r.network/roles/governance) requires someone to challenge a node operator (executor) on their governance platform (usually a forum) and members will manually examine the challenge.
@@ -122,7 +124,7 @@ Yes.
 
 ### Why Hyper Oracle is trustless, not trust-minimized/trustful?
 
-Strictly speaking, nothing is trustless because you still have to trust some fundamental rules like Math or Cryptography. But we still use the term of trustless to demonstrate the trustworthiness, security, verifiability, and decentralization of our network. Trust-minimized is still a good word that describes Hyper Oracle.
+Strictly speaking, nothing is trustless because you still have to trust some fundamental rules like Math or Cryptography. But we still use the term of trustless to demonstrate the trustworthiness, security, verifiability, and decentralization of our network. [Trust-minimized](https://twitter.com/toghrulmaharram/status/1643739327128829955) is still a good word that describes Hyper Oracle.
 
 ### Why finality matters and does overhead in proof generation makes Hyper Oracle slower?
 
