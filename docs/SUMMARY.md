@@ -8,6 +8,7 @@
 * [zkGraph](meta-apps/zkgraph/README.md)
   * [Structure](meta-apps/zkgraph/structure.md)
   * [Features](meta-apps/zkgraph/features.md)
+  * [Develop](meta-apps/zkgraph/develop.md)
 * [zkAutomation](meta-apps/zkautomation/README.md)
   * [Introduction](meta-apps/zkautomation/introduction.md)
 * [zkIndexing](meta-apps/zkindexing/README.md)
