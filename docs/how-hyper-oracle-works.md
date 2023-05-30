@@ -2,7 +2,7 @@
 
 Hyper Oracle powers developers to build end-to-end trustless and decentralized application with indexing and automation infrastructure.
 
-Hyper Oracle is a network:
+Hyper Oracle is a decentralized network:
 
 * Used by Developers: Developers can define custom off-chain computations with JavaScript, deploy those computations to Hyper Oracle network, and utilize Hyper Oracle Meta Apps to index and automate their smart contracts.
 * Operated by zkOracle Nodes: Node operators can run zkOracle node to execute and generate zk proofs for developer-defined computations.
@@ -16,7 +16,7 @@ Hyper Oracle is a network:
 ### Benefits for Developers
 
 * All-in-one Infrastructure with Automation and Indexing
-* Verifiable, Decentralized, and Secure Service
+* Verifiable, Decentralized, and Secure Network
 * Programmable and Flexible Infrastructure
 * Faster Performance and Shorter Finality
 

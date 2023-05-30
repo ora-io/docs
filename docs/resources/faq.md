@@ -136,6 +136,14 @@ In contrast to the dispute period mechanism, zk shortens the time from weeks to 
 
 A component that simply gets valid block header by proving Ethereum consensus with zk.
 
+### What is the relationship between World Supercomputer and Hyper Oracle?
+
+Simply put, Hyper Oracle is a key network of the entire World Supercomputer network. In addition, World Supercomputer is also served by Ethereum as the consensus network and Storage Rollup as the storage network.
+
+### What is the difference between World Supercomputer and Rollups?
+
+The main difference between modular blockchain (including L2 Rollup) and world computer architecture lies in their purpose: Modular blockchain is designed for creating a new blockchain by selecting modules (consensus, DA, settlement, and execution) to put together into a modular blockchain; while World Supercomputer is designed to establish a global decentralized computer/network by combining networks (base layer blockchain, storage network, computation network) into a world computer.
+
 ### ...Still got questions?
 
 Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).

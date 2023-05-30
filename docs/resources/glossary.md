@@ -148,6 +148,10 @@ A role that requires prover to convince with proof. Can be a person, a smart con
 
 A binary code format or programming language. Commonly used in Web.
 
+### World Supercomputer
+
+A global P2P network linking three topologically heterogeneous networks (Ethereum, Hyper Oracle, Storage Rollup) with zero-knowledge proof.
+
 ### Zero-knowledge Proof
 
 A cryptographic method for proving. Commonly used in blockchain for privacy and scaling solutions.

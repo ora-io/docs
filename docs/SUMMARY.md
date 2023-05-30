@@ -2,6 +2,7 @@
 
 * [🌈 Hyper Oracle](README.md)
 * [How Hyper Oracle Works](how-hyper-oracle-works.md)
+* [Towards World Supercomputer](towards-world-supercomputer.md)
 
 ## Meta Apps
 
