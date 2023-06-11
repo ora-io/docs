@@ -14,6 +14,7 @@
   * [Introduction](meta-apps/zkautomation/introduction.md)
 * [zkIndexing](meta-apps/zkindexing/README.md)
   * [Introduction](meta-apps/zkindexing/introduction.md)
+* [zkML](meta-apps/zkml.md)
 
 ## MVP
 
