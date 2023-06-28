@@ -9,7 +9,7 @@ Hyper Oracle is a decentralized network:
 
 ### "Programmable" + "zkOracle Network"
 
-"Programmable" means Hyper Oracle's indexing and automation Meta Apps are fully customizable and flexible. Any computation can be defined and all computations will be secured by a generated zk proof.
+"Programmable" means Hyper Oracle's indexing and automation zkGraph Standards (Meta Apps) are fully customizable and flexible. Any computation can be defined and all computations will be secured by a generated zk proof.
 
 "zkOracle Network" means Hyper Oracle network nodes are zkOracles. zk technology provides computation integrity, verifiablity, and security for general computation. zkOracle is an oracle that utilizes zk for computation to secure the oracle in a trustless manner. As long as the whole network has 1 honest zkOracle, the network will be secure without the need for staking mechanism.
 

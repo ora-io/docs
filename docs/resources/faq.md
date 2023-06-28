@@ -8,7 +8,7 @@ description: Frequently Asked Questions
 
 Our [framing of oracles](https://ethresear.ch/t/defining-zkoracle-for-ethereum/15131) categorizes oracles into three different types: input oracle (price feeds for example, inputs off-chain data to on-chain), output oracle (indexing, outputs on-chain data to off-chain), and I/O oracle (automation, output oracle + input oracle, outputs on-chain data to off-chain then computes and feeds result back to on-chain).
 
-Our Meta Apps are output zkOracle and I/O zkOracle.
+Our zkGraph Standards (Meta Apps) are output zkOracle and I/O zkOracle.
 
 ### Why zkWASM, not zkEVM?
 
@@ -58,7 +58,7 @@ Rebuilding and replacing.
 
 We are the first and your last oracle. We are programmable zkOracle.
 
-### Who will need Hyper Oracle Meta Apps?
+### Who will need Hyper Oracle Meta Apps (zkGraph Standards)?
 
 All Web3 developers.
 

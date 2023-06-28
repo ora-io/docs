@@ -60,7 +60,7 @@ A delay after outputting execution result caused by proof generation or dispute 
 
 An operation that associates input elements with output elements.
 
-### Meta Apps
+### Meta Apps (zkGraph Standards)
 
 Services provided by Hyper Oracle for DApp developers, including zkIndexing and zkAutomation.
 

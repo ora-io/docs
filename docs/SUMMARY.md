@@ -4,17 +4,17 @@
 * [How Hyper Oracle Works](how-hyper-oracle-works.md)
 * [Towards World Supercomputer](towards-world-supercomputer.md)
 
-## Meta Apps
+## zkGraph Standards
 
-* [zkGraph](meta-apps/zkgraph/README.md)
-  * [Structure](meta-apps/zkgraph/structure.md)
-  * [Features](meta-apps/zkgraph/features.md)
-  * [Develop](meta-apps/zkgraph/develop.md)
-* [zkAutomation](meta-apps/zkautomation/README.md)
-  * [Introduction](meta-apps/zkautomation/introduction.md)
-* [zkIndexing](meta-apps/zkindexing/README.md)
-  * [Introduction](meta-apps/zkindexing/introduction.md)
-* [zkML](meta-apps/zkml.md)
+* [zkGraph](zkgraph-standards/zkgraph/README.md)
+  * [Structure](zkgraph-standards/zkgraph/structure.md)
+  * [Features](zkgraph-standards/zkgraph/features.md)
+  * [Develop](zkgraph-standards/zkgraph/develop.md)
+* [zkAutomation](zkgraph-standards/zkautomation/README.md)
+  * [Introduction](zkgraph-standards/zkautomation/introduction.md)
+* [zkIndexing](zkgraph-standards/zkindexing/README.md)
+  * [Introduction](zkgraph-standards/zkindexing/introduction.md)
+* [zkML](zkgraph-standards/zkml.md)
 
 ## MVP
 
