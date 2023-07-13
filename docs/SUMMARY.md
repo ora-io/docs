@@ -4,12 +4,16 @@
 * [How Hyper Oracle Works](how-hyper-oracle-works.md)
 * [Towards World Supercomputer](towards-world-supercomputer.md)
 
+## zkGraph
+
+* [Introduction](zkgraph/introduction.md)
+* [Develop](zkgraph/develop/README.md)
+  * [1. zkGraph Studio UI](zkgraph/develop/1.-zkgraph-studio-ui.md)
+  * [2. zkGraph Template](zkgraph/develop/2.-zkgraph-template.md)
+* [zkGraph AssemblyScript Lib](zkgraph/zkgraph-assemblyscript-lib.md)
+
 ## zkGraph Standards
 
-* [zkGraph](zkgraph-standards/zkgraph/README.md)
-  * [Structure](zkgraph-standards/zkgraph/structure.md)
-  * [Features](zkgraph-standards/zkgraph/features.md)
-  * [Develop](zkgraph-standards/zkgraph/develop.md)
 * [zkAutomation](zkgraph-standards/zkautomation/README.md)
   * [Introduction](zkgraph-standards/zkautomation/introduction.md)
 * [zkIndexing](zkgraph-standards/zkindexing/README.md)
