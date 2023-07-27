@@ -20,9 +20,9 @@ Note: For Subgraph-compatibility, the design of this library follows the Assembl
 
 It adds the following method on top of the `Bytes` API:
 
-* `Address.fromString(s: string): Address` – creates an `Address` from a hexadecimal string
-* `Address.fromBytes(b: Bytes): Address` – create an `Address` from `b` which must be exactly 20 bytes long. Passing in a value with fewer or more bytes will result in an error
-* `Address.zero(): Address` - create an `Address` with zeroes.
+* `Address.fromString(s: string): Address` – Creates an `Address` from a hexadecimal string.
+* `Address.fromBytes(b: Bytes): Address` – Creates an `Address` from `b` which must be exactly 20 bytes long. Passing in a value with fewer or more bytes will result in an error.
+* `Address.zero(): Address` - Create an `Address` with zeroes.
 
 #### **BigInt**
 
@@ -34,53 +34,62 @@ The `BigInt` class has the following API:
 
 _Construction_
 
-* `BigInt.fromI32(x: i32): BigInt` – creates a `BigInt` from an `i32`.
-* `BigInt.fromU32(x: u32): BigInt` – creates a `BigInt` from a `u32`.
-* `BigInt.fromI64(x: i64): BigInt` – creates a `BigInt` from an `i64`.
-* `BigInt.fromU64(x: u64): BigInt` – creates a `BigInt` from a `u64`.
-* `BigInt.zero(x: u64): BigInt` – creates a `BigInt` that is zero.
+* `BigInt.fromI32(x: i32): BigInt` – Creates a `BigInt` from an `i32`.
+* `BigInt.fromU32(x: u32): BigInt` – Creates a `BigInt` from a `u32`.
+* `BigInt.fromI64(x: i64): BigInt` – Creates a `BigInt` from an `i64`.
+* `BigInt.fromU64(x: u64): BigInt` – Creates a `BigInt` from a `u64`.
+* `BigInt.zero(x: u64): BigInt` – Creates a `BigInt` that is zero.
 * `BigInt.fromString(s: string): BigInt`– Parses a `BigInt` from a string.
-* `BigInt.fromUnsignedBytes(x: Bytes): BigInt` – Interprets `bytes` as an unsigned, little-endian integer. If your input is big-endian, call `.reverse()` first.
-* `BigInt.fromUnsignedBytesBigEndian(x: Bytes): BigInt` – Interprets `bytes` as an unsigned, big-endian integer.
-* `BigInt.fromSignedBytes(x: Bytes): BigInt` – Interprets `bytes` as a signed, little-endian integer. If your input is big-endian, call `.reverse()` first.
-* `BigInt.fromSignedBytesBigEndian(x: Bytes): BigInt` – Interprets `bytes` as a signed, big-endian integer.
-* `BigInt.fromByteArray(x: ByteArray): BigInt`– Parses a `BigInt` from a `ByteArray`.
+* `BigInt.fromBytes(x: Bytes, isNegative: boolean = false): BigInt`– Parses a `BigInt` from a `Bytes` with little-endian order.
+* `BigInt.fromBytesBigEndian(x: Bytes, isNegative: boolean = false): BigInt`– Parses a `BigInt` from a `Bytes` with big-endian order.
 
 _Type conversions_
 
-* `x.toHex(): string` – turns `BigInt` into a string of hexadecimal characters.
-* `x.toHexString(prefix: string = ""): string` – turns `BigInt` into a string of hexadecimal characters, with optional prefix default to empty.
-* `x.toString(): string` – turns `BigInt` into a decimal number string.
-* `x.toI32(): i32` – returns the `BigInt` as an `i32`; fails if the value does not fit into `i32`. It's a good idea to first check `x.isI32()`.
-* `x.toU32(): u32` – returns the `BigInt` as a `u32`.
-* `x.toI64(): i64` – returns the `BigInt` as an `i64`.
-* `x.toU64(): u64` – returns the `BigInt` as a `u64`.
+* `x.toHex(): string` – Turns `BigInt` into a string of hexadecimal characters.
+* `x.toHexString(prefix: string = ""): string` – Turns `BigInt` into a string of hexadecimal characters, with optional prefix default to empty.
+* `x.toString(radix: i32 = 10): string` – Turns `BigInt` into a string based on given radix.
+* `x.toI32(): i32` – Returns the `BigInt` as an `i32`; fails if the value does not fit into `i32`. It's a good idea to first check `x.isI32()`.
+* `x.toU32(): u32` – Returns the `BigInt` as a `u32`.
+* `x.toI64(): i64` – Returns the `BigInt` as an `i64`.
+* `x.toU64(): u64` – Returns the `BigInt` as a `u64`.
 
 _Math_
 
 Syntax like `x.plus(b)` is recommended instead of `a + b` to avoid compiler warning.
 
-* `x.plus(y: BigInt): BigInt` – can be written as `x + y`.
-* `x.minus(y: BigInt): BigInt` – can be written as `x - y`.
-* `x.times(y: BigInt): BigInt` – can be written as `x * y`.
-* `x.div(y: BigInt): BigInt` – can be written as `x / y`.
-* `x.mod(y: BigInt): BigInt` – can be written as `x % y`.
-* `x.equals(y: BigInt): bool` – can be written as `x == y`.
-* `x.notEqual(y: BigInt): bool` – can be written as `x != y`.
-* `x.lt(y: BigInt): bool` – can be written as `x < y`.
-* `x.le(y: BigInt): bool` – can be written as `x <= y`.
-* `x.gt(y: BigInt): bool` – can be written as `x > y`.
-* `x.ge(y: BigInt): bool` – can be written as `x >= y`.
-* `x.neg(): BigInt` – can be written as `x`.
-* `x.isZero(): bool` – Convenience for checking if the number is zero.
-* `x.isI32(): bool` – Check if the number fits in an `i32`.
+* `x.plus(y: BigInt): BigInt` – Can be written as `x + y`, or `add`.
+* `x.minus(y: BigInt): BigInt` – Can be written as `x - y`, or `sub`.
+* `x.times(y: BigInt): BigInt` – Can be written as `x * y`, or `mul`.
+* `x.div(y: BigInt): BigInt` – Can be written as `x / y`.
+* `x.mod(y: BigInt): BigInt` – Can be written as `x % y`.
+* `x.equals(y: BigInt): bool` – Can be written as `x == y`, or `eq`.
+* `x.notEqual(y: BigInt): bool` – Can be written as `x != y`, or `ne`.
+* `x.lt(y: BigInt): bool` – Can be written as `x < y`.
+* `x.le(y: BigInt): bool` – Can be written as `x <= y`, or `lte`.
+* `x.gt(y: BigInt): bool` – Can be written as `x > y`.
+* `x.ge(y: BigInt): bool` – Can be written as `x >= y`, or `gte`.
+* `x.neg(): BigInt` – Can be written as `-x`.
 * `x.abs(): BigInt` – Absolute value.
-* `x.pow(exp: u8): BigInt` – Exponentiation.
+* `x.square(): BigInt` – Square.
+* `x.pow(exp: i32): BigInt` – Exponentiation.
 * `x.sqrt(): BigInt` – Square root. Note that this may be computationally expensive in zkVM.
-* `bitOr(x: BigInt, y: BigInt): BigInt` – can be written as `x | y`.
-* `bitAnd(x: BigInt, y: BigInt): BigInt` – can be written as `x & y`.
-* `leftShift(x: BigInt, bits: u8): BigInt` – can be written as `x << y`.
-* `rightShift(x: BigInt, bits: u8): BigInt` – can be written as `x >> y`.
+
+_Bitwise Operation_
+
+* `x.bitOr(y: BigInt): BigInt` – Can be written as `x | y`, or `BigInt.bitOr(x, y)`.
+* `x.bitXor(y: BigInt): BigInt` – Can be written as `x ^ y`, or `BigInt.bitXor(x, y)`.
+* `x.bitAnd(y: BigInt): BigInt` – Can be written as `x & y`, or `BigInt.bitAnd(x, y)`.
+* `x.bitNot(): BigInt` – Can be written as `~x`, or `BigInt.bitNot(x)`.&#x20;
+* `leftShift(k: i32): BigInt` – Can be written as `x << y`.
+* `rightShift(k: i32): BigInt` – Can be written as `x >> y`.
+
+_Others_
+
+* `x.copy(): BigInt` – Returns a copy of `x`.
+* `compare(x: BigInt, y: BigInt): i32` - Returns 1 if x > y, -1 if x < y, and 0 if x == y.
+* `x.isI32(): bool` – Check if the number fits in an `i32`.
+* `x.isZero(): bool` – Convenience for checking if the number is zero.
+* `x.isOdd(): bool` – Check if the number is odd.
 
 #### **ByteArray**
 
@@ -92,38 +101,38 @@ You may need to use `BigEndian` version functions for Ethereum data structures.
 
 _Construction_
 
-* `fromI32(x: i32): ByteArray` - Decomposes `x` into bytes.
-* `fromI32BigEndian(x: i32): ByteArray` - Decomposes `x` into bytes in BigEndian.
-* `fromU32(x: u32): ByteArray` - Decomposes `x` into bytes.
-* `fromU32BigEndian(x: u32): ByteArray` - Decomposes `x` into bytes in BigEndian.
-* `fromI64(x: i64): ByteArray` - Decomposes `x` into bytes.
-* `fromI64BigEndian(x: i64): ByteArray` - Decomposes `x` into bytes in BigEndian.
-* `fromU64(x: u64): ByteArray` - Decomposes `x` into bytes.
-* `fromU64BigEndian(x: u64): ByteArray` - Decomposes `x` into bytes in BigEndian.
-* `fromHexString(hex: string): ByteArray` - Input length must be even. Prefixing with `0x` is optional.
-* `fromUTF8(hex: string): ByteArray` - Decomposes UTF8 string into bytes.
-* `fromBigInt(x: BigInt): ByteArray` - Decomposes BigInt into bytes.
+* `ByteArray.fromI32(x: i32): ByteArray` - Decomposes `x` into bytes.
+* `ByteArray.fromI32BigEndian(x: i32): ByteArray` - Decomposes `x` into bytes in BigEndian.
+* `ByteArray.fromU32(x: u32): ByteArray` - Decomposes `x` into bytes.
+* `ByteArray.fromU32BigEndian(x: u32): ByteArray` - Decomposes `x` into bytes in BigEndian.
+* `ByteArray.fromI64(x: i64): ByteArray` - Decomposes `x` into bytes.
+* `ByteArray.fromI64BigEndian(x: i64): ByteArray` - Decomposes `x` into bytes in BigEndian.
+* `ByteArray.fromU64(x: u64): ByteArray` - Decomposes `x` into bytes.
+* `ByteArray.fromU64BigEndian(x: u64): ByteArray` - Decomposes `x` into bytes in BigEndian.
+* `ByteArray.fromHexString(hex: string): ByteArray` - Input length must be even. Prefixing with `0x` is optional.
+* `ByteArray.fromUTF8(str: string): ByteArray` - Decomposes UTF8 string into bytes.
+* `ByteArray.empty(): ByteArray` - Constructs a `ByteArray` with length of 4 and filled by 0.
 
 _Type conversions_
 
-* `toHexString(): string` - Converts to a hex string prefixed with `0x`.
-* `toString(): string` - Interprets the bytes as a UTF-8 string.
-* `toBase58(): string` - Encodes the bytes into a base58 string.
-* `toI32(): i32` - Interprets the bytes as a little-endian `i32`. Throws in case of overflow.
-* `toI32BigEndian(): i32` - Interprets the byte array as a big-endian `i32`. Throws in case of overflow.
-* `toU32(): u32` - Interprets the bytes as a little-endian `u32`. Throws in case of overflow.
-* `toU32BigEndian(): u32` - Interprets the byte array as a big-endian `u32`. Throws in case of overflow.
-* `toI64(): i64` - Interprets the bytes as a little-endian `i64`. Throws in case of overflow.
-* `toI64BigEndian(): i64` - Interprets the byte array as a big-endian `i64`. Throws in case of overflow.
-* `toU64(): u64` - Interprets the bytes as a little-endian `u64`. Throws in case of overflow.
-* `toU64BigEndian(): u64` - Interprets the byte array as a big-endian `u64`. Throws in case of overflow.
+* `b.toHexString(): string` - Converts to a hex string prefixed with `0x`.
+* `b.toString(): string` - Interprets the bytes as a UTF-8 string.
+* `b.toBase58(): string` - Encodes the bytes into a base58 string.
+* `b.toI32(): i32` - Interprets the bytes as a little-endian `i32`. Throws in case of overflow.
+* `b.toI32BigEndian(): i32` - Interprets the byte array as a big-endian `i32`. Throws in case of overflow.
+* `b.toU32(): u32` - Interprets the bytes as a little-endian `u32`. Throws in case of overflow.
+* `b.toU32BigEndian(): u32` - Interprets the byte array as a big-endian `u32`. Throws in case of overflow.
+* `b.toI64(): i64` - Interprets the bytes as a little-endian `i64`. Throws in case of overflow.
+* `b.toI64BigEndian(): i64` - Interprets the byte array as a big-endian `i64`. Throws in case of overflow.
+* `b.toU64(): u64` - Interprets the bytes as a little-endian `u64`. Throws in case of overflow.
+* `b.toU64BigEndian(): u64` - Interprets the byte array as a big-endian `u64`. Throws in case of overflow.
 
 _Operators_
 
-* `equals(y: ByteArray): bool` – can be written as `x == y`.
-* `notEqual(y: ByteArray): bool` – can be written as `x != y`.
-* `concat(other: ByteArray) : ByteArray` - return a new `ByteArray` consisting of `this` directly followed by `other`
-* `concatI32(other: i32) : ByteArray` - return a new `ByteArray` consisting of `this` directly followed by the byte representation of `other`
+* `b.equals(y: ByteArray): bool` – Can be written as `x == y`, or `eq`.
+* `b.notEqual(y: ByteArray): bool` – Can be written as `x != y`, or `ne`.
+* `b.concat(other: ByteArray) : ByteArray` - Return a new `ByteArray` consisting of `this` directly followed by `other`
+* `b.concatI32(other: i32) : ByteArray` - Return a new `ByteArray` consisting of `this` directly followed by the byte representation of `other`
 
 #### **Bytes**
 
@@ -135,19 +144,27 @@ The `Bytes` class extends AssemblyScript's [Uint8Array](https://github.com/Assem
 
 _Construction_
 
-* `fromHexString(hex: string) : Bytes` - Convert the string `hex` which must consist of an even number of hexadecimal digits to a `ByteArray`. The string `hex` can optionally start with `0x`
-* `fromI32(i: i32) : Bytes` - Convert `i` to an array of bytes
+* `Bytes.fromHexString(hex: string) : Bytes` - Converts the string `hex` which must consist of an even number of hexadecimal digits to a `ByteArray`. The string `hex` can optionally start with `0x`.
+* `Bytes.fromI32(i: i32) : Bytes` - Converts `i` to an array of bytes.
+* `Bytes.fromByteArray(byteArray: ByteArray)` - Converts `ByteArray` to `Bytes`.
+* `Bytes.fromU8Array(byteArray: ByteArray)` - Converts `Uint8Array` to `Bytes`.
+* `Bytes.fromHexString(hex: string): Bytes` - Input length must be even. Prefixing with `0x` is optional.
+* `Bytes.fromUTF8(str: string): Bytes` - Decomposes UTF8 string into bytes.
+* `Bytes.empty(): Bytes` - Constructs a `Bytes` with length of 4 and filled by 0.
 
 _Type conversions_
 
-* `b.toHex()` – returns a hexadecimal string representing the bytes in the array
-* `b.toString()` – converts the bytes in the array to a string of unicode characters
-* `b.toBase58()` – turns an Ethereum Bytes value to base58 encoding (used for IPFS hashes)
+* `b.toHex()` – Returns a hexadecimal string representing the bytes in the array.
+* `b.toString()` – Converts the bytes in the array to a string of unicode characters.
+* `b.toBase58()` – Turns an Ethereum Bytes value to base58 encoding (used for IPFS hashes).
 
 _Operators_
 
-* `b.concat(other: Bytes) : Bytes` - - return new `Bytes` consisting of `this` directly followed by `other`
-* `b.concatI32(other: i32) : ByteArray` - return new `Bytes` consisting of `this` directly follow by the byte representation of `other`
+* `b.concat(other: Bytes) : Bytes` - Returns new `Bytes` consisting of `this` directly followed by `other`.
+* `b.concatI32(other: i32) : ByteArray` - Returns new `Bytes` consisting of `this` directly follow by the byte representation of `other`.
+* `b.slice(start: i32 = 0, end: i32 = this.length): Bytes` - Returns a copy of `b` based on given indices.
+* `b.padStart(targetLength: i32, padDigit: u8 = 0): Bytes` - Returns a new `Bytes` with `targetLength` padded by `padDigit` at the front of b.
+* `b.padEnd(targetLength: i32, padDigit: u8 = 0): Bytes` - Returns a new `Bytes` with `targetLength` padded by `padDigit` at the end of b.
 
 #### Event
 
