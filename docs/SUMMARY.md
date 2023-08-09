@@ -20,11 +20,6 @@
   * [Introduction](zkgraph-standards/zkindexing/introduction.md)
 * [zkML](zkgraph-standards/zkml.md)
 
-## MVP
-
-* [Claim Testnet ETH](mvp/claim-testnet-eth.md)
-* [Testing Guide](mvp/testing-guide.md)
-
 ## Technology
 
 * [Core Components](technology/core-components/README.md)
