@@ -1,6 +1,10 @@
+---
+description: https://github.com/hyperoracle/zkgraph-lib
+---
+
 # zkGraph AssemblyScript Lib
 
-zkGraph AssemblyScript Library in zkGraph Template provides essential data structure for development:
+zkGraph AssemblyScript Library provides essential data structure for development:
 
 * `Event` of Ethereum in AssemblyScript
 * `ByteArray` in AssemblyScript
@@ -14,7 +18,7 @@ Note: For Subgraph-compatibility, the design of this library follows the Assembl
 
 #### **Address**
 
-`import { Address } from from "../lib/common/type"`
+`import { Address } from from "@hyperoracle/zkgraph-lib"`
 
 `Address` extends `Bytes` to represent Ethereum `address` values.
 
@@ -26,7 +30,7 @@ It adds the following method on top of the `Bytes` API:
 
 #### **BigInt**
 
-`import { BigInt } from "../lib/common/type"`
+`import { BigInt } from "@hyperoracle/zkgraph-lib"`
 
 `BigInt` is used to represent big integers. This includes Ethereum values of type `uint32` to `uint256` and `int64` to `int256`. Everything below `uint32`, such as `int32`, `uint24` or `int8` is represented as `i32`.
 
@@ -93,7 +97,7 @@ _Others_
 
 #### **ByteArray**
 
-`import { ByteArray } from "../lib/common/type"`
+`import { ByteArray } from "@hyperoracle/zkgraph-lib"`
 
 `ByteArray` represents an array of `u8`.
 
@@ -136,7 +140,7 @@ _Operators_
 
 #### **Bytes**
 
-`import { Bytes } from "../lib/common/type"`
+`import { Bytes } from "@hyperoracle/zkgraph-lib"`
 
 `Bytes` is used to represent arbitrary-length arrays of bytes. This includes Ethereum values of type `bytes`, `bytes32`, etc.
 
@@ -168,7 +172,7 @@ _Operators_
 
 #### Event
 
-`import { Event } from "../lib/common/type"`
+`import { Event } from "@hyperoracle/zkgraph-lib"`
 
 `Event` is used to represent Ethereum event with address, esig, topic, and data as `Bytes`.
 
