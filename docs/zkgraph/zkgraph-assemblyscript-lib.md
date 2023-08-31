@@ -193,7 +193,7 @@ class Event {
 
 #### Require
 
-`import { require } from "../lib/common/zkwasm"`
+`import { require } from "@hyperoracle/zkgraph-lib"`
 
 `require` is used to verify inputs and conditions before execution. For instance, if the condition is false, then the require function immediately stops execution.
 
