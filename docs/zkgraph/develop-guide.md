@@ -36,7 +36,7 @@ dataDestinations:
   - kind: ethereum/contract
     network: sepolia
     destination:
-      address: "{Your Destination Contract Address Here}"
+      address: "0x0000000000000000000000000000000000000000"
 ```
 
 #### Supported Networks (network)
@@ -59,4 +59,4 @@ dataDestinations:
 
 `specVersion` specifies the `zkgraph.yaml` configuration format version, parsed by Hyper Oracle Node or other libraries.
 
-<table><thead><tr><th>specVersion</th><th>Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/1ab31ccc46e22f59c796cf1a3038f52dbc52e987/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/1ab31ccc46e22f59c796cf1a3038f52dbc52e987/src/zkgraph.yaml</a></td></tr></tbody></table>
+<table><thead><tr><th>specVersion</th><th>Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr></tbody></table>
