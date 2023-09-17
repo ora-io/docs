@@ -4,6 +4,10 @@ description: https://github.com/hyperoracle/zkgraph-lib
 
 # zkGraph AssemblyScript Lib
 
+{% hint style="info" %}
+For Subgraph-compatibility, the design of this library follows the AssemblyScript API by The Graph.
+{% endhint %}
+
 zkGraph AssemblyScript Library provides essential data structure for development:
 
 * `Event` of Ethereum in AssemblyScript
@@ -12,7 +16,7 @@ zkGraph AssemblyScript Library provides essential data structure for development
 * `BigInt` in AssemblyScript
 * …
 
-Note: For Subgraph-compatibility, the design of this library follows the AssemblyScript API by The Graph.
+`zkgraph-lib` is the default option for zkGraph development with all functions tested in execution and proving environment. You can also install and use other libs such as `as-bigint`, or `as-sha256`, or simply write your own like [this](https://github.com/LiRiu/zkUsecases/blob/norman/example/opensea/mapping.ts#L3).
 
 ### Library Reference
 

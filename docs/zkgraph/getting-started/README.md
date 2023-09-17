@@ -16,8 +16,8 @@
 
 For the development of zkGraph, we offer two development methods:
 
-1. zkGraph Studio on Web UI: Easy-to-use web code editor and interface for develop zkGraph.
-2. zkGraph Template Locally: More customizable and end-to-end local library for develop zkGraph.
+1. zkGraph Studio on Web UI: Easy-to-use integrated web code editor and interface for zkGraph development.
+2. zkGraph Template Locally: More customizable and end-to-end local scaffold for zkGraph development.
 
 ### zkGraph Development Tips
 
