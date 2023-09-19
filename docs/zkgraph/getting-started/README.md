@@ -1,6 +1,6 @@
 # Getting Started
 
-### Pre-requisite
+### Pre-requisites
 
 #### Required
 
@@ -9,8 +9,8 @@
 
 #### Optional
 
-* [Subgraph development](https://thegraph.academy/developers/defining-a-subgraph/) experience
-* AssemblyScript development experience
+* Subgraph development experience ([tutorial](https://thegraph.academy/developers/defining-a-subgraph/))
+* AssemblyScript development experience ([book](https://www.assemblyscript.org/concepts.html))
 
 ### Methods for Development
 
@@ -28,6 +28,6 @@ For the development of zkGraph, we offer two development methods:
 
 #### Optimize
 
-1. Look at (approximate) WASM cost for each operation! Complexer logic (eg. anything with lots of `if` or `string`) usally means more instructions, which means longer proof generation time.
+1. Look at (approximate) WASM cost for each operation! More complex logic (eg. anything with lots of `if` statements or `string`) usally means more instructions, which means longer proof generation time.
 2. Don't use template literals (`${}`), for example when throwing errors, because it will be compiled to too many WASM instructions (\~1000 diff).
 3. Try not to use keywords that may introduce extra global init code e.g. `new`, `static` etc. (`changetype` is fine).
