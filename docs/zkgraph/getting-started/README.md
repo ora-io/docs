@@ -5,7 +5,7 @@
 #### Required
 
 * Basic knowledge on Ethereum smart contract development
-* Basic knowledge on Solidity Events (recommended readings [1](https://consensys.net/blog/developers/guide-to-events-and-logs-in-ethereum-smart-contracts/), [2](https://medium.com/mycrypto/understanding-event-logs-on-the-ethereum-blockchain-f4ae7ba50378), [3](https://thegraph.com/blog/event-driven-development-unlocking-optimized-dapps-and-subgraphs/), [4](https://mirror.xyz/spacesailor.eth/LEe2yoLoqy97BWHyO6J65XhnG8t33Nmvz\_Vsa3ve7rY)), and [Ethereum Transaction Payload](https://oxpampam.hashnode.dev/ethereum-transaction-payload-explained)
+* Basic knowledge on Solidity Events (recommended readings [1](https://consensys.net/blog/developers/guide-to-events-and-logs-in-ethereum-smart-contracts/), [2](https://medium.com/mycrypto/understanding-event-logs-on-the-ethereum-blockchain-f4ae7ba50378), [3](https://thegraph.com/blog/event-driven-development-unlocking-optimized-dapps-and-subgraphs/), [4](https://mirror.xyz/spacesailor.eth/LEe2yoLoqy97BWHyO6J65XhnG8t33Nmvz\_Vsa3ve7rY)), and Ethereum Transaction ([Calldata](https://www.quicknode.com/guides/ethereum-development/transactions/ethereum-transaction-calldata), [Payload](https://oxpampam.hashnode.dev/ethereum-transaction-payload-explained), [Difference](https://ethereum.stackexchange.com/questions/127048/calldata-and-payload-for-multiple-calls))
 
 #### Optional
 
