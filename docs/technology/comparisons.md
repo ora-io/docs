@@ -10,7 +10,7 @@ To start, the workflow and architecture are distinct. The zkOracle network is mo
 
 Based on the graph shown above, we can compare the advantages of zkOracle network to traditional oracle networks:
 
-*   Decentralization (Trustlessness, Security, and Censorship-Resistence)
+*   Decentralization (Trustlessness, Security, and Censorship-Resistance)
 
     The zkOracle network, Hyper Oracle, operates without requiring external trust in third parties, making it a trustless network. In contrast, traditional oracle networks rely on trusted third parties and networks. The zkOracle network follows the 1-of-N trust model, as defined in Vitalik Buterin's article on [trust models](https://vitalik.ca/general/2020/08/20/trust.html), which only requires one node to maintain the network's health and uptime. Traditional oracle networks, on the other hand, are only considered decentralized when they reach an extremely large number of nodes. The security of the zkOracle network is fully based on mathematics and cryptography and it inherits its security from Ethereum, which serves as its data source.
 *   Performance and Finality
