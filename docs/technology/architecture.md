@@ -16,3 +16,7 @@ To discuss the design, let's move from left to right and top to bottom:
 3. The output of a zkOracle is off-chain data that developers can use through Hyper Oracle Meta Apps (which are covered in the next sections). The data also comes with zk proofs that demonstrate the validity and computation of the data.
 
 Only one zkOracle node is necessary to maintain network security. In the Hyper Oracle network, there can still be multiple zkOracle nodes targeting zkPoS as well as each zkGraph. This enables parallel generation of zk proofs, which can significantly enhance performance.
+
+Here is a more detailed technical architecture with data flow for zkOracle:
+
+<figure><img src="../.gitbook/assets/截屏2023-10-08 下午7.43.04.png" alt=""><figcaption><p>zkOracle Technical Architecture</p></figcaption></figure>

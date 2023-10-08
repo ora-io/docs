@@ -1,6 +1,6 @@
 # Core Components
 
-Hyper Oracle is a network of zkOracles designed for blockchains. At present, the zkOracle network operates solely for the Ethereum blockchain. It retrieves the data from every block of the blockchain as a data source with zkPoS and processes the data using programmable zkGraphs that run on zkWASM, all in a trustless and secure manner.&#x20;
+Hyper Oracle is a network of zkOracles designed for blockchains. At present, the zkOracle network operates solely for the Ethereum-based blockchain networks. It retrieves the data from every block of the blockchain as a data source with zkPoS and processes the data using programmable zkGraphs that run on zkWASM, all in a trustless and secure manner.&#x20;
 
 Here is the zkOracle design for the Ethereum blockchain. This serves as a foundational design for a zkOracle, complete with all of the essential components.
 

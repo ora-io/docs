@@ -26,6 +26,9 @@
 * [Core Components](technology/core-components/README.md)
   * [zkPoS](technology/core-components/zkpos.md)
   * [zkWASM](technology/core-components/zkwasm.md)
+  * [zkAssemblyScript](technology/core-components/zkassemblyscript.md)
+  * [Specialized Circuit](technology/core-components/specialized-circuit.md)
+  * [C-AS Link Compiler](technology/core-components/c-as-link-compiler.md)
 * [Architecture](technology/architecture.md)
 * [Comparisons](technology/comparisons.md)
 

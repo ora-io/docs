@@ -10,4 +10,7 @@ While Ethereum consensus maintains its global ledger, the specialized networks s
 
 Hyper Oracle is committed to supporting Ethereum as the World Computer and its ecosystem for the future of DeFi, zkML, AI x Crypto, etc.
 
-We hold regular World Supercomputer Summits. Check out [World Supercomputer Summit 2023 Recap](https://hackmd.io/@EEEZ5333/World-Supercomputer-Summit-2023-Recap)!
+We hold regular World Supercomputer Summits. Check out the recaps:
+
+* [World Supercomputer Summit 2023 Recap](https://hackmd.io/@EEEZ5333/World-Supercomputer-Summit-2023-Recap)
+* [World Supercomputer Community Day @Token2049 2023 Recap](https://hackmd.io/@EEEZ5333/World-Supercomputer-Token2049-Recap)
