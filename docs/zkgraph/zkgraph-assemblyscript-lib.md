@@ -168,7 +168,7 @@ _Type conversions_
 
 _Operators_
 
-* `b.concat(other: Bytes) : Bytes` - Returns new `Bytes` consisting of `this` directly followed by `other`.
+* `b.concat(other: Bytes) : ByteArray` - Returns new `ByteArray` consisting of `this` directly followed by `other`.
 * `b.concatI32(other: i32) : ByteArray` - Returns new `Bytes` consisting of `this` directly follow by the byte representation of `other`.
 * `b.slice(start: i32 = 0, end: i32 = this.length): Bytes` - Returns a copy of `b` based on given indices.
 * `b.padStart(targetLength: i32, padDigit: u8 = 0): Bytes` - Returns a new `Bytes` with `targetLength` padded by `padDigit` at the front of b.
