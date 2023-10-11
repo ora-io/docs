@@ -144,6 +144,6 @@ Simply put, Hyper Oracle is a key network of the entire World Supercomputer netw
 
 The main difference between modular blockchain (including L2 Rollup) and world computer architecture lies in their purpose: Modular blockchain is designed for creating a new blockchain by selecting modules (consensus, DA, settlement, and execution) to put together into a modular blockchain; while World Supercomputer is designed to establish a global decentralized computer/network by combining networks (base layer blockchain, storage network, computation network) into a world computer.
 
-### ...Still got questions?
+### ...still got questions?
 
 Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).
