@@ -39,6 +39,8 @@ dataDestinations:
       address: "0x0000000000000000000000000000000000000000"
 ```
 
+More examples can be found at [zkGraph template repo](https://github.com/hyperoracle/zkgraph/tree/master/example), and [zkUsecase repo](https://github.com/LiRiu/zkUsecase/tree/master/example).
+
 #### Supported Networks (network)
 
 `network` specifies the `dataSource` network for data source or `dataDestination` network for verification contract deployment or zkGraph publish.

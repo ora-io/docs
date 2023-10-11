@@ -17,9 +17,10 @@
 
 * [zkAutomation](zkgraph-standards/zkautomation/README.md)
   * [Introduction](zkgraph-standards/zkautomation/introduction.md)
-* [zkIndexing](zkgraph-standards/zkindexing/README.md)
-  * [Introduction](zkgraph-standards/zkindexing/introduction.md)
-* [zkML](zkgraph-standards/zkml.md)
+  * [User Guide](zkgraph-standards/zkautomation/user-guide.md)
+* [zkIndexing (WIP)](zkgraph-standards/zkindexing-wip/README.md)
+  * [Introduction](zkgraph-standards/zkindexing-wip/introduction.md)
+* [zkML (WIP)](zkgraph-standards/zkml-wip.md)
 
 ## Technology
 
