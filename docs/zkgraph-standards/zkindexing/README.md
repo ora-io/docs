@@ -2,7 +2,7 @@
 description: Trustless Indexing, Querying, and Accessing of Blockchain Data
 ---
 
-# zkIndexing
+# zkIndexing (WIP)
 
 Accessing most on-chain data directly can be a challenge for developers. One potential solution is for developers to run their own indexer to organize the data into a more easily searchable format. However, this can be a [difficult and time-consuming](https://twitter.com/DennisonBertram/status/1621657835334402050) process as it involves rebuilding the entire blockchain state and indexing events from smart contracts. This is where indexing protocols like The Graph come in handy.
 

@@ -18,14 +18,13 @@
 * [zkAutomation](zkgraph-standards/zkautomation/README.md)
   * [Introduction](zkgraph-standards/zkautomation/introduction.md)
   * [User Guide](zkgraph-standards/zkautomation/user-guide.md)
-* [zkIndexing (WIP)](zkgraph-standards/zkindexing-wip/README.md)
-  * [Introduction](zkgraph-standards/zkindexing-wip/introduction.md)
-* [zkML (WIP)](zkgraph-standards/zkml-wip.md)
+* [zkIndexing (WIP)](zkgraph-standards/zkindexing/README.md)
+  * [Introduction](zkgraph-standards/zkindexing/introduction.md)
+* [zkML (WIP)](zkgraph-standards/zkml.md)
 
 ## Technology
 
 * [Core Components](technology/core-components/README.md)
-  * [zkPoS](technology/core-components/zkpos.md)
   * [zkWASM](technology/core-components/zkwasm.md)
   * [zkAssemblyScript](technology/core-components/zkassemblyscript.md)
   * [Specialized Circuit](technology/core-components/specialized-circuit.md)
