@@ -68,7 +68,7 @@ More examples can be found at [zkGraph template repo](https://github.com/hyperor
 #### Develop
 
 1. Provable program needs to be compilable and runnable in normal execution runtime first.
-2. To running on zkwasm, do not use io syscalls like `console` etc.
+2. For generating proof on zkWASM, do not use io syscalls like `console` etc. `console.log(string)` (note that only `string` type is supported in AssemblyScript) should only be used in debug stage.
 
 #### Optimize
 
