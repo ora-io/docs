@@ -154,7 +154,7 @@ A global P2P network linking three topologically heterogeneous networks (Ethereu
 
 ### Zero-knowledge Proof
 
-A cryptographic method for proving. Commonly used in blockchain for privacy and scaling solutions.
+A cryptographic method for proving. Commonly used in blockchain for privacy and scaling solutions. Commonly misused for succinctness property only.
 
 ### zk-SNARK
 

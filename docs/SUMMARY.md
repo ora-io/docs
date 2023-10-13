@@ -2,7 +2,7 @@
 
 * [🌈 Hyper Oracle](README.md)
 * [How Hyper Oracle Works](how-hyper-oracle-works.md)
-* [Towards World Supercomputer](towards-world-supercomputer.md)
+* [Towards a World Supercomputer](towards-a-world-supercomputer.md)
 
 ## zkGraph
 

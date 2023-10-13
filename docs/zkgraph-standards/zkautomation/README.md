@@ -4,7 +4,7 @@ description: Trustless Automation for Smart Contracts
 
 # zkAutomation
 
-[The blockchain world is driven by automation, bots, and keepers](https://mirror.xyz/hyperoracleblog.eth/UYI8mpq6zJ8L2Hbqrliss0mg92v7dNAqz0UhO41d\_dM). Automated programs are required to call smart contracts at certain intervals to maintain the AMM's optimal price flow or to keep lending protocols healthy by avoiding bad debt.
+[The blockchain world is driven by automation, bots, and keepers](https://mirror.xyz/hyperoracleblog.eth/UYI8mpq6zJ8L2Hbqrliss0mg92v7dNAqz0UhO41d\_dM). Automated programs are required to call smart contracts at certain intervals to maintain the optimal price flow of the Automated Market Maker (AMM) or to keep lending protocols healthy by avoiding bad debt.
 
 [Sometimes, these automation calls are too complex for on-chain calculation, too frequent for governance voting, and too critical for permissionless system](https://twitter.com/0xSacha/status/1624102663557087247). In such cases, developers require automation protocols to provide these services, so they don't have to build and run their own automation.
 

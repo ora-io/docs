@@ -63,16 +63,102 @@ More examples can be found at [zkGraph template repo](https://github.com/hyperor
 
 <table><thead><tr><th>specVersion</th><th>Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr></tbody></table>
 
+### zkGraph Mapping (`mapping.ts`)
+
+A required function for zkGraph mapping is `handleEvents`.
+
+The `mapping.ts` with `handleEvents` should be structured as follows, and should not be modified in most cases:
+
+```typescript
+// imports
+import { require, Bytes, Event, BigInt } from "@hyperoracle/zkgraph-lib";
+// ...import from other local files
+
+// other functions
+// ...
+
+// handleEvents function
+export function handleEvents(events: Event[]): Bytes {
+  // ...core logics
+  return state;
+}
+```
+
+#### Requirements
+
+* **Function Definition of `handleEvents`**: `export function handleEvents(events: Event[]): Bytes {}`
+* **Return Value of `handleEvents`**: 32-byte length `Bytes`. Use `Bytes.padStart` or `Bytes.padEnd` to pad it to required length.
+
+More examples can be found at [zkGraph template repo](https://github.com/hyperoracle/zkgraph/tree/master/example), and [zkUsecase repo](https://github.com/LiRiu/zkUsecase/tree/master/example).
+
 ### zkGraph Development Tips
 
 #### Develop
 
-1. Provable program needs to be compilable and runnable in normal execution runtime first.
-2. For generating proof on zkWASM, do not use io syscalls like `console` etc. `console.log(string)` (note that only `string` type is supported in AssemblyScript) should only be used in debug stage.
+* Provable program needs to be compilable and runnable in normal execution runtime first.
+
+```typescript
+// Code not compilable (due to reassign `state` which is constant)
+export function handleEvents(events: Event[]): Bytes {
+  const state = new Bytes(0);
+  state = new Bytes(0);
+  return state;
+}
+
+// Code not executable or runnable (due to divide number by zero)
+export function handleEvents(events: Event[]): Bytes {
+  const state = new Bytes(0);
+  const NAN = BigInt.fromI32(0).div(0);
+  return state;
+}
+```
+
+* For generating proof on zkWASM, do not use io syscalls like `console` etc. `console.log(string)` (note that only `string` type is supported in AssemblyScript) should only be used in debug stage.
+
+```typescript
+export function handleEvents(events: Event[]): Bytes {
+  let state = new Bytes(0);
+  // Won't be compiled, because type not supported in AssemblyScript
+  console.log(state);
+  // Will be executed, but won't be proved successfully.
+  console.log(state.toString());
+  return state;
+}
+```
 
 #### Optimize
 
-1. Look at (approximate) WASM cost for each operation! More complex logic (eg. anything with lots of `if` statements or `string`) usally means more instructions, which means longer proof generation time.
-2. Don't use template literals (`${}`), for example when throwing errors, because it will be compiled to too many WASM instructions (\~1000 diff).
-3. Try not to use keywords that may introduce extra global init code e.g. `new`, `static` etc. (`changetype` is fine).
-4. You can use third-party optimization tools (such as [wasm-opt](https://www.npmjs.com/package/wasm-opt)) to reduce WASM binary size.
+* Look at (approximate) WASM cost for each operation! More complex logic (eg. anything with lots of `if` statements or `string`) usally means more instructions, which means longer proof generation time.
+
+```typescript
+// WASM cost: 65 line of wat.
+Bytes.padStart(targetLength: i32, padDigit: u8 = 0): Bytes
+
+// WASM cost: 1177 lines of wat.
+BigInt.toString(radix: i32 = 10): string
+```
+
+* Don't use template literals (`${}`), for example when throwing errors, because it will be compiled to too many WASM instructions (\~1000 diff).
+
+```typescript
+// 2547 lines in generated .wat file with template literal
+export function handleEvents(events: Event[]): Bytes {
+  let state = new Bytes(0);
+  if (state.length != 0) {
+    throw new Error(`Invalid state length: ${state.length}, expected 0 bytes.`);
+  }
+  return state;
+}
+
+// 2179 lines in generated .wat file without template literal
+export function handleEvents(events: Event[]): Bytes {
+  let state = new Bytes(0);
+  if (state.length != 0) {
+    throw new Error(`Invalid state length, expected 0 bytes.`);
+  }
+  return state;
+}
+```
+
+* Try not to use keywords that may introduce extra global init code e.g. `new`, `static` etc. `changetype` is fine, [because](https://github.com/AssemblyScript/assemblyscript/issues/549#issuecomment-474005579) it just changes the type statically and does not result in any actual instructions.
+* You can use third-party optimization tools (such as [wasm-opt](https://www.npmjs.com/package/wasm-opt)) to reduce WASM binary size.

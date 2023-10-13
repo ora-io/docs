@@ -1,5 +1,5 @@
 ---
-description: Customizable "Smart Contract"
+description: zkGraphs are similar to Customizable "Smart Contracts"
 ---
 
 # Introduction
@@ -10,7 +10,7 @@ zkGraph defines the computation of Hyper Oracle nodes, including data-related be
 
 Smart contract developers can build both the smart contract and the zkGraph. Users can then interact with both.
 
-To utilize the infrastructure of Hyper Oracle zkGraph Standards (Meta Apps), developers must configure and code their zkGraph to specify how they want the data to be handled. The Hyper Oracle nodes then process the data and generate a zk proof based on the specified definitions.
+To utilize the infrastructure of Hyper Oracle zkGraph Standards, developers must configure and code their zkGraph to specify how they want the data to be handled. The Hyper Oracle nodes then process the data and generate a zero-knowledge proof based on the specified definitions.
 
 ### Structure
 
@@ -35,3 +35,9 @@ For deployment, all code files for zkGraph will be stored in EthStorage, which i
 zkGraph is equivalent to The Graph's Subgraph.
 
 Migrating existing Subgraphs to zkGraph requires just 10 lines of configuration difference. Implementations such as [Standardized Subgraph](https://github.com/messari/subgraphs) and ecosystem tooling like [Instant Subgraph](https://docs.goldsky.com/indexing/instant-subgraphs) and [Subgraph Uncrashable](https://thegraph.academy/developers/subgraph-uncrashable/) can be used for developing zkGraph.
+
+#### zkAssemblyScript
+
+We built [zkAssemblyScript](zkgraph-assemblyscript-lib.md), a highly efficient provable AssemblyScript library, for zkGraph development.
+
+As a library of data structures and interfaces, zkAssemblyScript guarantees zkGraph code execution and proof generation performance through low-level optimizations.
