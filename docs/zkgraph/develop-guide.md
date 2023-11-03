@@ -43,19 +43,17 @@ More examples can be found at [zkGraph template repo](https://github.com/hyperor
 
 #### Supported Networks (network)
 
-`network` specifies the `dataSource` network for data source or `dataDestination` network for verification contract deployment or zkGraph publish.
+`network` specifies the `dataSource` network for data source or `dataDestination` network for verification contract deployment and zkGraph publish.
 
 `network` should follow the format of all lower-case letters (eg. mainnet, or goerli) with the following naming.
 
-<table><thead><tr><th>Network (ChainID)</th><th>Name in zkgraph.yaml</th><th data-type="checkbox">dataSource</th><th data-type="checkbox">dataDestination</th></tr></thead><tbody><tr><td>Ethereum Mainnet (1)</td><td><code>mainnet</code></td><td>true</td><td>false</td></tr><tr><td>Ethereum Sepolia (11155111)</td><td><code>sepolia</code></td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th width="263">Network (ChainID)</th><th width="207">Name in zkgraph.yaml</th><th width="147" data-type="checkbox">dataSource</th><th data-type="checkbox">dataDestination</th></tr></thead><tbody><tr><td>Ethereum Mainnet (1)</td><td><code>mainnet</code></td><td>true</td><td>false</td></tr><tr><td>Ethereum Sepolia (11155111)</td><td><code>sepolia</code></td><td>true</td><td>true</td></tr></tbody></table>
 
 #### apiVersion
 
 `apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in Hyper Oracle Node or Hyper Oracle compiler server.
 
-| apiVersion | zkgraph-lib Version | New Features |
-| ---------- | ------------------- | ------------ |
-| 0.0.1      | 0.0.8               | /            |
+<table><thead><tr><th width="146">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr></tbody></table>
 
 #### specVersion
 
