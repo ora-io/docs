@@ -53,9 +53,9 @@ More examples can be found at [zkGraph template repo](https://github.com/hyperor
 
 `apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in Hyper Oracle Node or Hyper Oracle compiler server.
 
-| apiVersion | zkgraph-lib Version |
-| ---------- | ------------------- |
-| 0.0.1      | 0.0.7               |
+| apiVersion | zkgraph-lib Version | New Features |
+| ---------- | ------------------- | ------------ |
+| 0.0.1      | 0.0.8               | /            |
 
 #### specVersion
 
