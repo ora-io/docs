@@ -47,7 +47,7 @@ More examples can be found at [zkGraph template repo](https://github.com/hyperor
 
 `network` should follow the format of all lower-case letters (eg. mainnet, or goerli) with the following naming.
 
-<table><thead><tr><th>Network (ChainID)</th><th>Name in zkgraph.yaml</th><th data-type="checkbox">dataSource</th><th data-type="checkbox">dataDestination</th></tr></thead><tbody><tr><td>Ethereum Mainnet (1)</td><td><code>mainnet</code></td><td>true</td><td>false</td></tr><tr><td>Ethereum Goerli (5)</td><td><code>goerli</code></td><td>true</td><td>true</td></tr><tr><td>Ethereum Sepolia (11155111)</td><td><code>sepolia</code></td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th>Network (ChainID)</th><th>Name in zkgraph.yaml</th><th data-type="checkbox">dataSource</th><th data-type="checkbox">dataDestination</th></tr></thead><tbody><tr><td>Ethereum Mainnet (1)</td><td><code>mainnet</code></td><td>true</td><td>false</td></tr><tr><td>Ethereum Sepolia (11155111)</td><td><code>sepolia</code></td><td>true</td><td>true</td></tr></tbody></table>
 
 #### apiVersion
 
