@@ -29,7 +29,7 @@ zkAutomation offers all the advantages of zkOracle network, along with specific 
 
 *   Trustless Off-chain Source
 
-    zkAutomation provides trustless automation based on off-chain source with programmable zkGraph. This allows for flexible automation that triggers based on off-chain computation results while maintaining a secure mechanism.
+    zkAutomation provides trustless automation based on off-chain source with programmable zkGraphs. This allows for flexible automation that triggers based on off-chain computation results while maintaining a secure mechanism.
 *   Verifiability and Security with ZKP
 
     zkAutomation's zk proofs enable full verifiability. Other automation protocols usually rely on DAO, "social consensus", or even legal documents to restrict bad behaviors, which can create uncertainty and additional time or power burden for protecting the network's health. In contrast, zkAutomation's network is autonomous and automated with pure cryptography-based proof generation and verification without human intervention.

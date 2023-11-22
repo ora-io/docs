@@ -2,7 +2,7 @@
 
 ### zkGraph Configuration (`zkgraph.yaml`)
 
-`zkgraph.yaml` defines the configuration of zkGraph.
+`zkgraph.yaml` defines the configuration of a zkGraph.
 
 It specifies information including:
 

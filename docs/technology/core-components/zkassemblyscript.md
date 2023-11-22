@@ -9,7 +9,7 @@ We built [zkAssemblyScript](../../zkgraph/zkgraph-assemblyscript-lib.md), a high
 * zkGraph is AssemblyScript-based program.
 * zkGraph development requires many Ethereum-related data structures and special operations.
 * The environment of zkWASM is quite special compared with that of general WASM.
-* The performance of proof generation of zkGraph in zkWASM can be optimized with the standardized library.
+* The performance of proof generation of zkGraphs in zkWASM can be optimized with the standardized library.
 
 In zkAssemblyScript, we have optimized many common data structures (Bytes, BigInt) at the instruction set level to ensure that:
 

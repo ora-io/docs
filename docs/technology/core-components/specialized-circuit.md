@@ -4,7 +4,7 @@ description: ZK Circuits for Chainstate Proofs
 
 # Specialized Circuit
 
-zkGraph represents programmable logic, as a Turing-complete program in zkWASM; Chainstate Proofs are fixed components of the overall zkOracle circuit architecture, and are usually not subject to major changes.
+zkGraphs represent programmable logic, as a Turing-complete program in zkWASM; Chainstate Proofs are fixed components of the overall zkOracle circuit architecture, and are usually not subject to major changes.
 
 Since Chainstate Proofs do not need to be changed frequently, developing them as specialized circuits can optimize the performance by a lot.
 

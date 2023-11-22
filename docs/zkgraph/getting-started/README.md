@@ -14,7 +14,7 @@
 
 ### Methods for Development
 
-For the development of zkGraph, we offer two development methods:
+For the development of a zkGraph, we offer two development methods:
 
 1. zkGraph Studio on Web UI: Easy-to-use integrated web code editor and interface for zkGraph development.
 2. zkGraph Template Locally: More customizable and end-to-end local scaffold for zkGraph development.

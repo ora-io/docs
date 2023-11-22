@@ -17,6 +17,6 @@ To discuss the design, let's move from left to right and top to bottom:
 
 Only one zkOracle node is necessary to maintain network security. In the Hyper Oracle network, there can still be multiple zkOracle nodes targeting zkPoS as well as each zkGraph. This enables parallel generation of zk proofs, which can significantly enhance performance.
 
-Here is a more detailed technical architecture with data flow for zkOracle:
+Here is a more detailed technical architecture with data flow for a zkOracle:
 
 <figure><img src="../.gitbook/assets/截屏2023-10-08 下午7.43.04.png" alt=""><figcaption><p>zkOracle Technical Architecture</p></figcaption></figure>

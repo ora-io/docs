@@ -6,7 +6,7 @@ Here is the zkOracle design for the Ethereum blockchain. This serves as a founda
 
 <figure><img src="../../.gitbook/assets/截屏2023-03-13 20.15.58.png" alt=""><figcaption><p>Hyper Oracle zkOracle for Ethereum</p></figcaption></figure>
 
-zkPoS verifies Ethereum consensus with a single zk proof that can be accessed from anywhere. This allows zkOracle to obtain a valid block header as a data source for further processing.
+zkPoS verifies Ethereum consensus with a single zk proof that can be accessed from anywhere. This allows a zkOracle to obtain a valid block header as a data source for further processing.
 
 zkWASM (zkVM in the graph) is the runtime of zkGraph, providing the power of zk to any zkGraph in the Hyper Oracle Network. It is similar to the kind of zkEVM used in ZK Rollups.
 
