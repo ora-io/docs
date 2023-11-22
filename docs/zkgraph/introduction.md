@@ -16,7 +16,7 @@ To utilize the infrastructure of Hyper Oracle zkGraph Standards, developers must
 
 A zkGraph is customizable and programmable, consisting of three main components:
 
-* Manifest (zkgraph.yaml): The data source, used to configure information such as the Meta Apps used, the target blockchain network, and the target smart contract.
+* Manifest (zkgraph.yaml): The data source, used to configure information such as the zkGraph Standards used, the target blockchain network, and the target smart contract.
 * Mapping (mapping.ts): The data mapping (Off-chain Computation), used to compute blockchain data into other forms.
 * (Optional) Schema (schema.graphql): The data structure, used to define how data is stored and accessed.
 

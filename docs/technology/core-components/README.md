@@ -10,4 +10,4 @@ zkPoS verifies Ethereum consensus with a single zk proof that can be accessed fr
 
 zkWASM (zkVM in the graph) is the runtime of zkGraph, providing the power of zk to any zkGraph in the Hyper Oracle Network. It is similar to the kind of zkEVM used in ZK Rollups.
 
-zkGraph (run in zkWASM) defines customizable and programmable off-chain computation of zkOracle node’s behaviors and Meta Apps. It can be thought of as the smart contract of the Hyper Oracle Network.
+zkGraph (run in zkWASM) defines customizable and programmable off-chain computation of zkOracle node’s behaviors and zkGraph Standards. It can be thought of as the smart contract of the Hyper Oracle Network.

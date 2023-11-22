@@ -58,11 +58,11 @@ Rebuilding and replacing.
 
 We are the first and your last oracle. We are programmable zkOracle.
 
-### Who will need Hyper Oracle Meta Apps (zkGraph Standards)?
+### Who will need Hyper Oracle zkGraph Standards?
 
 All Web3 developers.
 
-All developers that need to handle blockchain data and interact with smart contract will need Hyper Oracle Meta Apps. Especially, developers value decentralization and performance will choose Hyper Oracle Meta Apps than other oracle networks.
+All developers that need to handle blockchain data and interact with smart contract will need Hyper Oracle zkGraph Standards. Especially, developers value decentralization and performance will choose Hyper Oracle zkGraph Standards than other oracle networks.
 
 ### What is the zk tech stack of Hyper Oracle?
 

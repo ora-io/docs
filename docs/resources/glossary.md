@@ -60,10 +60,6 @@ A delay after outputting execution result caused by proof generation or dispute 
 
 An operation that associates input elements with output elements.
 
-### Meta Apps (zkGraph Standards)
-
-Services provided by Hyper Oracle for DApp developers, including zkIndexing and zkAutomation.
-
 ### Middleware
 
 Services or infrastructure needed in pipeline of development.
@@ -162,7 +158,7 @@ A commonly-used zero-knowledge proof cryptography.
 
 ### zkAutomation
 
-A trustless automation Meta App with zk.
+A trustless automation zkGraph Standard with zk.
 
 ### zkEVM
 
@@ -172,9 +168,13 @@ A zkVM with EVM instruction set as bytecode.
 
 Codes that define and configs off-chain computation of Hyper Oracle zkOracle, with Subgraph-Equivalence.
 
+### zkGraph Standards
+
+Standardized services provided by Hyper Oracle for DApp developers, including zkIndexing and zkAutomation. Previously called "Meta Apps".
+
 ### zkIndexing
 
-A trustless indexing Meta App with zk.
+A trustless indexing zkGraph Standard with zk.
 
 ### zkML
 

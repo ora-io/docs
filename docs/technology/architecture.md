@@ -13,7 +13,7 @@ To discuss the design, let's move from left to right and top to bottom:
    * zkPoS fetches the block header and data roots of the Ethereum blockchain by proving Ethereum's consensus with zk. The zk proof generation process can be outsourced to a decentralized prover network. zkPoS works as the foreign circuit of zkWASM.
    * zkPoS feeds the block header and data roots to zkWASM. zkWASM takes this data as essential inputs for running zkGraphs.
    * zkWASM runs customized data mappings defined by zkGraphs and generates zk proofs of those operations. The operator of the zkOracle node can choose the number of zkGraphs they wish to run (from one to all deployed zkGraphs). The zk proof generation process can be outsourced to a decentralized prover network.
-3. The output of a zkOracle is off-chain data that developers can use through Hyper Oracle Meta Apps (which are covered in the next sections). The data also comes with zk proofs that demonstrate the validity and computation of the data.
+3. The output of a zkOracle is off-chain data that developers can use through Hyper Oracle zkGraph Standards. The data also comes with zk proofs that demonstrate the validity and computation of the data.
 
 Only one zkOracle node is necessary to maintain network security. In the Hyper Oracle network, there can still be multiple zkOracle nodes targeting zkPoS as well as each zkGraph. This enables parallel generation of zk proofs, which can significantly enhance performance.
 
