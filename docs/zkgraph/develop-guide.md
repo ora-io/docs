@@ -39,7 +39,7 @@ dataDestinations:
       address: "0x0000000000000000000000000000000000000000"
 ```
 
-More examples can be found at [zkGraph template repo](https://github.com/hyperoracle/zkgraph/tree/master/example), and [zkUsecase repo](https://github.com/LiRiu/zkUsecase/tree/master/example).
+More examples can be found as [templates of zkGraph scaffold](https://github.com/hyperoracle/zkgraph-cli/tree/main/packages/create-zkgraph/templates).
 
 #### Supported Networks (network)
 
@@ -86,8 +86,6 @@ export function handleEvents(events: Event[]): Bytes {
 
 * **Function Definition of `handleEvents`**: `export function handleEvents(events: Event[]): Bytes {}`
 * **Return Value of `handleEvents`**: 32-byte length `Bytes`. Use `Bytes.padStart` or `Bytes.padEnd` to pad it to required length.
-
-More examples can be found at [zkGraph template repo](https://github.com/hyperoracle/zkgraph/tree/master/example), and [zkUsecase repo](https://github.com/LiRiu/zkUsecase/tree/master/example).
 
 ### zkGraph Development Tips
 

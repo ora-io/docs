@@ -17,8 +17,8 @@
 For the development of a zkGraph, we offer two development methods:
 
 1. zkGraph Studio on Web UI: Easy-to-use integrated web code editor and interface for zkGraph development.
-2. zkGraph Template Locally: More customizable and end-to-end local scaffold for zkGraph development.
+2. zkGraph Scaffold: More customizable and end-to-end scaffold for zkGraph development.
 
 ### Examples
 
-Example zkGraphs can be found at [zkGraph template repo](https://github.com/hyperoracle/zkgraph/tree/master/example), and [zkUsecase repo](https://github.com/LiRiu/zkUsecase/tree/master/example).
+Example zkGraphs can be found as [templates of zkGraph scaffold](https://github.com/hyperoracle/zkgraph-cli/tree/main/packages/create-zkgraph/templates).

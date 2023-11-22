@@ -9,7 +9,7 @@
 * [Introduction](zkgraph/introduction.md)
 * [Getting Started](zkgraph/getting-started/README.md)
   * [1. zkGraph Studio UI](zkgraph/getting-started/1.-zkgraph-studio-ui.md)
-  * [2. zkGraph Template](zkgraph/getting-started/2.-zkgraph-template.md)
+  * [2. zkGraph Scaffold](zkgraph/getting-started/2.-zkgraph-scaffold.md)
 * [Develop Guide](zkgraph/develop-guide.md)
 * [zkGraph AssemblyScript Lib](zkgraph/zkgraph-assemblyscript-lib.md)
 
