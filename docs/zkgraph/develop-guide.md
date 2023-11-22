@@ -41,17 +41,17 @@ dataDestinations:
 
 More examples can be found as [templates of zkGraph scaffold](https://github.com/hyperoracle/zkgraph-cli/tree/main/packages/create-zkgraph/templates).
 
-#### Supported Networks (network)
+#### Supported `network` with Features
 
 `network` specifies the `dataSource` network for data source or `dataDestination` network for verification contract deployment and zkGraph publish.
 
 `network` should follow the format of all lower-case letters (eg. mainnet, or goerli) with the following naming.
 
-<table><thead><tr><th width="263">Network (ChainID)</th><th data-hidden data-type="checkbox">zkGraph Register</th><th data-hidden>Name in zkgraph.yaml</th><th data-hidden data-type="checkbox">dataSource</th><th data-hidden data-type="checkbox">dataDestination</th></tr></thead><tbody><tr><td>Ethereum Mainnet (1)</td><td>false</td><td><code>mainnet</code></td><td>true</td><td>false</td></tr><tr><td>Ethereum Goerli (5)</td><td>false</td><td><code>goerli</code></td><td>true</td><td>false</td></tr><tr><td>Ethereum Sepolia (11155111)</td><td>true</td><td><code>sepolia</code></td><td>true</td><td>true</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="191">Network (ChainID)</th><th width="148">Name in YAML</th><th width="191">dataSource</th><th width="156">dataDestination</th><th width="194">zkGraph Deployment</th></tr></thead><tbody><tr><td><p>Ethereum Mainnet</p><p>(1)</p></td><td><code>mainnet</code></td><td>✅ (<code>handleEvents</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Goerli</p><p>(5)</p></td><td><code>goerli</code></td><td>✅ (<code>handleEvents</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Sepolia</p><p>(11155111)</p></td><td><code>sepolia</code></td><td>✅ (<code>handleEvents</code>)</td><td>✅</td><td>✅</td></tr></tbody></table>
 
-#### apiVersion
+#### `apiVersion`
 
-`apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in Hyper Oracle Node or Hyper Oracle compiler server.
+`apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in zkOracles including zkGraphh compiler.
 
 <table><thead><tr><th width="146">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr></tbody></table>
 
