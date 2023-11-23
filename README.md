@@ -1,5 +1,7 @@
 # 🌈 Hyper Oracle
 
-Hyper Oracle is a programmable zkOracle protocol that powers smart contracts with arbitrary compute and richer data sources.
+Hyper Oracle is a programmable zkOracle network that safeguards blockchain security and decentralization.
 
-Hyper Oracle offers full security and decentralization for trustless automation and onchain AI/ML, so builders can easily create next-gen dApps.
+From indexing to smart contract automation, Hyper Oracle’s meta apps make on-chain data and off-chain computation useful and verifiable with fast finality. Hyper Oracle empowers developers to interact with blockchain in new ways.
+
+Hyper Oracle replaces traditional oracle and middleware infrastructure's security and incentive mechanisms from staking to ZKP.
