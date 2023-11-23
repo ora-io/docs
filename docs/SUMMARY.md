@@ -12,6 +12,7 @@
   * [2. zkGraph Scaffold](zkgraph/getting-started/2.-zkgraph-scaffold.md)
 * [Develop Guide](zkgraph/develop-guide.md)
 * [zkGraph AssemblyScript Lib](zkgraph/zkgraph-assemblyscript-lib.md)
+* [Resources](zkgraph/resources.md)
 
 ## zkGraph Standards
 
