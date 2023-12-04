@@ -30,7 +30,7 @@ An operation that rejects unwanted elements
 
 ### Finality
 
-Reached when zk proof is verified, or dispute period is passed, and data becomes fully immutable and constant.
+Reached when zk proof is verified, or dispute period is passed, and data becomes fully immutable and constant. See [L2Beat's definition](https://medium.com/l2beat/tracking-time-to-finality-of-l2-transactions-051d32f5d5ba).
 
 ### Fisherman Mechanism
 
