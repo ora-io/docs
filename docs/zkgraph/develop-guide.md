@@ -12,7 +12,7 @@ It specifies information including:
 * target event
 * event handler
 
-An example `zkgraph.yaml`:
+An example of `zkgraph.yaml`:
 
 ```yaml
 specVersion: 0.0.1
@@ -53,13 +53,13 @@ More examples can be found as [templates of zkGraph scaffold](https://github.com
 
 `apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in zkOracles including zkGraphh compiler.
 
-<table><thead><tr><th width="146">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr></tbody></table>
+<table><thead><tr><th width="132">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr></tbody></table>
 
 #### specVersion
 
 `specVersion` specifies the `zkgraph.yaml` configuration format version, parsed by Hyper Oracle Node or other libraries.
 
-<table><thead><tr><th>specVersion</th><th>Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr></tbody></table>
+<table><thead><tr><th width="147.33333333333331">specVersion</th><th width="274">Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr></tbody></table>
 
 ### zkGraph Mapping (`mapping.ts`)
 
@@ -85,7 +85,7 @@ export function handleEvents(events: Event[]): Bytes {
 #### Requirements
 
 * **Function Definition of `handleEvents`**: `export function handleEvents(events: Event[]): Bytes {}`
-* **Return Value of `handleEvents`**: 32-byte length `Bytes`. Use `Bytes.padStart` or `Bytes.padEnd` to pad it to required length.
+* **Return Value of `handleEvents`**: `Bytes` with any length. Use `Bytes.padStart` or `Bytes.padEnd` to pad it to certain length if needed.
 
 ### zkGraph Development Tips
 
