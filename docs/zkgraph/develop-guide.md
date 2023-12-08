@@ -95,14 +95,14 @@ export function handleBlocks(blocks: Block[]): Bytes {
 2. Access specific events in `mapping.ts` `handleBlocks()`, after `zkgraph.yaml`'s filtering.
 
 ```typescript
-  // Option #1: access all (matched) events of the latest block
-  let events: Event[] = blocks[0].events;
+// Option #1: access all (matched) events of the latest block
+let events: Event[] = blocks[0].events;
 
-  // Option #2: access (matched) events, if with a given account address
-  let eventsByAcct: Event[] = blocks[0].account(address).events;
+// Option #2: access (matched) events, if with a given account address
+let eventsByAcct: Event[] = blocks[0].account(address).events;
 
-  // Option #3: access (matched) events, if with a given account address and a given esig
-  let eventsByAcctEsig: Event[] = blocks[0].account(address).eventsByEsig(esig_sync)
+// Option #3: access (matched) events, if with a given account address and a given esig
+let eventsByAcctEsig: Event[] = blocks[0].account(address).eventsByEsig(esig_sync);
 ```
 
 See [full example here](https://github.com/hyperoracle/zkgraph-cli/blob/d624dcb03d0d916f08bf3b2970c69b034ec753a3/packages/create-zkgraph/templates/template-event/src/mapping.ts).
@@ -120,7 +120,7 @@ let acct: Account = blocks[0].account(addr);
 let slotValue: Bytes = acct.storage(key);
 
 // Option #2: access source Slot object by key
-let slot: Slot = acct.slots[acct.getSlotId(key)]
+let slot: Slot = acct.slots[acct.getSlotId(key)];
 ```
 
 See [full example here](https://github.com/hyperoracle/zkgraph-cli/blob/d624dcb03d0d916f08bf3b2970c69b034ec753a3/packages/create-zkgraph/templates/template-storage/src/mapping.ts).
