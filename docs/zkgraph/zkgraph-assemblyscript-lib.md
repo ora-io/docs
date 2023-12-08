@@ -10,7 +10,7 @@ For Subgraph-compatibility, the design of this library follows the AssemblyScrip
 
 zkGraph AssemblyScript Library provides essential data structure for development:
 
-* `Event` of Ethereum in AssemblyScript
+* `Block` of Ethereum in AssemblyScript
 * `ByteArray` in AssemblyScript
 * `Bytes` in AssemblyScript
 * `BigInt` in AssemblyScript
@@ -24,18 +24,19 @@ zkGraph AssemblyScript Library provides essential data structure for development
 
 `import { Account } from from "@hyperoracle/zkgraph-lib"`
 
-`Account` used to represent Ethereum account with events and slots.
+`Account` is used to represent Ethereum account with events and slots.
 
 _Properties_
 
-* `events: Event[]` - Events on account.
+* `events: Event[]` - Events on account. Specific event object can be accessed with `eventsByEsig`.
 * `slots: Slot[]` - Slots on account. Specific slot object can be accessed by `x.slots[x.getSlotId(key)]`.
 
-_View Functions_
+_Read-only Functions_
 
 * `x.getSlotId(key: Bytes): i32` - Returns id of slot of given key.
 * `x.hasSlot(key: Bytes): bool` - Returns whether slot is available in account.
-* `storage(key: Bytes): Bytes` - Returns slot object of given key. Same as&#x20;
+* `storage(key: Bytes): Bytes` - Returns slot object of given key.
+* `x.eventsByEsig(esig: Bytes): Event` - Returns event objects of given esig.
 
 #### **Address**
 
@@ -115,6 +116,19 @@ _Others_
 * `x.isI32(): bool` – Check if the number fits in an `i32`.
 * `x.isZero(): bool` – Convenience for checking if the number is zero.
 * `x.isOdd(): bool` – Check if the number is odd.
+
+#### Block
+
+`Block` is used to represent matched Ethereum block with defined data in `zkgraph.yaml`.
+
+_Properties_
+
+* `events: Event[]` - Events in block.
+* `accounts: Account[]` - Accounts in block.
+
+_Read-only Functions_
+
+* `x.account(address: Bytes): Account` - Returns account object with given address.
 
 #### **ByteArray**
 
