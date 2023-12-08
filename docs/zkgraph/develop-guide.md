@@ -63,6 +63,8 @@ More examples can be found as [templates of zkGraph scaffold](https://github.com
 
 ### zkGraph Mapping (`mapping.ts`)
 
+#### Basic
+
 A required function for zkGraph mapping is `handleBlocks`.
 
 The `mapping.ts` with `handleBlocks` should be structured as follows, and should not be modified in most cases:
@@ -86,6 +88,42 @@ export function handleBlocks(blocks: Block[]): Bytes {
 
 * **Function definition of required function needs to match with the defined definition.**
 * **Return value of required function needs to match with the defined definition.**
+
+#### Access `Event` Data
+
+1. Define specific contract address and events in `zkgraph.yaml`.
+2. Access specific events in `mapping.ts` `handleBlock()`, after `zkgraph.yaml`'s filtering.
+
+```typescript
+  // Option #1: access all (matched) events of the latest block
+  let events: Event[] = blocks[0].events;
+
+  // Option #2: access (matched) events, if with a given account address
+  let eventsByAcct: Event[] = blocks[0].account(address).events;
+
+  // Option #3: access (matched) events, if with a given account address and a given esig
+  let eventsByAcctEsig: Event[] = blocks[0].account(address).eventsByEsig(esig_sync)
+```
+
+See [full example here](https://github.com/hyperoracle/zkgraph-cli/blob/d624dcb03d0d916f08bf3b2970c69b034ec753a3/packages/create-zkgraph/templates/template-event/src/mapping.ts).
+
+#### Access `Account` (storage slot) Data
+
+1. Define specific storage address and slots in `zkgraph.yaml`.
+2. Access specific slots in `mapping.ts` `handleBlock()`, after `zkgraph.yaml`'s filtering.
+
+```typescript
+// get source Account object by address
+let acct: Account = blocks[0].account(addr);
+  
+// Option #1: access source Slot value by key
+let slotValue: Bytes = acct.storage(key);
+
+// Option #2: access source Slot object by key
+let slot: Slot = acct.slots[acct.getSlotId(key)]
+```
+
+See [full example here](https://github.com/hyperoracle/zkgraph-cli/blob/d624dcb03d0d916f08bf3b2970c69b034ec753a3/packages/create-zkgraph/templates/template-storage/src/mapping.ts).
 
 ### zkGraph Development Tips
 
