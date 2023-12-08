@@ -63,8 +63,6 @@ More examples can be found as [templates of zkGraph scaffold](https://github.com
 
 ### zkGraph Mapping (`mapping.ts`)
 
-#### Basic
-
 A required function for zkGraph mapping is `handleBlocks`.
 
 The `mapping.ts` with `handleBlocks` should be structured as follows, and should not be modified in most cases:
@@ -86,8 +84,8 @@ export function handleBlocks(blocks: Block[]): Bytes {
 
 #### Requirements
 
-* **Function definition of required function needs to match with the defined definition.**
-* **Return value of required function needs to match with the defined definition.**
+* **Function definition of required function must be** `function handleBlocks(blocks: Block[]): Bytes`**.**
+* **Return value of required function must be** `Bytes`**.**
 
 #### Access `Event` Data
 
