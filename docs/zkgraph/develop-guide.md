@@ -15,28 +15,28 @@ It specifies information including:
 An example of `zkgraph.yaml`:
 
 ```yaml
-specVersion: 0.0.1
-name: ex_addr
-description: "Demo graph for zkAutomation. Use the source contract address as the trigger payload."
+specVersion: 0.0.2
+apiVersion: 0.0.2
+name: eg_event
+description: "This demo zkGraph shows 3 ways to access / filter out source events."
 repository: https://github.com/hyperoracle/zkgraph
 dataSources:
-  - kind: ethereum/contract
+  - kind: ethereum
     network: sepolia
-    source:
-      address: '0xa60ecf32309539dd84f27a9563754dca818b815e'
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.1
-      language: wasm/assemblyscript
-      file: ./mapping.ts
-      eventHandlers:
-        - event: "Sync(uint112,uint112)"
-          handler: handleEvents
+    event:
+      - address: '0xa60ecf32309539dd84f27a9563754dca818b815e'
+        events: 
+          - "Sync(uint112,uint112)"
+
+mapping:
+  language: wasm/assemblyscript
+  file: ./mapping.ts
+  handler: handleBlocks
+
 dataDestinations:
-  - kind: ethereum/contract
+  - kind: ethereum
     network: sepolia
-    destination:
-      address: "0x0000000000000000000000000000000000000000"
+    address: "0x0000000000000000000000000000000000000001"
 ```
 
 More examples can be found as [templates of zkGraph scaffold](https://github.com/hyperoracle/zkgraph-cli/tree/main/packages/create-zkgraph/templates).
@@ -47,23 +47,23 @@ More examples can be found as [templates of zkGraph scaffold](https://github.com
 
 `network` should follow the format of all lower-case letters (eg. mainnet, or goerli) with the following naming.
 
-<table data-full-width="false"><thead><tr><th width="191">Network (ChainID)</th><th width="148">Name in YAML</th><th width="191">dataSource</th><th width="156">dataDestination</th><th width="194">zkGraph Deployment</th></tr></thead><tbody><tr><td><p>Ethereum Mainnet</p><p>(1)</p></td><td><code>mainnet</code></td><td>✅ (<code>handleEvents</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Goerli</p><p>(5)</p></td><td><code>goerli</code></td><td>✅ (<code>handleEvents</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Sepolia</p><p>(11155111)</p></td><td><code>sepolia</code></td><td>✅ (<code>handleEvents</code>)</td><td>✅</td><td>✅</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="191">Network (ChainID)</th><th width="148">Name in YAML</th><th width="191">dataSource</th><th width="156">dataDestination</th><th width="194">zkGraph Deployment</th></tr></thead><tbody><tr><td><p>Ethereum Mainnet</p><p>(1)</p></td><td><code>mainnet</code></td><td>✅ <br>(<code>handleEvents</code>, <code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Goerli</p><p>(5)</p></td><td><code>goerli</code></td><td>✅ <br>(<code>handleEvents</code>, <code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Sepolia</p><p>(11155111)</p></td><td><code>sepolia</code></td><td>✅ <br>(<code>handleEvents</code>, <code>handleBlocks</code>)</td><td>✅</td><td>✅</td></tr></tbody></table>
 
 #### `apiVersion`
 
-`apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in zkOracles including zkGraphh compiler.
+`apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in zkOracles including zkGraph compiler.
 
-<table><thead><tr><th width="132">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr></tbody></table>
+<table><thead><tr><th width="132">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr><tr><td>0.0.2</td><td>1.0.0</td><td>Added <code>block</code> as data source.</td></tr></tbody></table>
 
 #### specVersion
 
 `specVersion` specifies the `zkgraph.yaml` configuration format version, parsed by Hyper Oracle Node or other libraries.
 
-<table><thead><tr><th width="147.33333333333331">specVersion</th><th width="274">Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr></tbody></table>
+<table><thead><tr><th width="147.33333333333331">specVersion</th><th width="274">Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr><tr><td>0.0.2</td><td><code>apiVersion</code>, <code>dataSources</code>, <code>mapping</code></td><td><a href="https://github.com/hyperoracle/zkgraph-cli/blob/abfbb9b33e91099b1f4b791aefe2bf7decc05741/packages/create-zkgraph/templates/template-event/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph-cli/blob/abfbb9b33e91099b1f4b791aefe2bf7decc05741/packages/create-zkgraph/templates/template-event/src/zkgraph.yaml</a></td></tr></tbody></table>
 
 ### zkGraph Mapping (`mapping.ts`)
 
-A required function for zkGraph mapping is `handleEvents`.
+A required function for zkGraph mapping is **either** `handleEvents`, **or** `handleBlocks`.
 
 The `mapping.ts` with `handleEvents` should be structured as follows, and should not be modified in most cases:
 
@@ -75,7 +75,7 @@ import { require, Bytes, Event, BigInt } from "@hyperoracle/zkgraph-lib";
 // other functions
 // ...
 
-// handleEvents function
+// handleEvents or handleBlocks function
 export function handleEvents(events: Event[]): Bytes {
   // ...core logics
   return state;
@@ -84,8 +84,8 @@ export function handleEvents(events: Event[]): Bytes {
 
 #### Requirements
 
-* **Function Definition of `handleEvents`**: `export function handleEvents(events: Event[]): Bytes {}`
-* **Return Value of `handleEvents`**: `Bytes` with any length. Use `Bytes.padStart` or `Bytes.padEnd` to pad it to certain length if needed.
+* **Function definition of required function needs to match with the defined definition.**
+* **Return value of required function needs to match with the defined definition.**
 
 ### zkGraph Development Tips
 
