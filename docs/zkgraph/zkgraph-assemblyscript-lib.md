@@ -20,6 +20,23 @@ zkGraph AssemblyScript Library provides essential data structure for development
 
 ### Library Reference
 
+#### Account
+
+`import { Account } from from "@hyperoracle/zkgraph-lib"`
+
+`Account` used to represent Ethereum account with events and slots.
+
+_Properties_
+
+* `events: Event[]` - Events on account.
+* `slots: Slot[]` - Slots on account. Specific slot object can be accessed by `x.slots[x.getSlotId(key)]`.
+
+_View Functions_
+
+* `x.getSlotId(key: Bytes): i32` - Returns id of slot of given key.
+* `x.hasSlot(key: Bytes): bool` - Returns whether slot is available in account.
+* `storage(key: Bytes): Bytes` - Returns slot object of given key. Same as&#x20;
+
 #### **Address**
 
 `import { Address } from from "@hyperoracle/zkgraph-lib"`
@@ -208,3 +225,21 @@ To ignore compiler warning in `mapping.ts`, when importing, add `// @ts-ignore` 
 _Syntax_
 
 * `require(condition: i32)` - returns void, and stops execution when condition is false (0).
+
+#### Slot
+
+`import { Slot } from "@hyperoracle/zkgraph-lib"`
+
+`Slot` is used to represent Ethereum storage slot with key, value, and storageProof.
+
+_Structure_
+
+```typescript
+class Slot {
+  constructor(
+    public key: Bytes,
+    public value: Bytes,
+    public storageProof: Bytes[],
+  ) {}
+}
+```
