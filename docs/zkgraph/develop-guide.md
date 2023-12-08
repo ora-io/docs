@@ -92,7 +92,7 @@ export function handleBlocks(blocks: Block[]): Bytes {
 #### Access `Event` Data
 
 1. Define specific contract address and events in `zkgraph.yaml`.
-2. Access specific events in `mapping.ts` `handleBlock()`, after `zkgraph.yaml`'s filtering.
+2. Access specific events in `mapping.ts` `handleBlocks()`, after `zkgraph.yaml`'s filtering.
 
 ```typescript
   // Option #1: access all (matched) events of the latest block
@@ -110,7 +110,7 @@ See [full example here](https://github.com/hyperoracle/zkgraph-cli/blob/d624dcb0
 #### Access `Account` (storage slot) Data
 
 1. Define specific storage address and slots in `zkgraph.yaml`.
-2. Access specific slots in `mapping.ts` `handleBlock()`, after `zkgraph.yaml`'s filtering.
+2. Access specific slots in `mapping.ts` `handleBlocks()`, after `zkgraph.yaml`'s filtering.
 
 ```typescript
 // get source Account object by address
