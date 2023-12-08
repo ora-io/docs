@@ -47,13 +47,13 @@ More examples can be found as [templates of zkGraph scaffold](https://github.com
 
 `network` should follow the format of all lower-case letters (eg. mainnet, or goerli) with the following naming.
 
-<table data-full-width="false"><thead><tr><th width="191">Network (ChainID)</th><th width="148">Name in YAML</th><th width="191">dataSource</th><th width="156">dataDestination</th><th width="194">zkGraph Deployment</th></tr></thead><tbody><tr><td><p>Ethereum Mainnet</p><p>(1)</p></td><td><code>mainnet</code></td><td>✅ <br>(<code>handleEvents</code>, <code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Goerli</p><p>(5)</p></td><td><code>goerli</code></td><td>✅ <br>(<code>handleEvents</code>, <code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Sepolia</p><p>(11155111)</p></td><td><code>sepolia</code></td><td>✅ <br>(<code>handleEvents</code>, <code>handleBlocks</code>)</td><td>✅</td><td>✅</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="191">Network (ChainID)</th><th width="148">Name in YAML</th><th width="191">dataSource</th><th width="156">dataDestination</th><th width="194">zkGraph Deployment</th></tr></thead><tbody><tr><td><p>Ethereum Mainnet</p><p>(1)</p></td><td><code>mainnet</code></td><td>✅ <br>(<code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Goerli</p><p>(5)</p></td><td><code>goerli</code></td><td>✅ <br>(<code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Sepolia</p><p>(11155111)</p></td><td><code>sepolia</code></td><td>✅ <br>(<code>handleBlocks</code>)</td><td>✅</td><td>✅</td></tr></tbody></table>
 
 #### `apiVersion`
 
 `apiVersion` specifies the `zkgraph-lib` version or any other libraries, used by a zkGraph, in zkOracles including zkGraph compiler.
 
-<table><thead><tr><th width="132">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr><tr><td>0.0.2</td><td>1.0.0</td><td>Added <code>block</code> as data source.</td></tr></tbody></table>
+<table><thead><tr><th width="132">apiVersion</th><th width="186.33333333333331">zkgraph-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr><tr><td>0.0.2</td><td>1.0.0</td><td>Updated <code>block</code> as data source, <code>block</code> contains both <code>event</code> and <code>account</code> data.</td></tr></tbody></table>
 
 #### specVersion
 
@@ -63,9 +63,9 @@ More examples can be found as [templates of zkGraph scaffold](https://github.com
 
 ### zkGraph Mapping (`mapping.ts`)
 
-A required function for zkGraph mapping is **either** `handleEvents`, **or** `handleBlocks`.
+A required function for zkGraph mapping is `handleBlocks`.
 
-The `mapping.ts` with `handleEvents` should be structured as follows, and should not be modified in most cases:
+The `mapping.ts` with `handleBlocks` should be structured as follows, and should not be modified in most cases:
 
 ```typescript
 // imports
@@ -75,8 +75,8 @@ import { require, Bytes, Event, BigInt } from "@hyperoracle/zkgraph-lib";
 // other functions
 // ...
 
-// handleEvents or handleBlocks function
-export function handleEvents(events: Event[]): Bytes {
+// handleBlocks function
+export function handleBlocks(blocks: Block[]): Bytes {
   // ...core logics
   return state;
 }
@@ -95,14 +95,14 @@ export function handleEvents(events: Event[]): Bytes {
 
 ```typescript
 // Code not compilable (due to reassign `state` which is constant)
-export function handleEvents(events: Event[]): Bytes {
+export function handleBlocks(blocks: Block[]): Bytes {
   const state = new Bytes(0);
   state = new Bytes(0);
   return state;
 }
 
 // Code not executable or runnable (due to divide number by zero)
-export function handleEvents(events: Event[]): Bytes {
+export function handleBlocks(blocks: Block[]): Bytes {
   const state = new Bytes(0);
   const NAN = BigInt.fromI32(0).div(0);
   return state;
@@ -112,7 +112,7 @@ export function handleEvents(events: Event[]): Bytes {
 * For generating proof on zkWASM, do not use io syscalls like `console` etc. `console.log(string)` (note that only `string` type is supported in AssemblyScript) should only be used in debug stage.
 
 ```typescript
-export function handleEvents(events: Event[]): Bytes {
+export function handleBlocks(blocks: Block[]): Bytes {
   let state = new Bytes(0);
   // Won't be compiled, because type not supported in AssemblyScript
   console.log(state);
@@ -138,7 +138,7 @@ BigInt.toString(radix: i32 = 10): string
 
 ```typescript
 // 2547 lines in generated .wat file with template literal
-export function handleEvents(events: Event[]): Bytes {
+export function handleBlocks(blocks: Block[]): Bytes {
   let state = new Bytes(0);
   if (state.length != 0) {
     throw new Error(`Invalid state length: ${state.length}, expected 0 bytes.`);
@@ -147,7 +147,7 @@ export function handleEvents(events: Event[]): Bytes {
 }
 
 // 2179 lines in generated .wat file without template literal
-export function handleEvents(events: Event[]): Bytes {
+export function handleBlocks(blocks: Block[]): Bytes {
   let state = new Bytes(0);
   if (state.length != 0) {
     throw new Error(`Invalid state length, expected 0 bytes.`);
