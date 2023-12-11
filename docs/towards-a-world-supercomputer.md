@@ -1,3 +1,7 @@
+---
+description: Vision initiated by Hyper Oracle
+---
+
 # Towards a World Supercomputer
 
 {% hint style="info" %}
