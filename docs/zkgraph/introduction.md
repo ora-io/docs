@@ -38,6 +38,6 @@ Migrating existing Subgraphs to zkGraph requires just 10 lines of configuration 
 
 #### zkAssemblyScript
 
-We built [zkAssemblyScript](zkgraph-assemblyscript-lib.md), a highly efficient provable AssemblyScript library, for zkGraph development.
+We built [zkAssemblyScript](develop-guide/zkgraph-assemblyscript-lib.md), a highly efficient provable AssemblyScript library, for zkGraph development.
 
 As a library of data structures and interfaces, zkAssemblyScript guarantees zkGraph code execution and proof generation performance through low-level optimizations.

@@ -4,7 +4,7 @@ description: Highly Efficient Provable AssemblyScript Library
 
 # zkAssemblyScript
 
-We built [zkAssemblyScript](../../zkgraph/zkgraph-assemblyscript-lib.md), a highly efficient provable AssemblyScript library, because:
+We built [zkAssemblyScript](../../zkgraph/develop-guide/zkgraph-assemblyscript-lib.md), a highly efficient provable AssemblyScript library, because:
 
 * zkGraph is AssemblyScript-based program.
 * zkGraph development requires many Ethereum-related data structures and special operations.

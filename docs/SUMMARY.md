@@ -11,9 +11,9 @@
   * [1. zkGraph Studio UI](zkgraph/getting-started/1.-zkgraph-studio-ui.md)
   * [2. zkGraph Scaffold](zkgraph/getting-started/2.-zkgraph-scaffold.md)
 * [Develop Guide](zkgraph/develop-guide.md)
+  * [zkGraph AssemblyScript Lib](zkgraph/develop-guide/zkgraph-assemblyscript-lib.md)
   * [zkGraph Development Tips](zkgraph/develop-guide/zkgraph-development-tips.md)
   * [Bring Your Own Data Source](zkgraph/develop-guide/bring-your-own-data-source.md)
-* [zkGraph AssemblyScript Lib](zkgraph/zkgraph-assemblyscript-lib.md)
 * [Resources](zkgraph/resources.md)
 
 ## zkGraph Standards
