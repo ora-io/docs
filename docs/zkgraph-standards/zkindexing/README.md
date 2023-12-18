@@ -12,6 +12,6 @@ Having a centralized RPC, or a universal indexing and querying protocol is not e
 
 zkIndexing is a unique indexing infrastructure that excels in both accuracy and security using zero knowledge proofs. zkIndexing is a typical output zkOracle meta app, with the data flowing from on-chain (original blockchain data) to off-chain (zkGraph indexed data).
 
-zkIndexing is Hyper Oracle’s trustless indexing protocol based on zero knowledge proofs. zkIndexing’s indexing and querying schema are fully customizable with zkGraphs. Developers can build any end-to-end decentralized application with zkIndexing.
+zkIndexing is HyperOracle’s trustless indexing protocol based on zero knowledge proofs. zkIndexing’s indexing and querying schema are fully customizable with zkGraphs. Developers can build any end-to-end decentralized application with zkIndexing.
 
 <figure><img src="../../.gitbook/assets/截屏2023-03-14 07.54.04.png" alt=""><figcaption></figcaption></figure>

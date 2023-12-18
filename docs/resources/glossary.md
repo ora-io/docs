@@ -44,6 +44,10 @@ An approach for querying data. Commonly used in the front-end of DApps.
 
 A high-performance implementation of zk-SNARK by Electric Coin Co.
 
+### Hyper Oracle
+
+The former naming format of HyperOracle. Use HyperOracle.
+
 ### Indexing
 
 A type of middleware that fetches and organizes data. Commonly used in blockchain due to blockchain data's unique storage model.
@@ -146,7 +150,7 @@ A binary code format or programming language. Commonly used in Web.
 
 ### World Supercomputer
 
-A global P2P network linking three topologically heterogeneous networks (Ethereum, Hyper Oracle, Storage Rollup) with zero-knowledge proof.
+A global P2P network linking three topologically heterogeneous networks (Ethereum, HyperOracle, Storage Rollup) with zero-knowledge proof.
 
 ### Zero-knowledge Proof
 
@@ -166,11 +170,11 @@ A zkVM with EVM instruction set as bytecode.
 
 ### zkGraph
 
-Codes that define and configs off-chain computation of Hyper Oracle zkOracle, with Subgraph-Equivalence.
+Codes that define and configs off-chain computation of HyperOracle zkOracle, with Subgraph-Equivalence.
 
 ### zkGraph Standards
 
-Standardized services provided by Hyper Oracle for DApp developers, including zkIndexing and zkAutomation. Previously called "Meta Apps".
+Standardized services provided by HyperOracle for DApp developers, including zkIndexing and zkAutomation. Previously called "Meta Apps".
 
 ### zkIndexing
 

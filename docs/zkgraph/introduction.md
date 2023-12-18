@@ -4,13 +4,13 @@ description: zkGraphs are similar to Customizable "Smart Contracts"
 
 # Introduction
 
-zkGraphs defines the computation of Hyper Oracle nodes, including data-related behaviors and zk proof generation, much like how smart contracts define the EVM computation of Ethereum nodes.
+zkGraphs defines the computation of HyperOracle nodes, including data-related behaviors and zk proof generation, much like how smart contracts define the EVM computation of Ethereum nodes.
 
 <figure><img src="../.gitbook/assets/截屏2023-03-11 下午11.56.32.png" alt=""><figcaption></figcaption></figure>
 
 Smart contract developers can build both the smart contract and the zkGraph. Users can then interact with both.
 
-To utilize the infrastructure of Hyper Oracle zkGraph Standards, developers must configure and code their zkGraphs to specify how they want the data to be handled. The Hyper Oracle nodes then process the data and generate a zero-knowledge proof based on the specified definitions.
+To utilize the infrastructure of HyperOracle zkGraph Standards, developers must configure and code their zkGraphs to specify how they want the data to be handled. The HyperOracle nodes then process the data and generate a zero-knowledge proof based on the specified definitions.
 
 ### Structure
 

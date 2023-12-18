@@ -1,10 +1,10 @@
-# How Hyper Oracle Works
+# How HyperOracle Works
 
-Hyper Oracle provides infrastructure, including automation and indexing, that empowers developers to build end-to-end trustless and decentralized applications.
+HyperOracle provides infrastructure, including automation and indexing, that empowers developers to build end-to-end trustless and decentralized applications.
 
-Hyper Oracle is a decentralized protocol and network:
+HyperOracle is a decentralized protocol and network:
 
-* **Used by Developers**: Developers can define custom computations with JavaScript, register those computations to Hyper Oracle protocol, and utilize Hyper Oracle zkGraph standard to automate or supercharge their smart contracts.
+* **Used by Developers**: Developers can define custom computations with JavaScript, register those computations to HyperOracle protocol, and utilize HyperOracle zkGraph standard to automate or supercharge their smart contracts.
 * **Operated by zkOracle Nodes**: Node operators can run zkOracle nodes to execute and generate zero-knowledge proofs for developer-defined computations.
 
 ### Benefits for Developers
