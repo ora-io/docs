@@ -47,3 +47,4 @@
 * [Twitter](https://twitter.com/HyperOracle)
 * [GitHub](https://github.com/hyperoracle)
 * [Discord](https://discord.gg/MgyYbW9dQj)
+* [Telegram](https://t.me/Hyper\_Oracle)
