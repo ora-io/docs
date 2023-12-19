@@ -68,3 +68,5 @@ Currently in the testnet phase, you just need to set the `bounty_reward_per_trig
 # Publish Command in zkGraph CLI
 zkgraph publish <ipfs_hash> <bounty_reward_per_trigger>
 ```
+
+Check out [this example of using zkAutomation](https://github.com/hyperoracle/zkgraph-cli/tree/25828df155181b52a306c4bf8fff17b9b7e5fbfe/packages/create-zkgraph/templates/template-uniswapprice) from zkGraph scaffold.
