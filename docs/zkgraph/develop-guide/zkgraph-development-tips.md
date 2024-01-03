@@ -2,6 +2,12 @@
 
 ### Development
 
+* When developing with storage as data source, you can use the following tools for visualization of storage slot layout:
+
+<pre class="language-markdown"><code class="lang-markdown"><strong>[evm.storage for mainnet](https://evm.storage/)
+</strong><strong>[storagoor for sepolia](https://storagoor.vercel.app/)
+</strong></code></pre>
+
 * Provable program needs to be compilable and runnable in normal execution runtime first.
 
 ```typescript
@@ -32,6 +38,8 @@ export function handleBlocks(blocks: Block[]): Bytes {
   return state;
 }
 ```
+
+* The best practice when finishing up a zkGraph is documenting everything (block number used for testing execution and proof generation, example output, zkWASM image url...), so that others can replicate the whole flow.
 
 ### Optimization
 
