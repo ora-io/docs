@@ -66,8 +66,8 @@ _Construction_
 * `BigInt.fromU64(x: u64): BigInt` – Creates a `BigInt` from a `u64`.
 * `BigInt.zero(x: u64): BigInt` – Creates a `BigInt` that is zero.
 * `BigInt.fromString(s: string): BigInt`– Parses a `BigInt` from a string.
-* `BigInt.fromBytes(x: Bytes, isNegative: boolean = false): BigInt`– Parses a `BigInt` from a `Bytes` with little-endian order.
-* `BigInt.fromBytesBigEndian(x: Bytes, isNegative: boolean = false): BigInt`– Parses a `BigInt` from a `Bytes` with big-endian order.
+* `BigInt.fromBytes(x: Bytes, isNegative: boolean = false): BigInt`– Parses a `BigInt` from a `Bytes` with big-endian order.
+* `BigInt.fromBytesLittleEndian(x: Bytes, isNegative: boolean = false): BigInt`– Parses a `BigInt` from a `Bytes` with little-endian order.
 
 _Type conversions_
 
@@ -157,14 +157,18 @@ _Type conversions_
 * `b.toHexString(): string` - Converts to a hex string prefixed with `0x`.
 * `b.toString(): string` - Interprets the bytes as a UTF-8 string.
 * `b.toBase58(): string` - Encodes the bytes into a base58 string.
-* `b.toI32(): i32` - Interprets the bytes as a little-endian `i32`. Throws in case of overflow.
+* `b.toI32(): i32` - Interprets the bytes as a big-endian `i32`. Throws in case of overflow.
 * `b.toI32BigEndian(): i32` - Interprets the byte array as a big-endian `i32`. Throws in case of overflow.
-* `b.toU32(): u32` - Interprets the bytes as a little-endian `u32`. Throws in case of overflow.
+* `b.toI32LittleEndian(): i32` - Interprets the byte array as a little-endian `i32`. Throws in case of overflow.
+* `b.toU32(): u32` - Interprets the bytes as a big-endian `u32`. Throws in case of overflow.
 * `b.toU32BigEndian(): u32` - Interprets the byte array as a big-endian `u32`. Throws in case of overflow.
-* `b.toI64(): i64` - Interprets the bytes as a little-endian `i64`. Throws in case of overflow.
+* `b.toU32LittleEndian(): u32` - Interprets the bytes as a little-endian `u32`. Throws in case of overflow.
+* `b.toI64(): i64` - Interprets the bytes as a big-endian `i64`. Throws in case of overflow.
 * `b.toI64BigEndian(): i64` - Interprets the byte array as a big-endian `i64`. Throws in case of overflow.
-* `b.toU64(): u64` - Interprets the bytes as a little-endian `u64`. Throws in case of overflow.
+* `b.toI64LittleEndian(): i64` - Interprets the byte array as a little-endian `i64`. Throws in case of overflow.
+* `b.toU64(): u64` - Interprets the bytes as a big-endian `u64`. Throws in case of overflow.
 * `b.toU64BigEndian(): u64` - Interprets the byte array as a big-endian `u64`. Throws in case of overflow.
+* `b.toU64LittleEndian(): u64` - Interprets the byte array as a little-endian `u64`. Throws in case of overflow.
 
 _Operators_
 
