@@ -221,6 +221,7 @@ _Structure_
 class Event {
   constructor(
     public address: Bytes,
+    // esig is equivalent to topic0.
     public esig: Bytes,
     public topic1: Bytes,
     public topic2: Bytes,
