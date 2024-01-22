@@ -6,6 +6,7 @@
   * [evm.storage](https://evm.storage/) for mainnet
   * [storagoor](https://storagoor.vercel.app/) for sepolia
   * [smart contract storage viewer](https://tintinweb.github.io/smart-contract-storage-viewer/)
+  * [storage layout option of Solidity compiler](https://arc.net/l/quote/phcauzke)
 * When developing with a deployed smart contract, you can use the following tools for examining its source code onchain and its current data:
   * [ContractReader](https://www.contractreader.io/) for reading contract's current data
   * [codeslaw](https://www.codeslaw.app/) for reading contract's source code
