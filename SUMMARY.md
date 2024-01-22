@@ -14,6 +14,9 @@
   * [zkGraph AssemblyScript Lib](zkgraph/develop-guide/zkgraph-assemblyscript-lib.md)
   * [zkGraph Development Tips](zkgraph/develop-guide/zkgraph-development-tips.md)
   * [Bring Your Own Data Source](zkgraph/develop-guide/bring-your-own-data-source.md)
+* [Integration Guide](zkgraph/integration-guide/README.md)
+  * [1. Smart Contract](zkgraph/integration-guide/1.-smart-contract.md)
+  * [2. Frontend / Backend](zkgraph/integration-guide/2.-frontend-backend.md)
 * [Resources](zkgraph/resources.md)
 
 ## 💡 zkGraph Standards
