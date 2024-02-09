@@ -79,4 +79,4 @@ export function handleBlocks(blocks: Block[]): Bytes {
 ```
 
 * Try not to use keywords that may introduce extra global init code e.g. `new`, `static` etc. `changetype` is fine, [because](https://github.com/AssemblyScript/assemblyscript/issues/549#issuecomment-474005579) it just changes the type statically and does not result in any actual instructions.
-* You can use third-party optimization tools (such as [wasm-opt](https://www.npmjs.com/package/wasm-opt)) to reduce WASM binary size.
+* You can use third-party optimization tools (such as [wasm-opt](https://www.npmjs.com/package/wasm-opt), [wasm-size-inspector](https://wasm-size-inspector.vercel.app/)) to reduce WASM binary size and optimize.
