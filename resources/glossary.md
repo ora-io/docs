@@ -72,9 +72,21 @@ Services or infrastructure needed in pipeline of development.
 
 A computer running client.
 
+### OAO
+
+Onchain AI Oracle.
+
 ### On/Off-chain
 
 On the (specific) blockchain / not on the (specific) blockchain. Usually refers to data or computation.
+
+### opML
+
+[Optimistic machine learning](https://arxiv.org/pdf/2401.17555.pdf).
+
+### Ora
+
+Name of our project. Previously HyperOracle.
 
 ### Oracle
 

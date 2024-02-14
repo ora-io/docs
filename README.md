@@ -1,13 +1,20 @@
 ---
-description: Programmable zkOracle Protocol
+description: Verifiable Oracle Protocol
 ---
 
-# 🌈 HyperOracle
+# ⭕ Ora
 
-<img src=".gitbook/assets/hoLogoNoBG.png" alt="" data-size="line">HyperOracle (Hyper Oracle) is a protocol and network for programmable [zero-knowledge oracle](https://ethresear.ch/t/defining-zkoracle-for-ethereum/15131) that preserves blockchain security and decentralization.
+<img src=".gitbook/assets/Rainbow-Radiating-V1_00167-b.png" alt="" data-size="line">Ora is the verifiable oracle protocol that brings AI and complex compute onchain. Ora has two main products:
 
-From indexing to smart contract automation, HyperOracle’s zkGraph Standards make onchain data and onchain-equivalent computation useful and verifiable with fast finality. HyperOracle empowers developers to interact with blockchain in new ways.
+* **AI Oracle (OAO)**: Brings AI onchain.
+* **ZK Oracle**: Brings complex compute and historical data onchain.
 
-Staking is the traditional, incentive-based security mechanism for oracles and other middleware infrastructure. HyperOracle replaces this incentive-based system with one based on zero-knowledge proofs (ZKP).
+Ora breaks down the limitations of smart contracts with richer data sources and compute so developers can innovate freely.
 
-For our latest offering, check out our [litepaper](https://mirror.xyz/hyperoracleblog.eth/FKvpIGI7fiuNr5rnTlFWAdxk4QCNFIR9rmqDPxWLc2w).
+Ora’s work is trusted by Compound, Ethereum Foundation, Polygon, and Uniswap.
+
+#### Why Ora?
+
+* **We build, they follow**: We are the last oracle for developers. We are the only oracle that ships AI Oracle that is practical on Ethereum right now, and ZK Oracle that is trustless and purly cryptography-based.
+* **Onchain AI engine**: Our AI Oracle currently supports LlaMA 2 (7B) and Stable Diffusion. You can use and integrate them onchain directly. In the future, we will support any ML model.
+* **Fast deployment**: We are coming to networks near you, including any network and any L2. You can build your own AI / ZK oracle that is programmable, permissionless, and censorship-resistant.

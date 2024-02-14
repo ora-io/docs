@@ -1,24 +1,26 @@
-# How HyperOracle Works
+# How Ora Works
 
-HyperOracle provides infrastructure, including automation and indexing, that empowers developers to build end-to-end trustless and decentralized applications.
+Ora provides developers to build end-to-end trustless and decentralized applications, with:
 
-HyperOracle is a decentralized protocol and network:
+* **AI Oracle (OAO, Onchain AI Oracle)**
+* **ZK Oracle**
 
-* **Used by Developers**: Developers can define custom computations with JavaScript, register those computations to HyperOracle protocol, and utilize HyperOracle zkGraph standard to automate or supercharge their smart contracts.
-* **Operated by zkOracle Nodes**: Node operators can run zkOracle nodes to execute and generate zero-knowledge proofs for developer-defined computations.
+Ora is a decentralized protocol and network:
+
+* **Used by Developers**: Developers can define custom computations, register those computations to Ora protocol, and utilize Ora CLE standards to supercharge their smart contracts with automation or AI.
+* **Operated by AI / ZK Oracle Nodes**: Node operators can run AI / ZK Oracle nodes to execute and secure computations with verifiable proofs.
 
 ### Benefits for Developers
 
-* All-in-one infrastructure with automation and indexing
+* All-in-one infrastructure with AI capability and automation
 * Higher performance and shorter finality
-* Run arbitrary program
+* Run arbitrary program and any large ML model
 
 ### Advantages as Network
 
-* A unstoppable autonomous protocol and network
+* Unstoppable autonomous protocol and network
 * Optimal cryptography-native decentralization
 * Verifiable, decentralized, and secure network
 * Safeguarding the security of the base layer
 * Efficient allocation of computing power
-* Math as the consensus
-* A 1-of-N trust model
+* 1-of-N trust model
