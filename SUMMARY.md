@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⭕ Ora](README.md)
+* [Ora](README.md)
   * [How Ora Works](readme/how-hyper-oracle-works.md)
   * [Towards a World Supercomputer](readme/towards-a-world-supercomputer.md)
 
