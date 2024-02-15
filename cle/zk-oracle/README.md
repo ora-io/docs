@@ -10,7 +10,7 @@ To utilize the infrastructure of Ora CLE Standards, developers must configure an
 
 ### Structure
 
-A CLE is customizable and programmable, consisting of three main components:
+A CLE in zkOracle is customizable and programmable, consisting of three main components:
 
 * Manifest (cle.yaml): The data source, used to configure information such as the CLE Standards used, the target blockchain network, and the target smart contract.
 * Mapping (mapping.ts): The data mapping (Offchain Computation), used to compute blockchain data into other forms.

@@ -7,7 +7,11 @@
 ## 🛠 CLE
 
 * [Introduction](cle/introduction.md)
-* [AI Oracle](cle/ai-oracle.md)
+* [AI Oracle](cle/ai-oracle/README.md)
+  * [Getting Started](cle/ai-oracle/getting-started.md)
+  * [Develop Guide](cle/ai-oracle/develop-guide/README.md)
+    * [Bring Your Own Model](cle/ai-oracle/develop-guide/bring-your-own-model.md)
+  * [Resources](cle/ai-oracle/resources.md)
 * [ZK Oracle](cle/zk-oracle/README.md)
   * [Getting Started](cle/zk-oracle/getting-started/README.md)
     * [1. CLE Studio UI](cle/zk-oracle/getting-started/1.-zkgraph-studio-ui.md)
