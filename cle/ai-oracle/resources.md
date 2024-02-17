@@ -1,5 +1,9 @@
 # Resources
 
+### Source Code
+
+OAO: [https://github.com/hyperoracle/OAO](https://github.com/hyperoracle/OAO)
+
 ### Supported Models
 
 <table><thead><tr><th width="124">Model ID</th><th width="152">Model</th><th>Return Value</th></tr></thead><tbody><tr><td>0</td><td>LlaMA 2</td><td>Text</td></tr><tr><td>1</td><td>Stable Diffusion</td><td>IPFS Hash (access it with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
