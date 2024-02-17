@@ -1,13 +1,13 @@
-# How Ora Works
+# How ORA Works
 
-Ora provides developers to build end-to-end trustless and decentralized applications, with:
+ORA provides developers to build end-to-end trustless and decentralized applications, with:
 
 * **AI Oracle (OAO, Onchain AI Oracle)**
 * **ZK Oracle**
 
-Ora is a decentralized protocol and network:
+ORA is a decentralized protocol and network:
 
-* **Used by Developers**: Developers can define custom computations, register those computations to Ora protocol, and utilize Ora CLE standards to supercharge their smart contracts with automation or AI.
+* **Used by Developers**: Developers can define custom computations, register those computations to ORA protocol, and utilize ORA CLE standards to supercharge their smart contracts with automation or AI.
 * **Operated by AI / ZK Oracle Nodes**: Node operators can run AI / ZK Oracle nodes to execute and secure computations with verifiable proofs.
 
 ### Benefits for Developers

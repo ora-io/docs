@@ -1,6 +1,6 @@
 # AI Oracle
 
-CLE in AI Oracle defines the computation and model of Ora AI Oracle / opML nodes, including machine learning inference compute.
+CLE in AI Oracle defines the computation and model of ORA AI Oracle / opML nodes, including machine learning inference compute.
 
 <figure><img src="../../.gitbook/assets/litepaper.001 (1).png" alt=""><figcaption></figcaption></figure>
 

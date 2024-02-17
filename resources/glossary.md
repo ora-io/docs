@@ -84,7 +84,7 @@ On the (specific) blockchain / not on the (specific) blockchain. Usually refers 
 
 [Optimistic machine learning](https://arxiv.org/pdf/2401.17555.pdf).
 
-### Ora
+### ORA
 
 Name of our project. Previously HyperOracle.
 
@@ -162,7 +162,7 @@ A binary code format or programming language. Commonly used in Web.
 
 ### World Supercomputer
 
-A global P2P network linking three topologically heterogeneous networks (Ethereum, HyperOracle, Storage Rollup) with zero-knowledge proof.
+A global P2P network linking three topologically heterogeneous networks (Ethereum, ORA, Storage Rollup) with zero-knowledge proof.
 
 ### Zero-knowledge Proof
 

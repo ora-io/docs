@@ -1,12 +1,12 @@
 # ZK Oracle
 
-CLE in zkOracle defines the computation of Ora zkOracle nodes, including data-related behaviors and zk proof generation, much like how smart contracts define the EVM computation of Ethereum nodes.
+CLE in zkOracle defines the computation of ORA zkOracle nodes, including data-related behaviors and zk proof generation, much like how smart contracts define the EVM computation of Ethereum nodes.
 
 <figure><img src="../../.gitbook/assets/litepaper.001 (2).png" alt=""><figcaption></figcaption></figure>
 
 Smart contract developers can build both the smart contract and the CLE. Users can then interact with both.
 
-To utilize the infrastructure of Ora CLE Standards, developers must configure and code their CLEs to specify how they want the data to be handled. Ora nodes then process the data and generate zero-knowledge proof based on the specified definitions.
+To utilize the infrastructure of ORA CLE Standards, developers must configure and code their CLEs to specify how they want the data to be handled. ORA nodes then process the data and generate zero-knowledge proof based on the specified definitions.
 
 ### Structure
 

@@ -4,7 +4,7 @@ description: 'CLE: Computational Entity'
 
 # Introduction
 
-Ora CLE makes Oracle complete. CLE, computational entity, is the customizable and programmable entity defined by developers.
+ORA CLE makes Oracle complete. CLE, computational entity, is the customizable and programmable entity defined by developers.
 
 Currently, there are two types of CLE with various potential use cases:
 
