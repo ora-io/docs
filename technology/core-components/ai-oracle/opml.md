@@ -14,7 +14,7 @@ However, this approach is not really practical given the restraints of current c
 
 In the blockchain field, there is another commonly used form of proof: the fault/fraud proof, that is commonly deployed in optimistic rollups, and that can be serve as a more practical solution to realize onchain ML.
 
-As [the inventor of opML](https://ethresear.ch/t/opml-optimistic-machine-learning-on-blockchain/16234) and [the first open source implementation](https://github.com/hyperoracle/opml), we are thrilled to see the growing adoption of opML. opML can [run Stable Diffusion and LLaMA 2 directly on Ethereum](https://www.hyperoracle.io/app/opml/sd).
+As [the inventor of opML](https://ethresear.ch/t/opml-optimistic-machine-learning-on-blockchain/16234) and [the first open source implementation](https://github.com/ora-io/opml), we are thrilled to see the growing adoption of opML. opML can [run Stable Diffusion and LLaMA 2 directly on Ethereum](https://www.hyperoracle.io/app/opml/sd).
 
 Compared to zkML or other onchain ML methods, **opML is all you need**.
 

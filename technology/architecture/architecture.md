@@ -19,4 +19,4 @@ Only one zkOracle node is necessary to maintain network security. In the ORA net
 
 Here is a more detailed technical architecture with data flow for a zkOracle:
 
-<figure><img src="../../.gitbook/assets/litepaper.001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/litepaper.001 (1).png" alt=""><figcaption></figcaption></figure>

@@ -12,6 +12,6 @@ The Graph uses wasmtime as the WebAssembly runtime for Subgraph, while ORA uses 
 
 ORA CLEs are not limited to be running exclusively in zkWASM. We value the decentralization of prover/client diversity and are constantly exploring new ways to power CLEs with zk.
 
-To learn more about zkWASM, please take a look at our previous blog post: [zkWASM, The Next Chapter of ZK and zkVM](https://mirror.xyz/hyperoracleblog.eth/abKqUB4iEJ4kRsGqq8baIFUnhV\_eY-lblmhCrwRm31E). For further technical details, you can refer to the paper titled [ZAWA: A ZKSNARK WASM Emulator](https://jhc.sjtu.edu.cn/\~hongfeifu/manuscriptb.pdf).
+To learn more about zkWASM, please take a look at our previous blog post: [zkWASM, The Next Chapter of ZK and zkVM](https://mirror.xyz/orablog.eth/abKqUB4iEJ4kRsGqq8baIFUnhV\_eY-lblmhCrwRm31E). For further technical details, you can refer to the paper titled [ZAWA: A ZKSNARK WASM Emulator](https://jhc.sjtu.edu.cn/\~hongfeifu/manuscriptb.pdf).
 
 zkWASM will enable ORA CLEs to achieve programmable configuration, general computation, subgraph equivalence, and the superpower of zero-knowledge proofs.

@@ -21,4 +21,4 @@ For the development of a CLE, we offer two development methods:
 
 ### Examples
 
-Example CLEs can be found as [templates of CLE scaffold](https://github.com/hyperoracle/zkgraph-cli/tree/main/packages/create-zkgraph/templates).
+Example CLEs can be found as [templates of CLE scaffold](https://github.com/ora-io/cle-cli/tree/main/packages/create-zkgraph/templates).

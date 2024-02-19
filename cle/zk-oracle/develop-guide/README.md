@@ -44,7 +44,7 @@ dataDestinations:
     address: "0x0000000000000000000000000000000000000001"
 ```
 
-More examples can be found as [templates of cle scaffold](https://github.com/hyperoracle/zkgraph-cli/tree/main/packages/create-zkgraph/templates).
+More examples can be found as [templates of CLE scaffold](https://github.com/ora-io/cle-cli/tree/main/packages/create-zkgraph/templates).
 
 #### Supported `network` with Features
 
@@ -64,7 +64,7 @@ More examples can be found as [templates of cle scaffold](https://github.com/hyp
 
 `specVersion` specifies the `cle.yaml` configuration format version, parsed by ORA Node or other libraries.
 
-<table><thead><tr><th width="147.33333333333331">specVersion</th><th width="274">Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr><tr><td>0.0.2</td><td><code>apiVersion</code>, <code>dataSources</code>, <code>mapping</code></td><td><a href="https://github.com/hyperoracle/zkgraph-cli/blob/abfbb9b33e91099b1f4b791aefe2bf7decc05741/packages/create-zkgraph/templates/template-event/src/zkgraph.yaml">https://github.com/hyperoracle/zkgraph-cli/blob/abfbb9b33e91099b1f4b791aefe2bf7decc05741/packages/create-zkgraph/templates/template-event/src/zkgraph.yaml</a></td></tr></tbody></table>
+<table><thead><tr><th width="147.33333333333331">specVersion</th><th width="274">Updated Data Fields</th><th data-type="content-ref">Example</th></tr></thead><tbody><tr><td>0.0.1</td><td>/</td><td><a href="https://github.com/ora-io/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml">https://github.com/ora-io/zkgraph/blob/4329897bf502ecf8cc36ecac8d39df75bf3b8f8f/src/zkgraph.yaml</a></td></tr><tr><td>0.0.2</td><td><code>apiVersion</code>, <code>dataSources</code>, <code>mapping</code></td><td><a href="https://github.com/ora-io/cle-cli/blob/abfbb9b33e91099b1f4b791aefe2bf7decc05741/packages/create-zkgraph/templates/template-event/src/zkgraph.yaml">https://github.com/ora-io/cle-cli/blob/abfbb9b33e91099b1f4b791aefe2bf7decc05741/packages/create-zkgraph/templates/template-event/src/zkgraph.yaml</a></td></tr></tbody></table>
 
 ### CLE Mapping (`mapping.ts`)
 

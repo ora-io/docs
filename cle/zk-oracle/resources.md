@@ -2,7 +2,7 @@
 
 ### Ecosystem and Examples
 
-We are also running a curated list for latest examples and project ideas using Ora: [awesome-ora](https://github.com/hyperoracle/awesome-ora).
+We are also running a curated list for latest examples and project ideas using Ora: [awesome-ora](https://github.com/ora-io/awesome-ora).
 
 ### Tips
 
