@@ -4,7 +4,7 @@ Here is the conceptual architecture for a running zkOracle node in the ORA netwo
 
 The design at the start of this section is similar to the previous one, with a few changes made to highlight certain details.
 
-<figure><img src="../../.gitbook/assets/litepaper.001 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/litepaper.001 (9).png" alt=""><figcaption></figcaption></figure>
 
 To discuss the design, let's move from left to right and top to bottom:
 

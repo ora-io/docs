@@ -6,7 +6,7 @@ When creating a decentralized oracle, the zkOracle network has notable differenc
 
 To start, the workflow and architecture are distinct. The zkOracle network is more streamlined since all intensive computation is carried out securely and trustlessly off-chain using ZK. In contrast, traditional oracles are restricted to trustless aggregation and "trusted" computation by a smart contract's limited computing capability.
 
-<figure><img src="../../.gitbook/assets/litepaper.001 (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/litepaper.001 (8).png" alt=""><figcaption></figcaption></figure>
 
 Based on the graph shown above, we can compare the advantages of zkOracle network to traditional oracle networks:
 
