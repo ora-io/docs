@@ -2,7 +2,7 @@
 
 ### Ecosystem and Examples
 
-We are also running a curated list for latest examples and project ideas using Ora: [awesome-ora](https://github.com/ora-io/awesome-ora).
+We have a running list of example CLE’s using ORA and project ideas that can be built at: [awesome-ora](https://github.com/ora-io/awesome-ora).
 
 ### Tips
 

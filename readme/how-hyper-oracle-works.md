@@ -1,6 +1,6 @@
 # How ORA Works
 
-ORA provides developers to build end-to-end trustless and decentralized applications, with:
+ORA provides developers with an easy way to build end-to-end trustless and decentralized applications, with:
 
 * **AI Oracle (OAO, Onchain AI Oracle)**
 * **ZK Oracle**
@@ -16,7 +16,7 @@ ORA is a decentralized protocol and network:
 * Higher performance and shorter finality
 * Run arbitrary program and any large ML model
 
-### Advantages as Network
+### Advantages of ORA Oracle Network
 
 * Unstoppable autonomous protocol and network
 * Optimal cryptography-native decentralization
