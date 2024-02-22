@@ -27,7 +27,10 @@ OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
 To integrate with OAO, you will need to write your own contract.
 
-You can take a look at this example ([Prompt.sol](https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2#code#F3#L1)) we created to build your own.
+To build with different models of OAO:
+
+* LlaMA2 usage: You can see this example ([Prompt.sol](https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2#code#F3#L1)) we created to build your own.
+* Stable Diffusion usage: You can see this example ([Onchain AI NFT](https://github.com/varun-doshi/Onchain-AI-NFT)) our ecosystem developer created. And refer to the [tutorial](https://medium.com/@varun-doshi/bring-ai-on-chain-with-ora-protocol-b7a034d24182).
 
 ```solidity
 contract Prompt is AIOracleCallbackReceiver {
