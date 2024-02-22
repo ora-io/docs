@@ -16,7 +16,7 @@
 
 For the development of a CLE, we offer two development methods:
 
-1. [CLE Studio on Web UI](1.-zkgraph-studio-ui.md) (🐣 INTRODUCTORY): Easy-to-use integrated web code editor and interface for experiencing zkGraph development for the first time.
+1. [CLE Studio on Web UI](1.-zkgraph-studio-ui.md) (🐣 INTRODUCTORY): Easy-to-use integrated web code editor and interface for experiencing CLE development for the first time.
 2. [CLE Scaffold](2.-zkgraph-scaffold.md) (✨ RECOMMENDED): More customizable and end-to-end scaffold for CLE development.
 
 ### Examples

@@ -12,6 +12,10 @@ A TypeScript-like language for WebAssembly.
 
 A type of middleware that performs operations without human control. Commonly used in blockchain due to smart contracts' inability to trigger automatic functions and DApps' need for periodic calls.
 
+### CLE
+
+Computational Entity. The customizable and programmable software defined by developers and the underlying oracle network running those software.
+
 ### Client
 
 A software for operating a node. Usually developed by the network's core developer team.
@@ -174,7 +178,7 @@ A commonly-used zero-knowledge proof cryptography.
 
 ### zkAutomation
 
-A trustless automation zkGraph Standard with zk.
+A trustless automation CLE Standard with zk. Aka. ZK Automation
 
 ### zkEVM
 
@@ -182,15 +186,15 @@ A zkVM with EVM instruction set as bytecode.
 
 ### zkGraph
 
-Codes that define and configs off-chain computation of HyperOracle zkOracle, with Subgraph-Equivalence.
+Codes that define and configs off-chain computation of HyperOracle zkOracle, with Subgraph-Equivalence. Now called "CLE".
 
 ### zkGraph Standards
 
-Standardized services provided by HyperOracle for DApp developers, including zkIndexing and zkAutomation. Previously called "Meta Apps".
+Standardized services provided by HyperOracle for DApp developers, including zkIndexing and zkAutomation. Previously called "Meta Apps". Now called "CLE Standards".
 
 ### zkIndexing
 
-A trustless indexing zkGraph Standard with zk.
+A trustless indexing CLE Standard with zk. Aka. ZK Indexing.
 
 ### zkML
 
@@ -198,7 +202,7 @@ Machine learning based on zk for verifiability and optional privacy.
 
 ### zkOracle
 
-An oracle with zk for verifiability and performance. Can be output zkOracle, and I/O zkOracle.
+An oracle with zk for verifiability and performance. Can be output zkOracle, and I/O zkOracle. Aka. ZK Oracle.
 
 ### zkOracle Network
 

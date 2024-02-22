@@ -15,6 +15,6 @@ ORA's work is trusted by Compound, Ethereum Foundation, Polygon, and Uniswap.
 
 #### Why ORA?
 
-* **We build, they follow**: We are the last oracle for developers. We are the only oracle that has shipped an AI Oracle which is practical to use on Ethereum right now. Moreover, our zkOracle is trustless and purely cryptography-based.
+* **We build, they follow**: We are the last oracle for developers. We are the only oracle that has shipped an AI Oracle which is practical to use on Ethereum right now. Moreover, our ZK Oracle is trustless and purely cryptography-based.
 * **Onchain AI engine**: Our AI Oracle currently supports LlaMA 2 (7B) and Stable Diffusion. You can use and integrate them onchain directly. In the future, we will support any ML model.
 * **Fast deployment**: We are coming to networks near you, including any network and any L2. You can build your own AI / ZK oracle that is programmable, permissionless, and censorship-resistant.

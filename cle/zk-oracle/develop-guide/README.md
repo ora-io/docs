@@ -56,7 +56,7 @@ More examples can be found as [templates of CLE scaffold](https://github.com/ora
 
 #### `apiVersion`
 
-`apiVersion` specifies the `cle-lib` version or any other libraries, used by a CLE, in zkOracles including CLE compiler.
+`apiVersion` specifies the `cle-lib` version or any other libraries, used by a CLE, in ZK Oracle including CLE compiler.
 
 <table><thead><tr><th width="132">apiVersion</th><th width="186.33333333333331">cle-lib Version</th><th>Notes</th></tr></thead><tbody><tr><td>0.0.1</td><td>0.0.8</td><td>Added <code>event</code> as data source, multi-address and multi-sources for data source.</td></tr><tr><td>0.0.2</td><td>1.0.0</td><td>Updated <code>block</code> as data source, <code>block</code> contains both <code>event</code> and <code>account</code> data.</td></tr></tbody></table>
 
@@ -90,7 +90,7 @@ export function handleBlocks(blocks: Block[]): Bytes {
 #### Requirements
 
 * **Function definition of required function must be** `function handleBlocks(blocks: Block[]): Bytes`**.**
-* **Return value of required function must be** `Bytes`**.** The best practice is to set it as [a payload / calldata](../getting-started/#pre-requisites), so that it can be used with [zkAutomation](../../../cle-standards/zk-oracle/zkautomation/) directly.
+* **Return value of required function must be** `Bytes`**.** The best practice is to set it as [a payload / calldata](../getting-started/#pre-requisites), so that it can be used with [ZK Automation](../../../cle-standards/zk-oracle/zkautomation/) directly.
 
 #### Access `Event` Data
 

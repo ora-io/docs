@@ -1,5 +1,5 @@
 ---
-description: Power CLE with ZK, "VM" of ORA zkOracle
+description: Power CLE with ZK, "VM" of ORA ZK Oracle
 ---
 
 # zkWASM VM

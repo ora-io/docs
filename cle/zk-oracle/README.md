@@ -1,6 +1,6 @@
 # ZK Oracle
 
-CLE in zkOracle defines the computation of ORA zkOracle nodes, including data-related behaviors and zk proof generation, much like how smart contracts define the EVM computation of Ethereum nodes.
+CLE in ZK Oracle defines the computation of ORA ZK Oracle nodes, including data-related behaviors and zk proof generation, much like how smart contracts define the EVM computation of Ethereum nodes.
 
 <figure><img src="../../.gitbook/assets/litepaper.001 (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -10,7 +10,7 @@ To utilize the infrastructure of ORA CLE Standards, developers must configure an
 
 ### Structure
 
-A CLE in zkOracle is customizable and programmable, and consists of three main components:
+A CLE in ZK Oracle is customizable and programmable, and consists of three main components:
 
 * Manifest (cle.yaml): The data source, used to configure information such as the CLE Standards used, the target blockchain network, and the target smart contract.
 * Mapping (mapping.ts): The data mapping (Offchain Computation), used to compute blockchain data into other forms.

@@ -27,12 +27,12 @@
 ## 💡 CLE Standards
 
 * [ZK Oracle](cle-standards/zk-oracle/README.md)
-  * [zkAutomation](cle-standards/zk-oracle/zkautomation/README.md)
+  * [ZK Automation](cle-standards/zk-oracle/zkautomation/README.md)
     * [Introduction](cle-standards/zk-oracle/zkautomation/introduction.md)
     * [User Guide](cle-standards/zk-oracle/zkautomation/user-guide.md)
-  * [zkIndexing (WIP)](cle-standards/zk-oracle/zkindexing/README.md)
+  * [ZK Indexing (WIP)](cle-standards/zk-oracle/zkindexing/README.md)
     * [Introduction](cle-standards/zk-oracle/zkindexing/introduction.md)
-  * [zkML (WIP)](cle-standards/zk-oracle/zkml.md)
+  * [ZK ML (WIP)](cle-standards/zk-oracle/zkml.md)
 
 ## 🛰 Technology
 

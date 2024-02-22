@@ -8,13 +8,13 @@ description: Frequently Asked Questions
 
 Our [framing of oracles](https://ethresear.ch/t/defining-zkoracle-for-ethereum/15131) categorizes oracles into three different types: input oracle (price feeds for example, inputs off-chain data to on-chain), output oracle (indexing, outputs on-chain data to off-chain), and I/O oracle (automation, output oracle + input oracle, outputs on-chain data to off-chain then computes and feeds result back to on-chain).
 
-Our zkOracle CLE Standards (Meta Apps) are output zkOracle and I/O zkOracle.
+Our ZK Oracle CLE Standards (Meta Apps) are output zkOracle and I/O zkOracle.
 
 ### Why zkWASM, not zkEVM?
 
-We want to support AssemblyScript code of zkOracle CLE for Subgraph-equivalence. This will power our ecosystem with the existing one of Subgraph. What zkEVM does is similar: support existing codes of EVM with EVM-equivalence and EVM-compatibility.
+We want to support AssemblyScript code of ZK Oracle CLE for Subgraph-equivalence. This will power our ecosystem with the existing one of Subgraph. What zkEVM does is similar: support existing codes of EVM with EVM-equivalence and EVM-compatibility.
 
-### What are security mechanisms for other zkOracle networks?
+### What are security mechanisms for other ZK Oracle networks?
 
 First, traditional oracle networks are mostly based on "PoS". [PoS in oracle networks is always insecure](https://mirror.xyz/hyperoracleblog.eth/RA-c\_9ydwKhSo-KV2Ti5Fu4YwThxSTQuBrlLX1\_huFw).
 
@@ -26,7 +26,7 @@ I/O oracles such as Gelato Network and Keep3r Network have governance for securi
 
 Yes.
 
-We believe the advancement in zk technology will drive down the cost of compute power and time required for proof generation to make zkOracle network desirable. We believe a fully trustless, decentralized, secure, and verifiabe oracle network as middleware for DApps is vital. If one component is centralized, the whole DApp is just a App with smart contract.
+We believe the advancement in zk technology will drive down the cost of compute power and time required for proof generation to make ZK Oracle network desirable. We believe a fully trustless, decentralized, secure, and verifiabe oracle network as middleware for DApps is vital. If one component is centralized, the whole DApp is just a App with smart contract.
 
 ### Is ORA a rollup or layer 2?
 
@@ -34,23 +34,23 @@ Neither.
 
 ORA is verifiable oracle protocol. ORA network looks like a "layer 2" on a typical blockchain network. However, it doesn't scale smart contracts' computation, but extends smart contracts' features. An actual rollup requires [a bridge](https://drive.google.com/file/d/1KOEKNDGLBiLbaUDnIxCV6L1aBJblGPJs/view) or [an aggregator](https://www.youtube.com/watch?v=NKQz9jU0ftg).
 
-### Is ORA zkOracle "zk" (with privacy) or "validity"?
+### Is ORA ZK Oracle "zk" (with privacy) or "validity"?
 
 Validity, for now.
 
 Given that oracle often operates for public computation and handles public data for blockchains, it may not be necessary to add a private layer on validity. We may explore privacy in some future use cases.&#x20;
 
-### What computation in ORA zkOracle is secured by zk?
+### What computation in ORA ZK Oracle is secured by zk?
 
-The whole pipeline of zkOracle.
+The whole pipeline of ZK Oracle.
 
 Data source accessing is secured by zkPoS, and off-chain computation is secured by zkWASM.
 
-### How data source of zkOracle is secured since zk are only safeguarding computation?
+### How data source of ZK Oracle is secured since zk are only safeguarding computation?
 
 On-chain data.
 
-The computation is secured by zk, but data source cannot be guaranteed to be safe only by zk. If we use any kind of data from any source, this may break the security of zkOracle even though computation is  valid. On-chain data is already verified and secured by the base layer blockchain. That's why we are only developing output zkOracle and I/O zkOracle.
+The computation is secured by zk, but data source cannot be guaranteed to be safe only by zk. If we use any kind of data from any source, this may break the security of ZK Oracle even though computation is  valid. On-chain data is already verified and secured by the base layer blockchain. That's why we are only developing output ZK Oracle and I/O ZK Oracle.
 
 ### Is ORA "adding new features" to existing oracles, or "rebuilding and replacing"?
 
@@ -58,23 +58,23 @@ Rebuilding and replacing.
 
 We are the first and your last oracle.
 
-### Who will need ORA zkOracle CLE Standards?
+### Who will need ORA ZK Oracle CLE Standards?
 
 All Web3 developers.
 
 All developers that need to handle blockchain data and interact with smart contract will need ORA CLE Standards. Especially, developers value decentralization and performance will choose ORA CLE Standards than other oracle networks.
 
-### What is the zk tech stack of ORA zkOracle?
+### What is the zk tech stack of ORA ZK Oracle?
 
 Halo2 PSE and UltraPLONK.
 
 More details can be found in our Github.
 
-### Will ORA do Input zkOracle?
+### Will ORA do Input ZK Oracle?
 
 Yes.
 
-We may experiment with input zkOracles such as zkML in the future.
+We may experiment with input ZK Oracles such as zkML in the future.
 
 ### What will be the economic design for ORA Network?
 
@@ -86,7 +86,7 @@ But our idea is that the whole economic model should be simple enough, not a sys
 
 Yes.
 
-In the future, anyone will be able to run a ORA zkOracle node. In the meantime, we will make technical and architectural efforts to make the hardware requirements to run the node even lower, even running a prover in the web.
+In the future, anyone will be able to run a ORA ZK Oracle node. In the meantime, we will make technical and architectural efforts to make the hardware requirements to run the node even lower, even running a prover in the web.
 
 ### Is ORA a oracle?
 
@@ -94,11 +94,11 @@ Yes.
 
 ORA is the verifiable oracle protocol.
 
-### Does cost of using ORA zkOracle CLE Standards higher than other oracle services without zk?
+### Does cost of using ORA ZK Oracle CLE Standards higher than other oracle services without zk?
 
 Overall, lower sometimes; in terms of unit calculations, slightly higher.
 
-Overall, each CLE requires only one zkOracle node to ensure security, while other oracle networks require a very large number of nodes to ensure computational validity with these redundancies. Therefore, on the whole system, only 1 node is needed for the overhead of the whole service without considering the overall robustness, uptime, and performance improvement.
+Overall, each CLE requires only one ZK Oracle node to ensure security, while other oracle networks require a very large number of nodes to ensure computational validity with these redundancies. Therefore, on the whole system, only 1 node is needed for the overhead of the whole service without considering the overall robustness, uptime, and performance improvement.
 
 If the calculation is based on each index or query, then there is always an additional proof generation cost for each calculation. However, in the case of the zkEVM Rollup, these premiums are evened out, ending up with an additional $0.0...N per computed proof. In addition, some proof generation results can be shared, such as zkPoS and event proof.
 
@@ -110,7 +110,7 @@ The I/O oracle data flow is actually output oracle, then input Oracle. It is not
 
 No.
 
-We really want to frame rollup as a kind of oracle, and zk rollup as a zkOracle. However, rollup’s system is more complex. The core part of oracle is not about "oracle". To avoid confusion, rollup is not one category in zkOracle.
+We really want to frame rollup as a kind of oracle, and zk rollup as a ZK Oracle. However, rollup’s system is more complex. The core part of oracle is not about "oracle". To avoid confusion, rollup is not one category in ZK Oracle.
 
 ### Is price feeds an input oracle if data source is price of on-chain assets?
 
@@ -126,7 +126,7 @@ Yes.
 
 Strictly speaking, nothing is trustless because you still have to trust some fundamental rules like Math or Cryptography. But we still use the term of trustless to demonstrate the trustworthiness, security, verifiability, and decentralization of our network. [Trust-minimized](https://twitter.com/toghrulmaharram/status/1643739327128829955) is still a good word that describes ORA.
 
-### Why finality matters and does overhead in proof generation makes ORA zkOracle slower?
+### Why finality matters and does overhead in proof generation makes ORA ZK Oracle slower?
 
 Finality means the ultimate certainty and correctness of the data. Any use and presentation of the data is only completely secure once the finality is confirmed. This is essential for an oracle.
 
