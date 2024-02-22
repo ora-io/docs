@@ -32,7 +32,7 @@
     * [User Guide](cle-standards/zk-oracle/zkautomation/user-guide.md)
   * [ZK Indexing (WIP)](cle-standards/zk-oracle/zkindexing/README.md)
     * [Introduction](cle-standards/zk-oracle/zkindexing/introduction.md)
-  * [ZK ML (WIP)](cle-standards/zk-oracle/zkml.md)
+  * [zkML (WIP)](cle-standards/zk-oracle/zkml.md)
 
 ## 🛰 Technology
 
