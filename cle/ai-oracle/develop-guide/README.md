@@ -29,50 +29,5 @@ To integrate with OAO, you will need to write your own contract.
 
 To build with different models of OAO:
 
-* LlaMA2 usage: You can see this example ([Prompt.sol](https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2#code#F3#L1)) we created to build your own.
-* Stable Diffusion usage: You can see this example ([Onchain AI NFT](https://github.com/varun-doshi/Onchain-AI-NFT)) our ecosystem developer created. And refer to the [tutorial](https://medium.com/@varun-doshi/bring-ai-on-chain-with-ora-protocol-b7a034d24182).
-
-```solidity
-contract Prompt is AIOracleCallbackReceiver {
-    event promptsUpdated(
-        uint256 modelId,
-        string input,
-        string output
-    );
-
-    event promptRequest(
-        address sender, 
-        uint256 modelId,
-        string prompt
-    );
-
-    /// @notice Initialize the contract, binding it to a specified AIOracle.
-    constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle) {}
-
-    /// @notice Gas limit set on the callback from AIOracle.
-    /// @dev Should be set to the maximum amount of gas your callback might reasonably consume.
-    uint64 private constant AIORACLE_CALLBACK_GAS_LIMIT = 5000000;
-
-    // uint256: modelID, 0 for Llama, 1 for stable diffusion
-    // 1.string => 2.string: 1.string: prompt, 2.string: text (for llama), cid (for sd) 
-    mapping(uint256 => mapping(string => string)) public prompts;
-
-    function getAIResult(uint256 modelId, string calldata prompt) external view returns (string memory) {
-        return prompts[modelId][prompt];
-    }
-
-    // only the AI Oracle can call this function
-    function storeAIResult(uint256 modelId, bytes calldata input, bytes calldata output) external onlyAIOracleCallback() {
-        prompts[modelId][string(input)] = string(output);
-        emit promptsUpdated(modelId, string(input), string(output));
-    }
-
-    function calculateAIResult(uint256 modelId, string calldata prompt) external {
-        bytes memory input = bytes(prompt);
-        aiOracle.requestCallback(
-            modelId, input, address(this), this.storeAIResult.selector, AIORACLE_CALLBACK_GAS_LIMIT
-        );
-        emit promptRequest(msg.sender, modelId, prompt);
-    }
-}
-```
+* **LlaMA2 usage**: You can see this example ([Prompt](https://github.com/ora-io/OAO/blob/main/contracts/Prompt.sol)) we created to build your own.
+* **Stable Diffusion usage**: You can see this example ([Onchain AI NFT](https://github.com/varun-doshi/Onchain-AI-NFT)) our ecosystem developer created. And refer to the [tutorial](https://medium.com/@varun-doshi/bring-ai-on-chain-with-ora-protocol-b7a034d24182).
