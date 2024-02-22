@@ -144,6 +144,16 @@ Simply put, ORA is a key network of the entire World Supercomputer network. In a
 
 The main difference between modular blockchain (including L2 Rollup) and world computer architecture lies in their purpose: Modular blockchain is designed for creating a new blockchain by selecting modules (consensus, DA, settlement, and execution) to put together into a modular blockchain; while World Supercomputer is designed to establish a global decentralized computer/network by combining networks (base layer blockchain, storage network, computation network) into a world computer.
 
+### How does opML guarantee consistency, given ML models are non-deterministic?
+
+The model will have to using deterministic inference, either using the [built in Nvidia deterministic feature](https://docs.nvidia.com/clara/clara-train-archive/3.1/nvmidl/additional\_features/determinism.html), or move the model into our deterministic vm (recommended for better support).
+
+### How does AI Oracle handle large responses such as ones to generate videos or images?
+
+The generated content will be stored on decentralized storage network, eg. IPFS.
+
+For IPFS, you can retrieve them with IPFS gateway with the given id from AI Oracle.
+
 ### ...still got questions?
 
 Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).
