@@ -154,6 +154,12 @@ The generated content will be stored on decentralized storage network, eg. IPFS.
 
 For IPFS, you can retrieve them with IPFS gateway with the given id from AI Oracle.
 
+### What's the challenge time of opML? 7 days?
+
+Normally, optimistic rollups choose 7 days as their challenge period.&#x20;
+
+For opML the challenge period can be shorter, because it is not a rollup, which involves a lot of financial operations and maintains a public ledger. When optimized, the challenge period can be like [a sovereign rollup](https://modularmedia.substack.com/i/132840875/do-optimistic-sovereign-rollups-make-sense) of [a few minutes](https://twitter.com/nickwh8te/status/1674419952517009409) or [even a few seconds](https://twitter.com/colludingnode/status/1673730479000809473).
+
 ### ...still got questions?
 
 Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).

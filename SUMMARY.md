@@ -4,7 +4,7 @@
   * [How ORA Works](readme/how-hyper-oracle-works.md)
   * [Towards a World Supercomputer](readme/towards-a-world-supercomputer.md)
 
-## 🛠 CLE
+## 🛠️ CLE
 
 * [Introduction](cle/introduction.md)
 * [AI Oracle](cle/ai-oracle/README.md)
@@ -34,7 +34,7 @@
     * [Introduction](cle-standards/zk-oracle/zkindexing/introduction.md)
   * [zkML (WIP)](cle-standards/zk-oracle/zkml.md)
 
-## 🛰 Technology
+## 🛰️ Technology
 
 * [Core Components](technology/core-components/README.md)
   * [AI Oracle](technology/core-components/ai-oracle/README.md)
