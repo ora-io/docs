@@ -3,6 +3,9 @@
 * [ORA](README.md)
   * [How ORA Works](readme/how-hyper-oracle-works.md)
   * [Towards a World Supercomputer](readme/towards-a-world-supercomputer.md)
+* [🏦 IMO](imo/README.md)
+  * [Participate](imo/participate.md)
+  * [Technology](imo/technology.md)
 
 ## 🛠️ CLE
 
@@ -23,13 +26,13 @@
     * [1. Smart Contract](cle/zk-oracle/integration-guide/1.-smart-contract.md)
     * [2. Frontend / Backend](cle/zk-oracle/integration-guide/2.-frontend-backend.md)
 * [CLE Standards](cle/cle-standards/README.md)
-  * [ZK Oracle](cle/cle-standards/zk-oracle/README.md)
-    * [ZK Automation](cle/cle-standards/zk-oracle/zkautomation/README.md)
-      * [Introduction](cle/cle-standards/zk-oracle/zkautomation/introduction.md)
-      * [User Guide](cle/cle-standards/zk-oracle/zkautomation/user-guide.md)
-    * [ZK Indexing (WIP)](cle/cle-standards/zk-oracle/zkindexing/README.md)
-      * [Introduction](cle/cle-standards/zk-oracle/zkindexing/introduction.md)
-    * [zkML (WIP)](cle/cle-standards/zk-oracle/zkml.md)
+  * [ZK Oracle](cle-standards/zk-oracle/README.md)
+    * [ZK Automation](cle-standards/zk-oracle/zkautomation/README.md)
+      * [Introduction](cle-standards/zk-oracle/zkautomation/introduction.md)
+      * [User Guide](cle-standards/zk-oracle/zkautomation/user-guide.md)
+    * [ZK Indexing (WIP)](cle-standards/zk-oracle/zkindexing/README.md)
+      * [Introduction](cle-standards/zk-oracle/zkindexing/introduction.md)
+    * [zkML (WIP)](cle-standards/zk-oracle/zkml.md)
 * [Resources](cle/resources.md)
 
 ## 🛰️ Technology

@@ -90,7 +90,7 @@ export function handleBlocks(blocks: Block[]): Bytes {
 #### Requirements
 
 * **Function definition of required function must be** `function handleBlocks(blocks: Block[]): Bytes`**.**
-* **Return value of required function must be** `Bytes`**.** The best practice is to set it as [a payload / calldata](../getting-started/#pre-requisites), so that it can be used with [ZK Automation](../../cle-standards/zk-oracle/zkautomation/) directly.
+* **Return value of required function must be** `Bytes`**.** The best practice is to set it as [a payload / calldata](../getting-started/#pre-requisites), so that it can be used with [ZK Automation](../../../cle-standards/zk-oracle/zkautomation/) directly.
 
 #### Access `Event` Data
 
