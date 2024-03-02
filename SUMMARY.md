@@ -22,17 +22,15 @@
   * [Integration Guide](cle/zk-oracle/integration-guide/README.md)
     * [1. Smart Contract](cle/zk-oracle/integration-guide/1.-smart-contract.md)
     * [2. Frontend / Backend](cle/zk-oracle/integration-guide/2.-frontend-backend.md)
+* [CLE Standards](cle/cle-standards/README.md)
+  * [ZK Oracle](cle/cle-standards/zk-oracle/README.md)
+    * [ZK Automation](cle/cle-standards/zk-oracle/zkautomation/README.md)
+      * [Introduction](cle/cle-standards/zk-oracle/zkautomation/introduction.md)
+      * [User Guide](cle/cle-standards/zk-oracle/zkautomation/user-guide.md)
+    * [ZK Indexing (WIP)](cle/cle-standards/zk-oracle/zkindexing/README.md)
+      * [Introduction](cle/cle-standards/zk-oracle/zkindexing/introduction.md)
+    * [zkML (WIP)](cle/cle-standards/zk-oracle/zkml.md)
 * [Resources](cle/resources.md)
-
-## 💡 CLE Standards
-
-* [ZK Oracle](cle-standards/zk-oracle/README.md)
-  * [ZK Automation](cle-standards/zk-oracle/zkautomation/README.md)
-    * [Introduction](cle-standards/zk-oracle/zkautomation/introduction.md)
-    * [User Guide](cle-standards/zk-oracle/zkautomation/user-guide.md)
-  * [ZK Indexing (WIP)](cle-standards/zk-oracle/zkindexing/README.md)
-    * [Introduction](cle-standards/zk-oracle/zkindexing/introduction.md)
-  * [zkML (WIP)](cle-standards/zk-oracle/zkml.md)
 
 ## 🛰️ Technology
 
@@ -40,10 +38,10 @@
   * [AI Oracle](technology/core-components/ai-oracle/README.md)
     * [opML](technology/core-components/ai-oracle/opml.md)
   * [ZK Oracle](technology/core-components/zk-oracle/README.md)
-    * [zkWASM VM](technology/core-components/zk-oracle/zkwasm.md)
     * [zkAssemblyScript](technology/core-components/zk-oracle/zkassemblyscript.md)
     * [Specialized Circuit](technology/core-components/zk-oracle/specialized-circuit.md)
     * [C-AS Link Compiler](technology/core-components/zk-oracle/c-as-link-compiler.md)
+    * [zkWASM VM](technology/core-components/zk-oracle/zkwasm.md)
 * [Architecture](technology/architecture/README.md)
   * [ZK Oracle](technology/architecture/architecture.md)
 * [Comparisons](technology/comparisons/README.md)
