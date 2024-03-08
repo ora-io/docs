@@ -2,7 +2,7 @@
 description: Initial Model Offering
 ---
 
-# 🏦 IMO
+# Introduction
 
 In this age of AI, ORA is introducing a new mechanism, [IMO (Initial Model Offering)](https://www.ora.io/imo).
 

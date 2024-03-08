@@ -1,3 +1,0 @@
-# Participate
-
-Soon.

@@ -1,11 +1,15 @@
 # Table of contents
 
-* [ORA](README.md)
-  * [How ORA Works](readme/how-hyper-oracle-works.md)
-  * [Towards a World Supercomputer](readme/towards-a-world-supercomputer.md)
-* [🏦 IMO](imo/README.md)
-  * [Participate](imo/participate.md)
-  * [Technology](imo/technology.md)
+## 🔵 ORA
+
+* [About ORA](README.md)
+* [How ORA Works](ora/how-ora-works.md)
+* [Towards a World Supercomputer](ora/towards-a-world-supercomputer.md)
+
+## 🏦 IMO
+
+* [Introduction](imo/introduction.md)
+* [Technology](imo/technology.md)
 
 ## 🛠️ CLE
 

@@ -2,7 +2,7 @@
 description: Verifiable Oracle Protocol
 ---
 
-# ORA
+# About ORA
 
 <img src=".gitbook/assets/Rainbow-Radiating-V1_00167-b.png" alt="" data-size="line">ORA is the verifiable oracle protocol that brings AI and complex compute onchain. ORA has two main products:
 
