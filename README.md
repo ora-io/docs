@@ -7,7 +7,7 @@ description: Verifiable Oracle Protocol
 <img src=".gitbook/assets/Rainbow-Radiating-V1_00167-b.png" alt="" data-size="line">ORA is the verifiable oracle protocol that brings AI and complex compute onchain. ORA has two main products:
 
 * **AI Oracle (OAO)**: Brings AI onchain.
-* **ZK Oracle**: Brings complex compute and historical data onchain.
+* **zkOracle**: Brings complex compute and historical data onchain.
 
 ORA breaks down the limitations of smart contracts with richer data sources and compute so developers can innovate freely.
 

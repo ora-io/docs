@@ -106,7 +106,7 @@ A process of producing zero-knowledge proof. Usually takes much longer than exec
 
 ### Recursive Proof
 
-A zk proof that verifies other zk proofs, for compressing more knowledge into a single proof.
+A ZK proof that verifies other ZK proofs, for compressing more knowledge into a single proof.
 
 ### Slashing
 

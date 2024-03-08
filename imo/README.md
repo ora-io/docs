@@ -8,7 +8,7 @@ In this age of AI, ORA is introducing a new mechanism, [IMO (Initial Model Offer
 
 **TL;DR: IMO tokenizes AI model onchain.**
 
-* **For token holders, IMO let anyone capture the value of AI models onchain.**
+* **For token holders, IMO lets anyone capture the value of AI models onchain.**
 * **For AI models, IMO enables sustainable funding for open-source AI models to win over proprietary AI.**
 
 <figure><img src="../.gitbook/assets/Untitled (2).png" alt=""><figcaption></figcaption></figure>

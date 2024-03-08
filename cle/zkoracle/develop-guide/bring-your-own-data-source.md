@@ -10,7 +10,7 @@ description: >-
 
 Data Source Plugin is a generalized plugin interface designed for CLE infrastructure development. DSP is designed for adding new data source support.
 
-DSP is designed mainly for facilitating the CLE core development (eg. by HO Team), rather than the application development of CLE (CLE Dev Users).
+DSP is designed mainly for facilitating the CLE core development (eg. by ORA Team), rather than the application development of CLE (CLE Dev Users).
 
 ### Add new data source with DSP
 

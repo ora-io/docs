@@ -2,8 +2,8 @@
 
 ORA provides developers with an easy way to build end-to-end trustless and decentralized applications, with:
 
-* **AI Oracle (OAO, Onchain AI Oracle)**
-* **ZK Oracle**
+* **AI Oracle (OAO - Onchain AI Oracle)**
+* **zkOracle**
 
 ORA is a decentralized protocol and network:
 

@@ -34,19 +34,19 @@ Neither.
 
 ORA is verifiable oracle protocol. ORA network looks like a "layer 2" on a typical blockchain network. However, it doesn't scale smart contracts' computation, but extends smart contracts' features. An actual rollup requires [a bridge](https://drive.google.com/file/d/1KOEKNDGLBiLbaUDnIxCV6L1aBJblGPJs/view) or [an aggregator](https://www.youtube.com/watch?v=NKQz9jU0ftg).
 
-### Is ORA ZK Oracle "zk" (with privacy) or "validity"?
+### Is ORA zkOracle "zk" (with privacy) or "validity"?
 
 Validity, for now.
 
 Given that oracle often operates for public computation and handles public data for blockchains, it may not be necessary to add a private layer on validity. We may explore privacy in some future use cases.&#x20;
 
-### What computation in ORA ZK Oracle is secured by zk?
+### What computation in ORA zkOracle is secured by zk?
 
 The whole pipeline of ZK Oracle.
 
 Data source accessing is secured by zkPoS, and off-chain computation is secured by zkWASM.
 
-### How data source of ZK Oracle is secured since zk are only safeguarding computation?
+### How data source of zkOracle is secured since zk are only safeguarding computation?
 
 On-chain data.
 
@@ -58,19 +58,19 @@ Rebuilding and replacing.
 
 We are the first and your last oracle.
 
-### Who will need ORA ZK Oracle CLE Standards?
+### Who will need ORA zkOracle CLE Standards?
 
 All Web3 developers.
 
 All developers that need to handle blockchain data and interact with smart contract will need ORA CLE Standards. Especially, developers value decentralization and performance will choose ORA CLE Standards than other oracle networks.
 
-### What is the zk tech stack of ORA ZK Oracle?
+### What is the zk tech stack of ORA zkOracle?
 
 Halo2 PSE and UltraPLONK.
 
 More details can be found in our Github.
 
-### Will ORA do Input ZK Oracle?
+### Will ORA do Input zkOracle?
 
 Yes.
 
@@ -80,25 +80,25 @@ We may experiment with input ZK Oracles such as zkML in the future.
 
 Currently, it is not final.
 
-But our idea is that the whole economic model should be simple enough, not a system that is difficult to understand through various [complex mechanisms](https://twitter.com/matthuang/status/1638359675258421248). Compared to similar oracle networks, we will remove some unnecessary "added to maintain the token price" mechanisms, while our zk mechanism is essentially replacing the unnecessary staking mechanism in oracle networks. Our final model will probably be like PoW's Ethereum or Aleo.
+But our idea is that the whole economic model should be simple enough, not a system that is difficult to understand through various [complex mechanisms](https://twitter.com/matthuang/status/1638359675258421248). Compared to similar oracle networks, we will remove some unnecessary "added to maintain the token price" mechanisms, while our ZK mechanism is essentially replacing the unnecessary staking mechanism in oracle networks. Our final model will probably be like PoW's Ethereum or Aleo.
 
 ### Is ORA network permissionless?
 
 Yes.
 
-In the future, anyone will be able to run a ORA ZK Oracle node. In the meantime, we will make technical and architectural efforts to make the hardware requirements to run the node even lower, even running a prover in the web.
+In the future, anyone will be able to run a ORA zkOracle node. In the meantime, we will make technical and architectural efforts to make the hardware requirements to run the node even lower, even running a prover in the web.
 
-### Is ORA a oracle?
+### Is ORA an oracle?
 
 Yes.
 
 ORA is the verifiable oracle protocol.
 
-### Does cost of using ORA ZK Oracle CLE Standards higher than other oracle services without zk?
+### Is the cost of using ORA zkOracle CLE Standards higher than other oracle services without zk?
 
 Overall, lower sometimes; in terms of unit calculations, slightly higher.
 
-Overall, each CLE requires only one ZK Oracle node to ensure security, while other oracle networks require a very large number of nodes to ensure computational validity with these redundancies. Therefore, on the whole system, only 1 node is needed for the overhead of the whole service without considering the overall robustness, uptime, and performance improvement.
+Overall, each CLE requires only one zkOracle node to ensure security, while other oracle networks require a very large number of nodes to ensure computational validity with these redundancies. Therefore, on the whole system, only 1 node is needed for the overhead of the whole service without considering the overall robustness, uptime, and performance improvement.
 
 If the calculation is based on each index or query, then there is always an additional proof generation cost for each calculation. However, in the case of the zkEVM Rollup, these premiums are evened out, ending up with an additional $0.0...N per computed proof. In addition, some proof generation results can be shared, such as zkPoS and event proof.
 
@@ -122,11 +122,11 @@ Even if data source is about on-chain assets, the price still comes from somethi
 
 Yes.
 
-### Why ORA is trustless, not trust-minimized/trustful?
+### Why is ORA trustless, not trust-minimized/trustful?
 
 Strictly speaking, nothing is trustless because you still have to trust some fundamental rules like Math or Cryptography. But we still use the term of trustless to demonstrate the trustworthiness, security, verifiability, and decentralization of our network. [Trust-minimized](https://twitter.com/toghrulmaharram/status/1643739327128829955) is still a good word that describes ORA.
 
-### Why finality matters and does overhead in proof generation makes ORA ZK Oracle slower?
+### Why does finality matter and does overhead in proof generation makes ORA zkOracle slower?
 
 Finality means the ultimate certainty and correctness of the data. Any use and presentation of the data is only completely secure once the finality is confirmed. This is essential for an oracle.
 
