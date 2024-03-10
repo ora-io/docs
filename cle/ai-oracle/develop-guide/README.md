@@ -6,11 +6,11 @@ OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
 ## Supported Models
 
-<table><thead><tr><th width="124">Model ID</th><th width="152">Model</th><th>Return Value</th></tr></thead><tbody><tr><td>0</td><td>LlaMA 2</td><td>Text</td></tr><tr><td>1</td><td>Stable Diffusion</td><td>IPFS Hash (access it with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="124">Model ID</th><th width="152">Model</th><th>Return Value</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 2</td><td>Text</td></tr><tr><td>50</td><td>Stable Diffusion</td><td>IPFS Hash (access it with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
 
 ## Contract Addresses
 
-<table><thead><tr><th width="287">Contract</th><th width="440">Address</th></tr></thead><tbody><tr><td>AIOracle</td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d">0xb880D47D3894D99157B52A7F869aB3B1E2D4349d</a></td></tr><tr><td><p>Prompt</p><p>(example usage contract)</p></td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2">0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2</a></td></tr></tbody></table>
+<table><thead><tr><th width="287">Contract</th><th width="440">Address</th><th>Archive Address</th></tr></thead><tbody><tr><td>AIOracle</td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td><td><a href="https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d">259f94e</a></td></tr><tr><td><p>Prompt</p><p>(example usage contract)</p></td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x3E774275c7761CFb781715A47cAE694BA9dEb44A">0x3E774275c7761CFb781715A47cAE694BA9dEb44A</a></td><td><a href="https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2">259f94e</a></td></tr></tbody></table>
 
 ## Workflow
 
@@ -25,9 +25,20 @@ OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
 ## Integration
 
+### Overview
+
 To integrate with OAO, you will need to write your own contract.
 
-To build with different models of OAO:
+To build with AI models of OAO, we provided an example of integration to LlaMA2 model: [Prompt](https://sepolia.etherscan.io/address/0x3E774275c7761CFb781715A47cAE694BA9dEb44A).
 
-* **LlaMA2 usage**: You can see this example ([Prompt](https://github.com/ora-io/OAO/blob/main/contracts/Prompt.sol)) we created to build your own.
-* **Stable Diffusion usage**: You can see this example ([Onchain AI NFT](https://github.com/varun-doshi/Onchain-AI-NFT)) our ecosystem developer created. And refer to the [tutorial](https://medium.com/@varun-doshi/bring-ai-on-chain-with-ora-protocol-b7a034d24182).
+### Fee
+
+Usage of OAO requires fee for each request.
+
+It is required to obtain the current fee by calling `estimateFee` in OAO or your usage contract with specific model id, then proceed to send request.
+
+Flow of getting and setting fee is:
+
+* Call to read `estimateFee` (on OAO or your contract if implemented) for inference with certain model
+* Get estimated fee in wei (eg. [21300788080000000](https://sepolia.etherscan.io/unitconverter?wei=21300788080000000))
+* Call to write and request AI inference on your contract, and fill in estimated fee in ether (eg. [0.02130078808](https://sepolia.etherscan.io/unitconverter?wei=21300788080000000))
