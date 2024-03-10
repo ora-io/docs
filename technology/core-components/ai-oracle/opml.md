@@ -1,5 +1,5 @@
 ---
-description: https://arxiv.org/pdf/2401.17555.pdf
+description: https://arxiv.org/abs/2401.17555
 ---
 
 # opML
@@ -16,6 +16,6 @@ In the blockchain field, there is another commonly used form of proof: the fault
 
 As [the inventor of opML](https://ethresear.ch/t/opml-optimistic-machine-learning-on-blockchain/16234) and its[ first open source implementation](https://github.com/ora-io/opml), we are thrilled to see the growing adoption of opML. After ORA's release of its [Onchain AI Oracle (OAO)](https://www.ora.io/app/opml/sd), opML can [run Stable Diffusion and LLaMA 2 directly on Ethereum](https://www.hyperoracle.io/app/opml/sd).
 
-Compared to zkML or other onchain ML methods, **opML is all you need**.
+Compared to zkML, **opML is all you need**.
 
-Learn more here: [https://arxiv.org/pdf/2401.17555.pdf](https://arxiv.org/pdf/2401.17555.pdf).
+Learn more here: [https://arxiv.org/abs/2401.17555](https://arxiv.org/abs/2401.17555).

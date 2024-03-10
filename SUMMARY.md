@@ -44,6 +44,7 @@
 * [Core Components](technology/core-components/README.md)
   * [AI Oracle](technology/core-components/ai-oracle/README.md)
     * [opML](technology/core-components/ai-oracle/opml.md)
+    * [opp/ai](technology/core-components/ai-oracle/opp-ai.md)
   * [zkOracle](technology/core-components/zkoracle/README.md)
     * [zkAssemblyScript](technology/core-components/zkoracle/zkassemblyscript.md)
     * [Specialized Circuit](technology/core-components/zkoracle/specialized-circuit.md)
