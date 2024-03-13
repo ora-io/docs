@@ -10,8 +10,8 @@ CLE, or computational entity, is the customizable and programmable software defi
 
 Currently, there are two types of CLE:
 
-* **CLE of AI Oracle**: **The AI/ML models integrated in** [**OAO**](ai-oracle/). Currently, CLE of AI Oracle includes Stable Diffusion and LlaMA2-7B, with distributed nodes of AI Oracle network.
-* **CLE of  zkOracle**: **The zk-powered programs (previously zkGraph) powered by zkOracle nodes**. Currently, CLE of zkOracle is fully decentralized and permissionless, so that anyone can build one.  Now we have [40+ open source CLEs of zkOracle](https://github.com/ora-io/awesome-ora#-zk-oracle-cle-ecosystem), with distributed nodes of zkOracle network.
+* **CLE of AI Oracle**: **The AI/ML models integrated in** [**OAO**](ai-oracle/) **are the core of CLE of AI Oracle**. Currently, CLE of AI Oracle includes Stable Diffusion and LlaMA2-7B, with distributed nodes of AI Oracle network.
+* **CLE of zkOracle**: **The zk-powered programs (previously zkGraph) powered by zkOracle nodes**. Currently, CLE of zkOracle is fully decentralized and permissionless, so that anyone can build one.  Now we have [40+ open source CLEs of zkOracle](https://github.com/ora-io/awesome-ora#-zk-oracle-cle-ecosystem), with distributed nodes of zkOracle network.
 
 Both types of CLE have various use cases:
 
