@@ -12,6 +12,6 @@
 
 ### Examples
 
-Example CLEs can be found here: Prompt[^1] ([https://sepolia.etherscan.io/address/0x3E774275c7761CFb781715A47cAE694BA9dEb44A#code#F3#L1](https://sepolia.etherscan.io/address/0x3E774275c7761CFb781715A47cAE694BA9dEb44A#code#F3#L1))
+Example CLEs can be found here: Prompt[^1] ([https://sepolia.etherscan.io/address/0x64BF816c3b90861a489A8eDf3FEA277cE1Fa0E82#code#F3#L1](https://sepolia.etherscan.io/address/0x64BF816c3b90861a489A8eDf3FEA277cE1Fa0E82#code#F3#L1))
 
 [^1]: 

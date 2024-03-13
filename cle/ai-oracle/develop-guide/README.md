@@ -10,7 +10,7 @@ OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
 ## Contract Addresses
 
-<table><thead><tr><th width="287">Contract</th><th width="440">Address</th><th>Archive Address</th></tr></thead><tbody><tr><td>AIOracle</td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td><td><a href="https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d">259f94e</a></td></tr><tr><td><p>Prompt</p><p>(example usage contract)</p></td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x3E774275c7761CFb781715A47cAE694BA9dEb44A">0x3E774275c7761CFb781715A47cAE694BA9dEb44A</a></td><td><a href="https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2">259f94e</a></td></tr></tbody></table>
+<table><thead><tr><th width="287">Contract</th><th width="440">Address</th><th>Archive Address</th></tr></thead><tbody><tr><td>AIOracle</td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td><td><a href="https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d">259f94e</a></td></tr><tr><td><p>Prompt</p><p>(example usage contract)</p></td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x64BF816c3b90861a489A8eDf3FEA277cE1Fa0E82">0x64BF816c3b90861a489A8eDf3FEA277cE1Fa0E82</a></td><td><a href="https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2">259f94e</a></td></tr></tbody></table>
 
 ## Workflow
 
