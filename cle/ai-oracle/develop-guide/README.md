@@ -39,6 +39,6 @@ It is required to obtain the current fee by calling `estimateFee` in OAO or your
 
 Flow of getting and setting fee is:
 
-* Call to read `estimateFee` (on OAO or your contract if implemented) for inference with certain model
-* Get estimated fee in wei (eg. [21300788080000000](https://sepolia.etherscan.io/unitconverter?wei=21300788080000000))
-* Call to write and request AI inference on your contract, and fill in estimated fee in ether (eg. [0.02130078808](https://sepolia.etherscan.io/unitconverter?wei=21300788080000000))
+1. Call to read `estimateFee` (on OAO or your contract if implemented) for inference with certain model
+2. Get estimated fee in wei (eg. [21300788080000000](https://sepolia.etherscan.io/unitconverter?wei=21300788080000000))
+3. Call to write and request AI inference on your contract, and fill in estimated fee in ether (eg. [0.02130078808](https://sepolia.etherscan.io/unitconverter?wei=21300788080000000))
