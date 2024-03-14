@@ -130,7 +130,9 @@ Strictly speaking, nothing is trustless because you still have to trust some fun
 
 Finality means the ultimate certainty and correctness of the data. Any use and presentation of the data is only completely secure once the finality is confirmed. This is essential for an oracle.
 
-In contrast to the dispute period mechanism, zk shortens the time from weeks to seconds.
+Finality of zk is when proof generated and verified; and finality of dispute period mechanism like The Graph is when challenge period is passed.
+
+In contrast to the dispute period mechanism like The Graph, zk may shorten the time.
 
 ### What is zkPoS exactly?
 
@@ -159,6 +161,22 @@ For IPFS, you can retrieve them with IPFS gateway with the given id from AI Orac
 Normally, optimistic rollups choose 7 days as their challenge period.&#x20;
 
 For opML the challenge period can be shorter, because it is not a rollup, which involves a lot of financial operations and maintains a public ledger. When optimized, the challenge period can be like [a sovereign rollup](https://modularmedia.substack.com/i/132840875/do-optimistic-sovereign-rollups-make-sense) of [a few minutes](https://twitter.com/nickwh8te/status/1674419952517009409) or [even a few seconds](https://twitter.com/colludingnode/status/1673730479000809473).
+
+### Are fraud proofs "slower" than zk proofs?
+
+As mentioned before, as long as the challenge time of optimistic fraud proof is shorter than proof generation of zk, fraud proofs are faster than zk proofs.
+
+It needs to be noted that zkML for huge AI models are not possible, or the zk proof generation of zkML approach is much slower than opML approach.
+
+### I want to build with ORA's onchain AI, what can I choose?
+
+You have multiple options for building ORA's onchain AI:
+
+* zkML of [keras2circom](https://github.com/ora-io/keras2circom) (the most battle-tested and performant zkML framework)
+* [opML](https://arxiv.org/abs/2401.17555) of [AI Oracle](../cle/ai-oracle/) (run huge model like LlaMA2-7B and Stable Diffusion now)
+* zk+opML with [opp/ai](https://arxiv.org/abs/2402.15006) (futuristic onchain AI fuses zkML's privacy and opML's scalability)
+
+We recommend you [build with AI Oracle with opML](../cle/ai-oracle/), because it is production-ready and out-of-the-box, with support to LlaMA2-7B and Stable Diffusion.
 
 ### ...still got questions?
 
