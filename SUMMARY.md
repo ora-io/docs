@@ -40,17 +40,12 @@
 
 ## 🛰️ Technology
 
-* [Innovations](technology/core-components/README.md)
-  * [zkML](technology/core-components/zkml.md)
-  * [opML](technology/core-components/opml.md)
-  * [opp/ai](technology/core-components/opp-ai.md)
-  * [Specialized Circuit](technology/core-components/specialized-circuit.md)
-  * [zkAssemblyScript](technology/core-components/zkassemblyscript.md)
-  * [zkWASM VM](technology/core-components/zkwasm.md)
-* [Architecture](technology/architecture/README.md)
-  * [zkOracle](technology/architecture/architecture.md)
-* [Comparisons](technology/comparisons/README.md)
-  * [zkOracle](technology/comparisons/zkoracle.md)
+* [zkML](technology/zkml.md)
+* [opML](technology/opml.md)
+* [opp/ai](technology/opp-ai.md)
+* [Specialized Circuit](technology/specialized-circuit.md)
+* [zkAssemblyScript](technology/zkassemblyscript.md)
+* [zkWASM VM](technology/zkwasm.md)
 
 ## 🧱 Resources
 
