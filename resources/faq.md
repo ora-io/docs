@@ -178,6 +178,12 @@ You have multiple options for building ORA's onchain AI:
 
 We recommend you [build with AI Oracle with opML](../cle/ai-oracle/), because it is production-ready and out-of-the-box, with support to LlaMA2-7B and Stable Diffusion.
 
+### What is the limitation of opML?
+
+Privacy, because all models in opML needs to be public and open-source for network participants to challenge.
+
+That is why we came up with [opp/ai](https://arxiv.org/abs/2402.15006) to add privacy feature to opML.
+
 ### ...still got questions?
 
 Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).
