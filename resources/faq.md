@@ -184,6 +184,17 @@ Privacy, because all models in opML needs to be public and open-source for netwo
 
 That is why we came up with [opp/ai](https://arxiv.org/abs/2402.15006) to add privacy feature to opML.
 
+### **What is the proving overhead, performance, and limitations of other zkML frameworks?**
+
+Here are some facts:
+
+* Modulus Labs used zkML to bring GPT2-1B onchain with [1m+ times overhead (200+ hours for each call), 128-core CPU and 1TB RAM](https://medium.com/@ModulusLabs/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e).
+* The zkML framework EZKL [takes around 80 minutes to generate a proof of a 1M-nanoGPT model](https://hackmd.io/mGwARMgvSeq2nGvQWLL2Ww#Honey-I-SNARKED-the-GPT).
+* [According to Modulus Labs](https://medium.com/@ModulusLabs/chapter-8-make-zkml-real-a3a355b2b756), zkML has >>1000 times overhead than pure computation, with [the latest report](https://twitter.com/shumochu/status/1723839817836888365) being 1000 times, and [200 times for tiny model](https://medium.com/@ModulusLabs/chapter-13-scaling-intelligence-637d4a374153).
+* According to [EZKL’s benchmark](https://blog.ezkl.xyz/post/benchmarks/), the average proving time of RISC Zero is of 173 seconds for Random Forest Classification.
+
+You can also check out [this Ethereum Foundation granted benchmark](https://hackmd.io/\_vrpMIusSEaROYUU7-Shaw) on our zkML framework with others.
+
 ### ...still got questions?
 
 Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).
