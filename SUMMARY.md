@@ -18,6 +18,7 @@
   * [Getting Started](cle/ai-oracle/getting-started.md)
   * [Develop Guide](cle/ai-oracle/develop-guide/README.md)
     * [Bring Your Own Model](cle/ai-oracle/develop-guide/bring-your-own-model.md)
+  * [Interact with Prompt Contract](cle/ai-oracle/interact-with-prompt-contract.md)
 * [zkOracle](cle/zkoracle/README.md)
   * [Getting Started](cle/zkoracle/getting-started/README.md)
     * [1. CLE Studio UI](cle/zkoracle/getting-started/1.-zkgraph-studio-ui.md)
