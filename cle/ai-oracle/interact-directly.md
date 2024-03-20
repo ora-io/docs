@@ -1,4 +1,8 @@
-# Interact with Prompt Contract
+---
+description: Usage Guide for Anyone to Use Onchain AI Directly on Etherscan
+---
+
+# Interact Directly
 
 As a user, to interact with AI Oracle, you can:
 
