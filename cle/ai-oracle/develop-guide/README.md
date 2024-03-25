@@ -4,13 +4,7 @@
 
 OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
-## Supported Models
-
-<table><thead><tr><th width="124">Model ID</th><th width="152">Model</th><th>Return Value</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 2</td><td>Text</td></tr><tr><td>50</td><td>Stable Diffusion</td><td>IPFS Hash (access it with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
-
-## Contract Addresses
-
-<table><thead><tr><th width="287">Contract</th><th width="440">Address</th><th>Archive Address</th></tr></thead><tbody><tr><td>AIOracle</td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td><td><a href="https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d">259f94e</a></td></tr><tr><td><p>Prompt</p><p>(example usage contract)</p></td><td>Sepolia: <a href="https://sepolia.etherscan.io/address/0x64BF816c3b90861a489A8eDf3FEA277cE1Fa0E82">0x64BF816c3b90861a489A8eDf3FEA277cE1Fa0E82</a></td><td><a href="https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2">259f94e</a></td></tr></tbody></table>
+For supported models in OAO and deployment addresses, see [Reference](../reference.md) page.
 
 ## Workflow
 
