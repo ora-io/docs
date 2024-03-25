@@ -15,6 +15,7 @@
 
 * [Introduction](cle/introduction.md)
 * [AI Oracle](cle/ai-oracle/README.md)
+  * [Getting Started](cle/ai-oracle/getting-started.md)
   * [Develop Guide](cle/ai-oracle/develop-guide/README.md)
     * [Bring Your Own Model](cle/ai-oracle/develop-guide/bring-your-own-model.md)
   * [Reference](cle/ai-oracle/reference.md)
