@@ -1,10 +1,12 @@
 # Develop Guide
 
-## Source Code
+## Resources
 
-OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
+Source code of OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
 For supported models in OAO and deployment addresses, see [Reference](../reference.md) page.
+
+For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
 
 ## Workflow
 

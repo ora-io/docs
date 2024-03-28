@@ -9,3 +9,7 @@
 #### Optional
 
 * AI development experience
+
+### Examples
+
+For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
