@@ -27,11 +27,29 @@ To integrate with OAO, you will need to write your own contract.
 
 To build with AI models of OAO, we provided an example of integration to LlaMA2 model: [Prompt](https://sepolia.etherscan.io/address/0x3E774275c7761CFb781715A47cAE694BA9dEb44A).
 
-### Fee
+### Smart Contract Integration
+
+1.  Inherit `AIOracleCallbackReceiver` in your contract and bind with a specific OAO address:
+
+    ```solidity
+    constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle) {}
+    ```
+2.  Write your callback function to handle the AI result from OAO. Note that only OAO can call this function:
+
+    ```solidity
+    function aiOracleCallback(uint256 requestId, bytes calldata output, bytes calldata callbackData) external override onlyAIOracleCallback()
+    ```
+3.  When you want to initiate an AI inference request, call OAO as follows:
+
+    ```solidity
+    aiOracle.requestCallback(modelId, input, address(this), gas_limit, callbackData);
+    ```
+
+### Application Integration with OAO Fee
 
 Usage of OAO requires fee for each request.
 
-It is required to obtain the current fee by calling `estimateFee` in OAO or your usage contract with specific model id, then proceed to send request.
+It is required to obtain the current fee by calling `estimateFee` in OAO or your integrated contract with specific model id, then proceed to send request.
 
 Flow of getting and setting fee is:
 
