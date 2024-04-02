@@ -195,6 +195,20 @@ Here are some facts:
 
 You can also check out [this Ethereum Foundation granted benchmark](https://hackmd.io/\_vrpMIusSEaROYUU7-Shaw) on our zkML framework with others.
 
+### What does the OAO fee consist of?
+
+OAO fee = Model Fee (for LlaMA2 or Stable Diffusion) + Callback Fee (for node to submit inference result back to onchain) + Network Fee (aka. transaction fee of networks like Ethereum)
+
+Callback fee and network fee may be higher when network is experiencing higher traffic.
+
+Callback fee may be lower if you are using model such as Stable Diffusion, because the inference result will be shorter (just an IPFS hash, instead of long paragraphs in LLM).
+
+### Why interact with OAO on Ethereum mainnet is expensive?
+
+With OAO fee's structure, callback fee usually takes up major portion of the overall fee, because storing data of inference result on Ethereum is expensive.
+
+You can try use Stable Diffusion model with OAO on Ethereum mainnet (because the callback fee will be lower), or use OAO on other networks, for lower cost.
+
 ### ...still got questions?
 
 Reach out in our [Discord](https://discord.gg/MgyYbW9dQj).
