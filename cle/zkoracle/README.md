@@ -1,4 +1,10 @@
+---
+description: https://ethresear.ch/t/defining-zkoracle-for-ethereum/15131
+---
+
 # zkOracle
+
+zkOracle is ORA's verifiable and decentralized computation oracle.
 
 CLE in zkOracle defines the computation of ORA zkOracle nodes, including data-related behaviors and ZK proof generation, much like how smart contracts define the EVM computation of Ethereum nodes.
 

@@ -14,6 +14,8 @@ ORA offers:
 * zk+opML with [opp/ai](https://arxiv.org/abs/2402.15006) (futuristic onchain AI fuses zkML's privacy and opML's scalability)
 {% endhint %}
 
+[AI Oracle (OAO)](https://blockworks.co/news/ora-on-chain-oracle-ethereum) is the ORA's verifiable and decentralized AI oracle.
+
 CLE in AI Oracle, the different AI models in AI Oracle, defines the computation and model of ORA AI Oracle / opML nodes.
 
 <figure><img src="../../.gitbook/assets/litepaper.001 (1) (1).png" alt=""><figcaption></figcaption></figure>
