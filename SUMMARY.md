@@ -47,7 +47,6 @@
 * [opp/ai](technology/opp-ai.md)
 * [Specialized Circuit](technology/specialized-circuit.md)
 * [zkAssemblyScript](technology/zkassemblyscript.md)
-* [zkWASM VM](technology/zkwasm.md)
 
 ## 🧱 Resources
 

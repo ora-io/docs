@@ -10,10 +10,6 @@ Our [framing of oracles](https://ethresear.ch/t/defining-zkoracle-for-ethereum/1
 
 Our ZK Oracle CLE Standards (Meta Apps) are output zkOracle and I/O zkOracle.
 
-### Why zkWASM, not zkEVM?
-
-We want to support AssemblyScript code of ZK Oracle CLE for Subgraph-equivalence. This will power our ecosystem with the existing one of Subgraph. What zkEVM does is similar: support existing codes of EVM with EVM-equivalence and EVM-compatibility.
-
 ### What are security mechanisms for other ZK Oracle networks?
 
 First, traditional oracle networks are mostly based on "PoS". [PoS in oracle networks is always insecure](https://mirror.xyz/hyperoracleblog.eth/RA-c\_9ydwKhSo-KV2Ti5Fu4YwThxSTQuBrlLX1\_huFw).
@@ -44,7 +40,7 @@ Given that oracle often operates for public computation and handles public data 
 
 The whole pipeline of ZK Oracle.
 
-Data source accessing is secured by zkPoS, and off-chain computation is secured by zkWASM.
+Data source accessing is secured by zkPoS, and off-chain computation is secured by zkVM.
 
 ### How data source of zkOracle is secured since zk are only safeguarding computation?
 

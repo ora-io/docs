@@ -29,7 +29,7 @@ export function handleBlocks(blocks: Block[]): Bytes {
 }
 ```
 
-* For generating proof on zkWASM, do not use io syscalls like `console` etc. `console.log(string)` (note that only `string` type is supported in AssemblyScript) should only be used in debug stage.
+* For generating proof on zkVM, do not use io syscalls like `console` etc. `console.log(string)` (note that only `string` type is supported in AssemblyScript) should only be used in debug stage.
 
 ```typescript
 export function handleBlocks(blocks: Block[]): Bytes {
@@ -42,7 +42,7 @@ export function handleBlocks(blocks: Block[]): Bytes {
 }
 ```
 
-* The best practice when finishing up a CLE is documenting everything (block number used for testing execution and proof generation, example output, zkWASM image url...), so that others can replicate the whole flow.
+* The best practice when finishing up a CLE is documenting everything (block number used for testing execution and proof generation, example output, zkVM image url...), so that others can replicate the whole flow.
 
 ### Optimization
 
