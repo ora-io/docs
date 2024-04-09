@@ -18,6 +18,6 @@ ORA offers:
 
 CLE in AI Oracle, the different AI models in AI Oracle, defines the computation and model of ORA AI Oracle / opML nodes.
 
-<figure><img src="../../.gitbook/assets/litepaper.001 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 202.png" alt=""><figcaption></figcaption></figure>
 
 Smart contract developers can build their own contract based on different CLEs in AI Oracle, to integrate with OAO contract, so that they can use AI onchain.
