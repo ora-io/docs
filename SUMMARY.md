@@ -10,6 +10,7 @@
 
 * [Introduction](imo/introduction.md)
 * [Technology](imo/technology.md)
+* [#1: OpenLM](imo/1-openlm.md)
 
 ## 🛠️ CLE
 
@@ -39,6 +40,10 @@
     * [zkIndexing (WIP)](cle/cle-standards/zkoracle/zkindexing/README.md)
       * [Introduction](cle/cle-standards/zkoracle/zkindexing/introduction.md)
 * [Resources](cle/resources.md)
+
+## 👀 Points
+
+* [Introduction](points/introduction.md)
 
 ## 🛰️ Technology
 
