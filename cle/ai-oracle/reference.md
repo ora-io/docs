@@ -2,7 +2,7 @@
 
 ## Models
 
-<table><thead><tr><th width="124">Model ID</th><th width="152">Model</th><th width="149">Fee (in ETH)</th><th width="415">Note</th></tr></thead><tbody><tr><td>9</td><td>Grok (300B)</td><td>Mainnet: 0.005</td><td>/</td></tr><tr><td>11</td><td>LlaMA 2 (7B)</td><td>Mainnet: 0.005<br>Sepolia: 0.01</td><td>/</td></tr><tr><td>50</td><td>Stable Diffusion</td><td>Mainnet: 0.005<br>Sepolia: 0.01</td><td>Return value is IPFS Hash (access with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
+<table><thead><tr><th width="124">Model ID</th><th width="152">Model</th><th width="149">Fee (in ETH)</th><th width="415">Note</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 2 (7B)</td><td>Mainnet: 0.005<br>Sepolia: 0.01</td><td>/</td></tr><tr><td>50</td><td>Stable Diffusion</td><td>Mainnet: 0.005<br>Sepolia: 0.01</td><td>Return value is IPFS Hash (access with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
 
 ## Deployed Addresses
 
