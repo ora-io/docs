@@ -12,38 +12,38 @@ SimplePrompt saves gas by only emitting the event without storing all historical
 
 **Ethereum Mainnet**
 
-| Contract     | Mainnet Address                            |
-| ------------ | ------------------------------------------ |
-| OAO Proxy    | 0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0 |
-| OAO Logic    | 0x6d431EB9563984E5733B95521F7a672ADD8175a4 |
-| Prompt       | 0xb880D47D3894D99157B52A7F869aB3B1E2D4349d |
-| SimplePrompt | 0x61423153f111BCFB28dd264aBA8d9b5C452228D2 |
+| Contract     | Mainnet Address                                                                                                       |
+| ------------ | --------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0x6d431EB9563984E5733B95521F7a672ADD8175a4](https://etherscan.io/address/0x6d431EB9563984E5733B95521F7a672ADD8175a4) |
+| Prompt       | [0xb880D47D3894D99157B52A7F869aB3B1E2D4349d](https://etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d) |
+| SimplePrompt | [0x61423153f111BCFB28dd264aBA8d9b5C452228D2](https://etherscan.io/address/0x61423153f111BCFB28dd264aBA8d9b5C452228D2) |
 
 #### **Ethereum Sepolia**
 
-| Contract     | Sepolia Address                            |
-| ------------ | ------------------------------------------ |
-| OAO Proxy    | 0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0 |
-| OAO Logic    | 0xe47BC46FE676642eAED860E319363350B334236a |
-| Prompt       | 0xe75af5294f4CB4a8423ef8260595a54298c7a2FB |
-| SimplePrompt | 0x696c83111a49eBb94267ecf4DDF6E220D5A80129 |
+| Contract     | Sepolia Address                                                                                                               |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://sepolia.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0xe47BC46FE676642eAED860E319363350B334236a](https://sepolia.etherscan.io/address/0xe47BC46FE676642eAED860E319363350B334236a) |
+| Prompt       | [0xe75af5294f4CB4a8423ef8260595a54298c7a2FB](https://sepolia.etherscan.io/address/0xe75af5294f4CB4a8423ef8260595a54298c7a2FB) |
+| SimplePrompt | [0x696c83111a49eBb94267ecf4DDF6E220D5A80129](https://sepolia.etherscan.io/address/0x696c83111a49eBb94267ecf4DDF6E220D5A80129) |
 
 Deprecated contracts: [AIOracle](https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d), [Prompt](https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2).
 
 **Optimism Mainnet**
 
-| contract/EOA | Mainnet Address                            |
-| ------------ | ------------------------------------------ |
-| OAO Proxy    | 0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0 |
-| OAO Logic    | 0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d |
-| Prompt       | 0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD |
-| SimplePrompt | 0xBC24514E541d5CBAAC1DD155187A171a593e5CF6 |
+| contract/EOA | Mainnet Address                                                                                                                  |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://optimistic.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://optimistic.etherscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
+| Prompt       | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://optimistic.etherscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
+| SimplePrompt | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://optimistic.etherscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
 
 **OP Sepolia**
 
-| contract/EOA | Sepolia Address                            |
-| ------------ | ------------------------------------------ |
-| OAO Proxy    | 0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0 |
-| OAO Logic    | 0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d |
-| Prompt       | 0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0 |
-| SimplePrompt | 0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16 |
+| contract/EOA | Sepolia Address                                                                                                                        |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://sepolia-optimism.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://sepolia-optimism.etherscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
+| Prompt       | [0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0](https://sepolia-optimism.etherscan.io/address/0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0) |
+| SimplePrompt | [0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16](https://sepolia-optimism.etherscan.io/address/0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16) |
