@@ -10,7 +10,6 @@
 
 * [Introduction](imo/introduction.md)
 * [Technology](imo/technology.md)
-* [#1: OpenLM](imo/1-openlm.md)
 
 ## 🛠️ CLE
 

@@ -4,7 +4,9 @@ description: Verifiable Oracle Protocol
 
 # About ORA
 
-<img src=".gitbook/assets/Rainbow-Radiating-V1_00167-b.png" alt="" data-size="line">ORA is the verifiable oracle protocol that brings AI and complex compute onchain. ORA has two main products:
+<img src=".gitbook/assets/Rainbow-Radiating-V1_00167-b.png" alt="" data-size="line">ORA is Ethereum's Trustless AI. ORA is the verifiable oracle protocol that brings AI and complex compute onchain.
+
+Two main products of ORA:
 
 * **AI Oracle (OAO)**: Brings AI onchain.
 * **zkOracle**: Brings complex compute and historical data onchain.
