@@ -12,7 +12,11 @@ In this age of AI, ORA is introducing a new mechanism, [IMO (Initial Model Offer
 * **For ecosystems, IMO helps align values and incentives for distribution and ongoing contribution.**
 * **For token holders, IMO lets anyone capture the value of AI models onchain, from sources including onchain revenue and inference assets (eg.** [**ERC-7007**](https://eips.ethereum.org/EIPS/eip-7007)**).**
 
-<figure><img src="../.gitbook/assets/Group 1000005967 (1).png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="false">
+
+<figure><img src="../.gitbook/assets/Group 1000006178.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Many open-sourced AI models face the challenge in monetizing their contributions, leading to a lack of motivation for contributors and organizations alike. As a result, the AI industry is currently led by closed-source, for-profit companies. The winning formula for open-source AI models is the need to gather more funding and build in public.
 
