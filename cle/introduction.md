@@ -6,7 +6,7 @@ description: 'CLE: Computational Entity'
 
 CLE, or computational entity, is the customizable and programmable software defined by developers and the underlying oracle network running those software. ORA CLE makes Oracle complete.
 
-<figure><img src="../.gitbook/assets/litepaper.001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/图1 (1).png" alt=""><figcaption></figcaption></figure>
 
 Currently, there are two types of CLE:
 
