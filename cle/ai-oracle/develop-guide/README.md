@@ -8,6 +8,8 @@ For supported models in OAO and deployment addresses, see [Reference](../referen
 
 For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
 
+Check out [video tutorial on interacting and building with OAO](https://www.youtube.com/watch?v=8fcJbeKN1uM).
+
 ## Workflow
 
 1. The user contract sends the AI request to OAO on chain, by calling `requestCallback` function on the OAO contract.
