@@ -20,6 +20,7 @@
     * [Bring Your Own Model](cle/ai-oracle/develop-guide/bring-your-own-model.md)
   * [Reference](cle/ai-oracle/reference.md)
   * [Interact Directly](cle/ai-oracle/interact-directly.md)
+  * [ai/fi](cle/ai-oracle/ai-fi.md)
 * [zkOracle](cle/zkoracle/README.md)
   * [Getting Started](cle/zkoracle/getting-started/README.md)
     * [1. CLE Studio UI](cle/zkoracle/getting-started/1.-zkgraph-studio-ui.md)
