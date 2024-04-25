@@ -20,4 +20,4 @@ CLE in AI Oracle, the different AI models in AI Oracle, defines the computation 
 
 <figure><img src="../../.gitbook/assets/Group 202.png" alt=""><figcaption></figcaption></figure>
 
-Smart contract developers can build their own contract based on different CLEs in AI Oracle, to integrate with OAO contract, so that they can use AI onchain.
+Smart contract developers can build their own contract based on different CLEs in AI Oracle, to interact with OAO contract, so that they can use AI onchain.
