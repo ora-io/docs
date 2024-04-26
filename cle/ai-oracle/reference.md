@@ -32,18 +32,36 @@ Deprecated contracts: [AIOracle](https://sepolia.etherscan.io/address/0xb880D47D
 
 **Optimism Mainnet**
 
-| contract/EOA | Mainnet Address                                                                                                                  |
+| Contract     | Mainnet Address                                                                                                                  |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://optimistic.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
 | OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://optimistic.etherscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
 | Prompt       | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://optimistic.etherscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
 | SimplePrompt | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://optimistic.etherscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
 
-**OP Sepolia**
+**Optimism Sepolia**
 
-| contract/EOA | Sepolia Address                                                                                                                        |
+| Contract     | Sepolia Address                                                                                                                        |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
 | OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://sepolia-optimism.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
 | OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://sepolia-optimism.etherscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
 | Prompt       | [0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0](https://sepolia-optimism.etherscan.io/address/0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0) |
 | SimplePrompt | [0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16](https://sepolia-optimism.etherscan.io/address/0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16) |
+
+**Arbitrum Mainnet**
+
+| Contract     | Mainnet Address                                                                                                      |
+| ------------ | -------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://arbiscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://arbiscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
+| Prompt       | [0xC20DeDbE8642b77EfDb4372915947c87b7a526bD](https://arbiscan.io/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD) |
+| SimplePrompt | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://arbiscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
+
+**Arbitrum Sepolia Testnet**
+
+| Contract     | Testnet Address                                                                                                              |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://sepolia.arbiscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://sepolia.arbiscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
+| Prompt       | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://sepolia.arbiscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
+| SimplePrompt | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://sepolia.arbiscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
