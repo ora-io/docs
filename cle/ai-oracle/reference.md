@@ -65,3 +65,21 @@ Deprecated contracts: [AIOracle](https://sepolia.etherscan.io/address/0xb880D47D
 | OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://sepolia.arbiscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
 | Prompt       | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://sepolia.arbiscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
 | SimplePrompt | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://sepolia.arbiscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
+
+**Manta Mainnet**
+
+| Contract     | Mainnet Address                                                                                                                         |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://pacific-explorer.manta.network/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://pacific-explorer.manta.network/address/0x293C8D0f9CE7609217De22698e2DCBCFb2Bd3d9D) |
+| Prompt       | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://pacific-explorer.manta.network/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
+| SimplePrompt | [0x523622DfEd0243B0DF80CC9275764B0f432D33E3](https://pacific-explorer.manta.network/address/0x523622DfEd0243B0DF80CC9275764B0f432D33E3) |
+
+**Manta Sepolia Testnet**
+
+| Contract     | Testnet Address                                                                                                                                         |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://pacific-explorer.sepolia-testnet.manta.network/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
+| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://pacific-explorer.sepolia-testnet.manta.network/address/0x293C8D0f9CE7609217De22698e2DCBCFb2Bd3d9D) |
+| Prompt       | [0xC20DeDbE8642b77EfDb4372915947c87b7a526bD](https://pacific-explorer.sepolia-testnet.manta.network/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD) |
+| SimplePrompt | [0x3bfD1Cc919bfeC7795b600E764aDa001b58f122a](https://pacific-explorer.sepolia-testnet.manta.network/address/0x3bfD1Cc919bfeC7795b600E764aDa001b58f122a) |
