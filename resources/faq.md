@@ -164,13 +164,13 @@ As mentioned before, as long as the challenge time of optimistic fraud proof is 
 
 It needs to be noted that zkML for huge AI models are not possible, or the zk proof generation of zkML approach is much slower than opML approach.
 
-### I want to build with ORA's onchain AI, what can I choose?
+### I want to build with ORA's on-chain AI, what can I choose?
 
-You have multiple options for building ORA's onchain AI:
+You have multiple options for building ORA's on-chain AI:
 
 * zkML of [keras2circom](https://github.com/ora-io/keras2circom) (the most battle-tested and performant zkML framework)
 * [opML](https://arxiv.org/abs/2401.17555) of [AI Oracle](../cle/ai-oracle/) (run huge model like LlaMA2-7B and Stable Diffusion now)
-* zk+opML with [opp/ai](https://arxiv.org/abs/2402.15006) (futuristic onchain AI fuses zkML's privacy and opML's scalability)
+* zk+opML with [opp/ai](https://arxiv.org/abs/2402.15006) (futuristic on-chain AI fuses zkML's privacy and opML's scalability)
 
 We recommend you [build with AI Oracle with opML](../cle/ai-oracle/), because it is production-ready and out-of-the-box, with support to LlaMA2-7B and Stable Diffusion.
 
@@ -184,7 +184,7 @@ That is why we came up with [opp/ai](https://arxiv.org/abs/2402.15006) to add pr
 
 Here are some facts:
 
-* Modulus Labs used zkML to bring GPT2-1B onchain with [1m+ times overhead (200+ hours for each call), 128-core CPU and 1TB RAM](https://medium.com/@ModulusLabs/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e).
+* Modulus Labs used zkML to bring GPT2-1B on-chain with [1m+ times overhead (200+ hours for each call), 128-core CPU and 1TB RAM](https://medium.com/@ModulusLabs/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e).
 * The zkML framework EZKL [takes around 80 minutes to generate a proof of a 1M-nanoGPT model](https://hackmd.io/mGwARMgvSeq2nGvQWLL2Ww#Honey-I-SNARKED-the-GPT).
 * [According to Modulus Labs](https://medium.com/@ModulusLabs/chapter-8-make-zkml-real-a3a355b2b756), zkML has >>1000 times overhead than pure computation, with [the latest report](https://twitter.com/shumochu/status/1723839817836888365) being 1000 times, and [200 times for tiny model](https://medium.com/@ModulusLabs/chapter-13-scaling-intelligence-637d4a374153).
 * According to [EZKL’s benchmark](https://blog.ezkl.xyz/post/benchmarks/), the average proving time of RISC Zero is of 173 seconds for Random Forest Classification.
@@ -193,7 +193,7 @@ You can also check out [this Ethereum Foundation granted benchmark](https://hack
 
 ### What does the OAO fee consist of?
 
-OAO fee = Model Fee (for LlaMA2 or Stable Diffusion) + Callback Fee (for node to submit inference result back to onchain) + Network Fee (aka. transaction fee of networks like Ethereum)
+OAO fee = Model Fee (for LlaMA2 or Stable Diffusion) + Callback Fee (for node to submit inference result back to on-chain) + Network Fee (aka. transaction fee of networks like Ethereum)
 
 Callback fee and network fee may be higher when network is experiencing higher traffic.
 

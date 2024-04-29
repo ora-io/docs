@@ -1,16 +1,16 @@
 ---
-description: Initial Model Offering
+description: 'IMO: Initial Model Offering'
 ---
 
 # Introduction
 
 In this age of AI, ORA is introducing a new mechanism, [IMO (Initial Model Offering)](https://www.ora.io/imo).
 
-**TL;DR: IMO tokenizes AI model onchain.**
+**TL;DR: IMO tokenizes AI model on-chain.**
 
 * **For AI models, IMO enables sustainable funding for open-source AI models.**
-* **For ecosystems, IMO helps align values and incentives for distribution and ongoing contribution.**
-* **For token holders, IMO lets anyone capture the value of AI models onchain, from sources including onchain revenue and inference assets (eg.** [**ERC-7007**](https://eips.ethereum.org/EIPS/eip-7007)**).**
+* **For ecosystems, IMO aligns stakeholder values and economic incentives to enhance distribution and foster ongoing contributions.**
+* **For token holders, IMO lets anyone capture the value of AI models on-chain, from sources including on-chain revenue and inference assets (e.g.** [**ERC-7007**](https://eips.ethereum.org/EIPS/eip-7007)**).**
 
 <div data-full-width="false">
 
@@ -28,6 +28,6 @@ IMO tokenizes the ownership of open-source AI models, sharing its profit to the 
 
 Learn more:
 
-* Blog - [IMO: Initial Model Offering](https://mirror.xyz/orablog.eth/xYMD27tN23ppbKCluB9faytF\_W6M1hKXTuKcfkm3D50)
+* Blog - [IMO: Initial Model Offering](https://mirror.xyz/orablog.eth/xYMD27tN23ppbKCluB9faytF_W6M1hKXTuKcfkm3D50)
 * Announcement - [IMO: Initial Model Offering](https://twitter.com/OraProtocol/status/1763676800297673001)
 * ETHDenver Talk - [AI Isn't Evil and Smart Contract Proves It](https://www.youtube.com/watch?v=6fujouJ26n8)

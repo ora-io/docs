@@ -4,7 +4,7 @@ description: 'CLE: Computational Entity'
 
 # Introduction
 
-CLE, or computational entity, is the customizable and programmable software defined by developers and the underlying oracle network running those software. ORA CLE makes Oracle complete.
+CLE, or computational entity, refers to customizable and programmable software defined by developers, and the underlying oracle network that runs this software. ORA CLE makes Oracle complete.
 
 <figure><img src="../.gitbook/assets/图1 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -15,5 +15,5 @@ Currently, there are two types of CLE:
 
 Both types of CLE have various use cases:
 
-* **CLE of AI Oracle**: AIGC NFT with ERC-7007, zkKYC using facial recognition based on ML, onchain AI games (e.g. Dungeon and Dragons), prediction market with ML, content authenticity (deepfake verifier), compliant programmable privacy, prompt marketplace, reputation/credit scoring...
+* **CLE of AI Oracle**: AIGC NFT with ERC-7007, zkKYC using facial recognition based on ML, on-chain AI games (e.g. Dungeons and Dragons), prediction market with ML, content authenticity (deepfake verifier), compliant programmable privacy, prompt marketplace, reputation/credit scoring...
 * **CLE of zkOracle**: ZK rollup, ZK automation-based applications, ZK historical data, ZK bridge, ZK coprocessor, zkML applications...

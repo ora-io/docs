@@ -1,3 +1,3 @@
 # Resources
 
-[awesome-ora](https://github.com/ora-io/awesome-ora): A running list of example CLE’s using ORA AI Oracle and zkOracle and project ideas that can be built.
+[awesome-ora](https://github.com/ora-io/awesome-ora): A comprehensive list of example CLEs using ORA's AI Oracle and zkOracle, along with completed projects.

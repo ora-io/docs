@@ -4,7 +4,7 @@ If you want your CLE to use zkAutomation, then you need to make two changes to t
 
 #### 1. Set dataDestinations in `cle.yaml`
 
-In a CLE that uses zkAutomation, you need to first define the onchain smart contract that will be called when automation should be triggered.
+In a CLE that uses zkAutomation, you need to first define the on-chain smart contract that will be called when automation should be triggered.
 
 For example:
 
@@ -51,14 +51,14 @@ This CLE's zkAutomation will always be triggered, and function of `run()` will b
 ```typescript
 export function handleEvents(blocks: Block[]): Bytes {
   // run() func signature           - c0406226
-  // zkAuto call input data onchain - 0xc0406226
+  // zkAuto call input data on-chain - 0xc0406226
   return Bytes.fromHexString("c0406226").padEnd(32);
 }
 ```
 
 #### 3. Set Bounty when Publishing
 
-Since each proof generation and onchain call (including verification and later calls to `dataDestinations`) consumes fund, we set up the Bounty mechanism.
+Since each proof generation and on-chain call (including verification and later calls to `dataDestinations`) consumes fund, we set up the Bounty mechanism.
 
 Bounty mechanism means that the user of zkAutomation will deposit the bounty into our contract in advance, and set the amount of bounty that the zkOracle node can draw from each time zkAutomation is triggered at the time of deployment.
 

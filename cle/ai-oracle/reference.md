@@ -6,7 +6,7 @@
 
 ## Deployed Addresses
 
-Prompt and SimplePrompt are both example integrated contract.
+Prompt and SimplePrompt are both example integrated contracts.
 
 SimplePrompt saves gas by only emitting the event without storing all historical data.
 

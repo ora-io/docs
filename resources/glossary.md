@@ -14,7 +14,7 @@ A type of middleware that performs operations without human control. Commonly us
 
 ### CLE
 
-Computational Entity. The customizable and programmable software defined by developers and the underlying oracle network running those software.
+Computational Entity. The customizable and programmable software defined by developers, and the underlying oracle network that runs this software
 
 ### Client
 
@@ -22,7 +22,7 @@ A software for operating a node. Usually developed by the network's core develop
 
 ### Dispute Period
 
-A time window for finalizing disagreement on computation. Usually takes weeks. Used in traditional oracle networks.
+A time window for finalizing disagreement on computation. Usually taking weeks. Used in traditional oracle networks.
 
 ### Ethereum PoS
 
@@ -38,7 +38,7 @@ Reached when zk proof is verified, or dispute period is passed, and data becomes
 
 ### Fisherman Mechanism
 
-A staking mechanism involves "fisherman" to check integrity of nodes and raise dispute, and "arbitrator" to decide dispute outcome.
+A staking mechanism that involves a "fisherman" to check integrity of nodes and raise disputes, and an "arbitrator" to decide outcome of disputes.
 
 ### GraphQL
 
@@ -62,7 +62,7 @@ A programming language for Web.
 
 ### Latency
 
-A delay after outputting execution result caused by proof generation or dispute period.
+A delay in outputting execution results caused by proof generation or a dispute period.
 
 ### Mapping
 
@@ -70,7 +70,7 @@ An operation that associates input elements with output elements.
 
 ### Middleware
 
-Services or infrastructure needed in pipeline of development.
+Services or infrastructure needed in the development pipeline.
 
 ### Node
 
@@ -78,7 +78,7 @@ A computer running client.
 
 ### OAO
 
-Onchain AI Oracle.
+On-chain AI Oracle.
 
 ### On/Off-chain
 
@@ -110,15 +110,15 @@ A ZK proof that verifies other ZK proofs, for compressing more knowledge into a 
 
 ### Slashing
 
-A process that involves the burning of staked token for a node with bad behavior.
+A process that involves burning of staked token for a node with bad behavior.
 
 ### Staking
 
-A required process that involves the depositing and locking of token for a new-entered node into network.
+A required process that involves depositing and locking tokens for a newly-entered node into the network.
 
 ### Subgraph
 
-Codes that define and configs indexing computation of The Graph's indexer.
+Codes that define and configure indexing computations for The Graph's indexer.
 
 ### Subgraph-Equivalence
 
@@ -134,15 +134,15 @@ A model for analyzing trust assumptions and security. See Vitalk's post trust mo
 
 ### Trustless
 
-Able to trust without relying on third-party.
+Able to be trusted without relying on a third party.
 
 ### TypeScript
 
-A Strongly-typed JavaScript.
+A strongly-typed JavaScript.
 
 ### Validity
 
-Refers to correctness of computation.
+Refers to the correctness of computation.
 
 ### Validity Proof
 
@@ -154,11 +154,11 @@ Able to be checked or proved to be correct.
 
 ### Verification
 
-A computation to check if proof is correct. If verification is passed, it means proven statement is correct and finalized.
+A computation to check if a proof is correct. If verification is passed, it means the proven statement is correct and finalized.
 
 ### Verifier
 
-A role that requires prover to convince with proof. Can be a person, a smart contract in other blockchains, a mobile client, or a web client.
+A role that requires the prover to convince with proof. Can be a person, a smart contract in other blockchains, a mobile client, or a web client.
 
 ### WASM
 
@@ -186,7 +186,7 @@ A zkVM with EVM instruction set as bytecode.
 
 ### zkGraph
 
-Codes that define and configs off-chain computation of HyperOracle zkOracle, with Subgraph-Equivalence. Now called "CLE".
+Codes that define and configure off-chain computation for HyperOracle's zkOracle, with Subgraph-Equivalence. Now called "CLE".
 
 ### zkGraph Standards
 

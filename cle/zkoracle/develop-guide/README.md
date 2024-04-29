@@ -2,7 +2,7 @@
 description: Guide on coding CLE.
 ---
 
-# Develop Guide
+# Development Guide
 
 ## Quickstart
 
@@ -18,7 +18,7 @@ It specifies information including:
 * target event
 * event handler
 
-An example of `cle.yaml`:
+Example `cle.yaml`:
 
 ```yaml
 specVersion: 0.0.2
@@ -48,9 +48,9 @@ More examples can be found as [templates of CLE scaffold](https://github.com/ora
 
 #### Supported `network` with Features
 
-`network` specifies the `dataSource` network for data source or `dataDestination` network for verification contract deployment and CLE publish.
+`network` specifies the `dataSource` network for the data source or `dataDestination` network for verification contract deployment and CLE publish.
 
-`network` should follow the format of all lower-case letters (eg. mainnet, or goerli) with the following naming.
+`network` should follow the format of all lowercase letters (e.g. "mainnet", or "goerli") with the following naming.
 
 <table data-full-width="false"><thead><tr><th width="191">Network (ChainID)</th><th width="148">Name in YAML</th><th width="191">dataSource</th><th width="156">dataDestination</th><th width="194">CLE Deployment</th></tr></thead><tbody><tr><td><p>Ethereum Mainnet</p><p>(1)</p></td><td><code>mainnet</code></td><td>✅ <br>(<code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Goerli</p><p>(5)</p></td><td><code>goerli</code></td><td>✅ <br>(<code>handleBlocks</code>)</td><td>❌</td><td>❌</td></tr><tr><td><p>Ethereum Sepolia</p><p>(11155111)</p></td><td><code>sepolia</code></td><td>✅ <br>(<code>handleBlocks</code>)</td><td>✅</td><td>✅</td></tr></tbody></table>
 
@@ -89,8 +89,8 @@ export function handleBlocks(blocks: Block[]): Bytes {
 
 #### Requirements
 
-* **Function definition of required function must be** `function handleBlocks(blocks: Block[]): Bytes`**.**
-* **Return value of required function must be** `Bytes`**.** The best practice is to set it as [a payload / calldata](../getting-started/#pre-requisites), so that it can be used with [ZK Automation](../../cle-standards/zkoracle/zkautomation/) directly.
+* **The function definition of the required function must be** `function handleBlocks(blocks: Block[]): Bytes`**.**
+* **The Return value of the required function must be** `Bytes`**.** The best practice is to set it as [a payload / calldata](../getting-started/#pre-requisites), so that it can be used with [ZK Automation](../../cle-standards/zkoracle/zkautomation/) directly.
 
 #### Access `Event` Data
 
