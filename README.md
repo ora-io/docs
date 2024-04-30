@@ -11,9 +11,9 @@ Two main products of ORA:
 * **AI Oracle (OAO)**: Brings AI onchain.
 * **zkOracle**: Brings complex compute and historical data onchain.
 
-ORA breaks down the limitations of smart contracts with richer data sources and compute so developers can innovate freely.
+ORA breaks down the limitations of smart contracts by offering AI, richer data sources and arbitrary compute so developers can innovate freely.
 
-ORA's work is trusted by Compound, Ethereum Foundation, Polygon, Uniswap, Optimism, and Arbitrum.
+ORA’s work has been trusted by Compound, Ethereum Foundation, Uniswap, Optimism, Arbitrum, and beyond.
 
 #### Why ORA?
 
