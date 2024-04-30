@@ -2,7 +2,7 @@
 
 This tutorial will help you understand the structure of On-chain AI Oracle (OAO), guide you through the process of building a simple Prompt contract that interacts with OAO. We will implement the contract step by step. At the end we will deploy the contract to the blockchain network and interact with it.
 
-If you prefer a video version of the tutorial, check it [here](https://www.veed.io/view/b06df964-6abd-40b8-a406-bea511ceab56?panel=share).
+If you prefer a video version of the tutorial, check it [here](https://www.youtube.com/watch?v=8fcJbeKN1uM).
 
 Final version of the code can be found [here](https://github.com/ora-io/Interaction\_With\_OAO\_Template).
 
