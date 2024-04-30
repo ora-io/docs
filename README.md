@@ -13,7 +13,7 @@ Two main products of ORA:
 
 ORA breaks down the limitations of smart contracts with richer data sources and compute so developers can innovate freely.
 
-ORA's work is trusted by Compound, Ethereum Foundation, Polygon, and Uniswap.
+ORA's work is trusted by Compound, Ethereum Foundation, Polygon, Uniswap, Optimism, and Arbitrum.
 
 #### Why ORA?
 
