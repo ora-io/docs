@@ -5,6 +5,7 @@
 * When developing with storage as data source, you can use the following tools for visualization of storage slot layout:
   * [evm.storage](https://evm.storage/) for mainnet
   * [storagoor](https://storagoor.vercel.app/) for sepolia
+  * [storage slots query](https://storage-slots.swiss-knife.xyz/) for other EVM networks
   * [smart contract storage viewer](https://tintinweb.github.io/smart-contract-storage-viewer/)
   * [storage layout option of Solidity compiler](https://arc.net/l/quote/phcauzke)
 * When developing with a deployed smart contract, you can use the following tools for examining its source code onchain and its current data:

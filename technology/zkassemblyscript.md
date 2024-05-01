@@ -4,7 +4,7 @@ description: Highly Efficient Provable AssemblyScript Library
 
 # zkAssemblyScript
 
-We built [zkAssemblyScript](../cle/zkoracle/develop-guide/zkgraph-assemblyscript-lib.md), a highly efficient provable AssemblyScript library, because:
+We built [zkAssemblyScript](../zkoracle/develop-guide/zkgraph-assemblyscript-lib.md), a highly efficient provable AssemblyScript library, because:
 
 * CLE is AssemblyScript-based program.
 * CLE development requires many Ethereum-related data structures and special operations.

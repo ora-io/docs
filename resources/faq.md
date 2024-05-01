@@ -169,10 +169,10 @@ It needs to be noted that zkML for huge AI models are not possible, or the zk pr
 You have multiple options for building ORA's onchain AI:
 
 * zkML of [keras2circom](https://github.com/ora-io/keras2circom) (the most battle-tested and performant zkML framework)
-* [opML](https://arxiv.org/abs/2401.17555) of [AI Oracle](../cle/ai-oracle/) (run huge model like LlaMA2-7B and Stable Diffusion now)
+* [opML](https://arxiv.org/abs/2401.17555) of [AI Oracle](../oao-onchain-ai-oracle/introduction/) (run huge model like LlaMA2-7B and Stable Diffusion now)
 * zk+opML with [opp/ai](https://arxiv.org/abs/2402.15006) (futuristic onchain AI fuses zkML's privacy and opML's scalability)
 
-We recommend you [build with AI Oracle with opML](../cle/ai-oracle/), because it is production-ready and out-of-the-box, with support to LlaMA2-7B and Stable Diffusion.
+We recommend you [build with AI Oracle with opML](../oao-onchain-ai-oracle/introduction/), because it is production-ready and out-of-the-box, with support to LlaMA2-7B and Stable Diffusion.
 
 ### What is the limitation of opML?
 

@@ -6,6 +6,37 @@
 * [How ORA Works](ora/how-ora-works.md)
 * [Towards a World Supercomputer](ora/towards-a-world-supercomputer.md)
 
+## 🔥 OAO - Onchain AI Oracle
+
+* [Introduction](oao-onchain-ai-oracle/introduction/README.md)
+  * [ai/fi](oao-onchain-ai-oracle/introduction/ai-fi.md)
+* [Develop Guide](oao-onchain-ai-oracle/develop-guide/README.md)
+  * [Tutorials](oao-onchain-ai-oracle/develop-guide/tutorials/README.md)
+    * [Interaction with OAO - Tutorial](oao-onchain-ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial.md)
+    * [Integration into OAO - Tutorial](oao-onchain-ai-oracle/develop-guide/tutorials/integration-into-oao-tutorial.md)
+* [Interact Directly](oao-onchain-ai-oracle/interact-directly.md)
+* [Reference](oao-onchain-ai-oracle/reference.md)
+
+## 🛠️ zkOracle
+
+* [Introduction](zkoracle/introduction.md)
+* [Develop Guide](zkoracle/develop-guide/README.md)
+  * [Methods for Development](zkoracle/develop-guide/getting-started/README.md)
+    * [1. CLE Studio UI](zkoracle/develop-guide/getting-started/1.-zkgraph-studio-ui.md)
+    * [2. CLE Scaffold](zkoracle/develop-guide/getting-started/2.-zkgraph-scaffold.md)
+  * [CLE AssemblyScript Lib](zkoracle/develop-guide/zkgraph-assemblyscript-lib.md)
+  * [CLE Development Tips](zkoracle/develop-guide/cle-development-tips.md)
+  * [Bring Your Own Data Source](zkoracle/develop-guide/bring-your-own-data-source.md)
+* [Integration Guide](zkoracle/integration-guide/README.md)
+  * [1. Smart Contract](zkoracle/integration-guide/1.-smart-contract.md)
+  * [2. Frontend / Backend](zkoracle/integration-guide/2.-frontend-backend.md)
+* [zkOracle Standards](zkoracle/zkoracle-standards/README.md)
+  * [zkAutomation](zkoracle/zkoracle-standards/zkautomation/README.md)
+    * [Introduction](zkoracle/zkoracle-standards/zkautomation/introduction.md)
+    * [User Guide](zkoracle/zkoracle-standards/zkautomation/user-guide.md)
+  * [zkIndexing (WIP)](zkoracle/zkoracle-standards/zkindexing/README.md)
+    * [Introduction](zkoracle/zkoracle-standards/zkindexing/introduction.md)
+
 ## 🏦 IMO
 
 * [Introduction](imo/introduction.md)
@@ -14,33 +45,6 @@
 ## 🛠️ CLE
 
 * [Introduction](cle/introduction.md)
-* [AI Oracle](cle/ai-oracle/README.md)
-  * [Getting Started](cle/ai-oracle/getting-started.md)
-  * [Develop Guide](cle/ai-oracle/develop-guide/README.md)
-    * [Tutorials](cle/ai-oracle/develop-guide/tutorials/README.md)
-      * [Interaction with OAO - Tutorial](cle/ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial.md)
-      * [Integration into OAO - Tutorial](cle/ai-oracle/develop-guide/tutorials/integration-into-oao-tutorial.md)
-  * [Reference](cle/ai-oracle/reference.md)
-  * [Interact Directly](cle/ai-oracle/interact-directly.md)
-  * [ai/fi](cle/ai-oracle/ai-fi.md)
-* [zkOracle](cle/zkoracle/README.md)
-  * [Getting Started](cle/zkoracle/getting-started/README.md)
-    * [1. CLE Studio UI](cle/zkoracle/getting-started/1.-zkgraph-studio-ui.md)
-    * [2. CLE Scaffold](cle/zkoracle/getting-started/2.-zkgraph-scaffold.md)
-  * [Develop Guide](cle/zkoracle/develop-guide/README.md)
-    * [CLE AssemblyScript Lib](cle/zkoracle/develop-guide/zkgraph-assemblyscript-lib.md)
-    * [CLE Development Tips](cle/zkoracle/develop-guide/cle-development-tips.md)
-    * [Bring Your Own Data Source](cle/zkoracle/develop-guide/bring-your-own-data-source.md)
-  * [Integration Guide](cle/zkoracle/integration-guide/README.md)
-    * [1. Smart Contract](cle/zkoracle/integration-guide/1.-smart-contract.md)
-    * [2. Frontend / Backend](cle/zkoracle/integration-guide/2.-frontend-backend.md)
-* [CLE Standards](cle/cle-standards/README.md)
-  * [zkOracle](cle/cle-standards/zkoracle/README.md)
-    * [zkAutomation](cle/cle-standards/zkoracle/zkautomation/README.md)
-      * [Introduction](cle/cle-standards/zkoracle/zkautomation/introduction.md)
-      * [User Guide](cle/cle-standards/zkoracle/zkautomation/user-guide.md)
-    * [zkIndexing (WIP)](cle/cle-standards/zkoracle/zkindexing/README.md)
-      * [Introduction](cle/cle-standards/zkoracle/zkindexing/introduction.md)
 * [Resources](cle/resources.md)
 
 ## 👀 Points

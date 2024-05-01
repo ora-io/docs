@@ -32,7 +32,7 @@ In the previous step, we have defined the blockchain network triggered by automa
 The role of mapping.ts:
 
 * **Determining whether automation needs to triggered**: When `handleBlocks` does not return a value (eg. exit due to false condition in `require`), the automation does not need to be triggered.
-* **Setting the payload (calldata) for the trigger:** when `handleBlocks` returns value, the automation needs to be triggered, and the return value is used as the payload (calldata) for the call. If you are confused about these concepts, please check [introduction page of CLE](../../../zkoracle/).
+* **Setting the payload (calldata) for the trigger:** when `handleBlocks` returns value, the automation needs to be triggered, and the return value is used as the payload (calldata) for the call. If you are confused about these concepts, please check [introduction page of CLE](../../introduction.md).
 
 For example:
 

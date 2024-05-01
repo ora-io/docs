@@ -1,5 +1,15 @@
 # Develop Guide
 
+## Pre-requisites
+
+#### Required
+
+* Basic knowledge of Ethereum smart contract development ([tutorials](https://ethereum.org/en/developers/tutorials/))
+
+#### Optional
+
+* AI development experience
+
 ## Resources
 
 Source code of OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
@@ -9,6 +19,10 @@ For supported models in OAO and deployment addresses, see [Reference](../referen
 For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
 
 Check out [video tutorial on interacting and building with OAO](https://www.youtube.com/watch?v=8fcJbeKN1uM).
+
+{% embed url="https://www.youtube.com/watch?v=8fcJbeKN1uM" %}
+Interact and build with OAO
+{% endembed %}
 
 ## Workflow
 
