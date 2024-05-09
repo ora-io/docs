@@ -53,9 +53,11 @@
 
 ## 🛰️ Technology
 
-* [zkML](technology/zkml.md)
-* [opML](technology/opml.md)
-* [opp/ai](technology/opp-ai.md)
+* [Proving Frameworks (zkML, opML, opp/ai)](technology/proving-frameworks-zkml-opml-opp-ai/README.md)
+  * [Keras2Circom (zkML)](technology/proving-frameworks-zkml-opml-opp-ai/keras2circom-zkml.md)
+  * [opML](technology/proving-frameworks-zkml-opml-opp-ai/opml.md)
+  * [opp/ai](technology/proving-frameworks-zkml-opml-opp-ai/opp-ai.md)
+  * [Comparison of Proving Frameworks](technology/proving-frameworks-zkml-opml-opp-ai/comparison-of-proving-frameworks.md)
 * [Specialized Circuit](technology/specialized-circuit.md)
 * [zkAssemblyScript](technology/zkassemblyscript.md)
 

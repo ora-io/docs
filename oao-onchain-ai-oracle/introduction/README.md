@@ -22,6 +22,6 @@ OAO integrates different AI models onchain in ORA AI Oracle nodes.
 
 Smart contract developers can build their own contract based on different models in AI Oracle, to interact with OAO contract, so that they can use AI onchain.
 
-<figure><img src="../../.gitbook/assets/Group 1000006223.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/图1.png" alt=""><figcaption></figcaption></figure>
 
 Some of the example use cases are: AIGC NFT with ERC-7007, zkKYC using facial recognition based on ML, onchain AI games (e.g. Dungeon and Dragons), prediction market with ML, content authenticity (deepfake verifier), compliant programmable privacy, prompt marketplace, reputation/credit scoring... For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
