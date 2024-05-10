@@ -184,38 +184,10 @@ A trustless automation CLE Standard with zk. Aka. ZK Automation
 
 A zkVM with EVM instruction set as bytecode.
 
-### zkGraph
-
-Codes that define and configs off-chain computation of HyperOracle zkOracle, with Subgraph-Equivalence. Now called "CLE".
-
-### zkGraph Standards
-
-Standardized services provided by HyperOracle for DApp developers, including zkIndexing and zkAutomation. Previously called "Meta Apps". Now called "CLE Standards".
-
-### zkIndexing
-
-A trustless indexing CLE Standard with zk. Aka. ZK Indexing.
-
 ### zkML
 
 Machine learning based on zk for verifiability and optional privacy.
 
-### zkOracle
-
-An oracle with zk for verifiability and performance. Can be output zkOracle, and I/O zkOracle. Aka. ZK Oracle.
-
-### zkOracle Network
-
-A network with zkOracle nodes for decentralization and trustlessness.
-
-### zkPoS
-
-Ethereum's consensus algorithm fully verified with zk.
-
 ### zkVM
 
 A virtual machine with zk that generates zk proofs.
-
-### zkWASM
-
-A zkVM with WASM instruction set as bytecode.
