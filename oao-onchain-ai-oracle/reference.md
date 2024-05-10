@@ -2,7 +2,7 @@
 
 ## Models
 
-<table><thead><tr><th width="124">Model ID</th><th width="152">Model</th><th width="149">Fee (in ETH)</th><th width="415">Note</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 2 (7B)</td><td>Mainnet: 0.005<br>Sepolia: 0.01</td><td>/</td></tr><tr><td>50</td><td>Stable Diffusion</td><td>Mainnet: 0.005<br>Sepolia: 0.01</td><td>Return value is IPFS Hash (access with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="126">Model ID</th><th width="152">Model</th><th>Deployed Network</th><th width="183">Fee</th><th width="415">Note</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 2 (7B)</td><td>Ethereum, Optimism, Arbitrum, Manta</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>/</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Ethereum</td><td>Mainnet: 0.003 ETH<br>Testnet: 0.01 ETH</td><td>/</td></tr><tr><td>50</td><td>Stable Diffusion</td><td>Ethereum, Optimism, Arbitrum, Manta</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Return value is IPFS Hash (access with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
 
 ## Deployed Addresses
 
