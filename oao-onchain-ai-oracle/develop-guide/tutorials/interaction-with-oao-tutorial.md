@@ -20,13 +20,15 @@ To follow this tutorial you need to have [Foundry](https://book.getfoundry.sh/ge
 
 1. Clone template repository and install submodules
 
-<pre><code><strong>git clone -b OAO_interaction_tutorial git@github.com:ora-io/Interaction_With_OAO_Template.git --recursive
-</strong></code></pre>
+```
+git clone -b OAO_interaction_tutorial git@github.com:ora-io/Interaction_With_OAO_Template.git --recursive
+```
 
 2. Move into the cloned repository
 
-<pre><code><strong>cd Interaction_With_OAO_Template
-</strong></code></pre>
+```
+cd Interaction_With_OAO_Template
+```
 
 3. Copy .env.example, rename it to .env. We will need these env variables later for the deployment and testing. You can leave them empty for now.
 
@@ -64,15 +66,16 @@ constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle){}
 
 Now let’s define a method that will interact with the OAO. This method takes 2 parameters, id of the model and input prompt data. It also needs to be payable, because a user needs to pass the fee for the callback execution.
 
-<pre class="language-solidity"><code class="lang-solidity"><strong>function calculateAIResult(uint256 modelId, string calldata prompt) payable external {
-</strong>    bytes memory input = bytes(prompt);
+```solidity
+function calculateAIResult(uint256 modelId, string calldata prompt) payable external {
+    bytes memory input = bytes(prompt);
     bytes memory callbackData = bytes("");
     address callbackAddress = address(this);
     uint256 requestId = aiOracle.requestCallback{value: msg.value}(
-<strong>        modelId, input, callbackAddress, callbackGasLimit[modelId], callbackData
-</strong>    );
+        modelId, input, callbackAddress, callbackGasLimit[modelId], callbackData
+    );
 }
-</code></pre>
+```
 
 In the code above we do the following:
 
@@ -86,8 +89,9 @@ In the code above we do the following:
 
 Next step is to define the mapping that keeps track of the callback gas limit for each model and set the initial values inside the constructor. We’ll also define a modifier so that only the contract owner can change these values.
 
-<pre class="language-solidity"><code class="lang-solidity"><strong>address owner;
-</strong>
+```solidity
+address owner;
+
 modifier onlyOwner() {
     require(msg.sender == owner, "Only owner");
     _;
@@ -104,7 +108,7 @@ constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle) {
     callbackGasLimit[50] = 500_000; // Stable-Diffusion
     callbackGasLimit[11] = 5_000_000; // Llama
 }
-</code></pre>
+```
 
 We want to store all the requests that happened, so we create a data structure for the request data and the mapping between requestId and the request data.
 
