@@ -14,7 +14,8 @@
   * [Tutorials](oao-onchain-ai-oracle/develop-guide/tutorials/README.md)
     * [Interaction with OAO - Tutorial](oao-onchain-ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial.md)
     * [Integration into OAO - Tutorial](oao-onchain-ai-oracle/develop-guide/tutorials/integration-into-oao-tutorial.md)
-* [Interact Directly](oao-onchain-ai-oracle/interact-directly.md)
+* [User Guide](oao-onchain-ai-oracle/user-guide/README.md)
+  * [Retrieve Historical AI Inference](oao-onchain-ai-oracle/user-guide/retrieve-historical-ai-inference.md)
 * [Reference](oao-onchain-ai-oracle/reference.md)
 
 ## 🏦 IMO
