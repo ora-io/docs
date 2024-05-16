@@ -13,10 +13,10 @@ As a user, to interact with AI Oracle, you can:
 
 We built an interface for users to interact with Onchain AI Oracle directly.
 
-1. Go to [AI.ORA.IO](https://ai.ora.io/)
-2. Enter your prompt
-3. Send transaction
-4. See AI inference result
+1. **Go to** [**AI.ORA.IO**](https://ai.ora.io/)
+2. **Enter your prompt**
+3. **Send transaction**
+4. **See AI inference result**
 
 Check out the [video tutorial](https://www.youtube.com/watch?v=8fcJbeKN1uM) if you have any question.
 
