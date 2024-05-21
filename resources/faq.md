@@ -40,7 +40,7 @@ The main difference between modular blockchain (including L2 Rollup) and world c
 
 ### How does opML guarantee consistency, given ML models are non-deterministic?
 
-The model will have to using deterministic inference, either using the [built in Nvidia deterministic feature](https://docs.nvidia.com/clara/clara-train-archive/3.1/nvmidl/additional\_features/determinism.html), or move the model into our deterministic vm (recommended for better support).
+The model will have to using deterministic inference (learn more from [this talk on determinism on ML](https://www.youtube.com/watch?v=ghU\_-ADHBaw)), either using the [built in Nvidia deterministic feature](https://docs.nvidia.com/clara/clara-train-archive/3.1/nvmidl/additional\_features/determinism.html), or move the model into our deterministic vm (recommended for better support).
 
 ### How does AI Oracle handle large responses such as ones to generate videos or images?
 
