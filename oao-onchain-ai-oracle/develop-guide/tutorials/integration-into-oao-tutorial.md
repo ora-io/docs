@@ -4,11 +4,12 @@ description: Bring Your Own Model into OAO
 
 # Integration into OAO - Tutorial
 
-In this tutorial we explain how to integrate your own AI model into Onchain AI Oracle (OAO). We will start by looking at [mlgo](https://github.com/OPML-Labs/mlgo) repository and trying to understand what's happening there.
+In this tutorial we explain how to integrate your own AI model into Onchain AI Oracle (OAO). We will start by looking at [mlgo](https://github.com/OPML-Labs/mlgo) repository and trying to understand what's happening there. At the end we will showcase how [opML](https://github.com/ora-io/opml) works, by running a simple dispute game script inside a docker container.
 
 ### Learning Objectives
 
 * Understand how to transform AI model and inference code in order to integrate it into Onchain AI Oracle (OAO).
+* Execute a simple dispute game and understand the process of AI inference verification.
 
 ### Prerequisites
 
@@ -74,15 +75,141 @@ cd ../mnist_mips && ./build.sh
 
 Build script will compile go code and then run [compile.py](https://github.com/OPML-Labs/mlgo/blob/6b6d69394efc7268160a4b5218488e1b8f6b9795/compile.py) script that will transform compiled go code to the MIPS VM executable file.
 
+### Running the dispute game
+
+Now that we compiled our AI model and inference code into MIPS VM executable code.
+
+We can test the dispute game process. We will use a [bash script](https://github.com/ora-io/opml/blob/main/demo/challenge\_simple.sh) from opml repository to showcase the whole verification flow.
+
+For this part of the tutorial we will use [Docker](https://www.docker.com/), so make sure to have it installed.
+
+Let's first check the content of the [Dockerfile](https://github.com/ora-io/opml/blob/main/Dockerfile) that we are using:
+
+1. First we need to specify the operating system that runs inside our container. In this case we're using ubuntu:22.04.
+
+```docker
+# How to run instructions:
+# 1. Generate ssh command: ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+#    - Save the key in local repo where Dockerfile is placed as id_rsa
+#    - Add the public key to the GitHub account
+# 2. Build docker image: docker build -t ubuntu-opml-dev .
+# 3. Run the hardhat: docker run -it --rm --name ubuntu-opml-dev-container ubuntu-opml-dev bash -c "npx hardhat node"
+# 4. Run the challange script on the same container: docker exec -it ubuntu-opml-dev-container bash -c "./demo/challenge_simple.sh"
+
+
+# Use an official Ubuntu as a parent image
+FROM ubuntu:22.04
+```
+
+2. Then we need to install all the necessary dependencies in order to run [dispute game script](https://github.com/ora-io/opml/blob/main/demo/challenge\_simple.sh).
+
+```docker
+# Set environment variables to non-interactive to avoid prompts during package installations
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Update the package list and install dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    git \
+    golang \
+    wget \
+    curl \
+    python3 \
+    python3-pip \
+    python3-venv \
+    unzip \
+    file \
+    openssh-client \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Node.js and npm
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get install -y nodejs
+```
+
+3. Then we configure ssh keys, so that docker container can clone all the required repositories.
+
+```docker
+# Copy SSH keys into the container
+COPY id_rsa /root/.ssh/id_rsa
+RUN chmod 600 /root/.ssh/id_rsa
+# Configure SSH to skip host key verification
+RUN echo "Host *\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
+```
+
+4. Position to the root directory inside docker container and clone opml repository along with its submodules.
+
+```docker
+# Set the working directory
+WORKDIR /root
+
+# Clone the OPML repository
+RUN git clone git@github.com:ora-io/opml.git --recursive
+WORKDIR /root/opml
+```
+
+5. Lastly, we tell docker to build executables and run the challenge script.
+
+```docker
+# Build the OPML project
+RUN make build
+
+# Change permission for the challenge script
+RUN chmod +x demo/challenge_simple.sh
+
+# Default command
+CMD ["bash"]
+```
+
+#### Create docker container and run the script
+
+1.  In order to successfully clone opml repository, you need to generate a new ssh key and add it to your Github account. Once it's generated, save the key in the local repository where Dockerfile is placed as `id_rsa`. Then add the public key to your GitHub account.\
+
+
+    ```bash
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    ```
+
+
+2.  Build the docker image\
+
+
+    ```sh
+    docker build -t ubuntu-opml-dev .
+    ```
+
+
+3.  Run the local Ethereum node\
+
+
+    ```sh
+    docker run -it --rm --name ubuntu-opml-dev-container ubuntu-opml-dev bash -c "npx hardhat node"
+    ```
+
+
+4.  In another terminal run the challenge script\
+
+
+    ```bash
+    docker exec -it ubuntu-opml-dev-container bash -c "./demo/challenge_simple.sh"
+    ```
+
+
+
+After executing the steps above you should be able to see interactive challenge process in the console.&#x20;
+
+Script first deploys necessary contracts to the local node. Proposer opML node executes AI inference and then the challenger nodes can dispute it, if they think that the result is not valid. Challenger and proposer are interacting in order to find the differing step between their computations. Once the dispute step is found it's sent to the smart contract for the arbitration. If the challenge is successful the proposer node gets slashed.
+
 ### Conclusion
 
 In this tutorial we achieved the following:
 
 * converted our AI model from Python to ggml format
 * compiled AI inference code written in go to MIPS VM executable format
+* run the dispute game inside a docker container and understood the opML verification process
 
 ### Next steps
 
-In order to use your model with Opml check the following [tutorial](https://github.com/ora-io/opml/blob/main/docs/tutorial.md).
-
-In order to use your AI model onchain, you need to run your own Opml nodes and write your own contracts for the dispute game.
+In order to use your AI model onchain, you need to run your own opML nodes, then this AI model will be able to integrated into OAO. Try to reproduce this tutorial with your own model.
