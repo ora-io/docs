@@ -21,6 +21,7 @@
 ## 🏦 IMO
 
 * [Introduction](imo/introduction.md)
+* [Ecosystem](imo/ecosystem.md)
 * [Technology](imo/technology.md)
 
 ## 👀 Points
