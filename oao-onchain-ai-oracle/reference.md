@@ -2,7 +2,7 @@
 
 ## Models
 
-<table data-full-width="false"><thead><tr><th>Model ID</th><th>Model</th><th>Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum</td></tr><tr><td>50</td><td>Stable Diffusion*</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Model ID</th><th width="165">Model</th><th width="207">Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum</td></tr><tr><td>50</td><td>Stable Diffusion*</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea</td></tr></tbody></table>
 
 \*: Return value is IPFS Hash (access with IPFS gateway, see [example](https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt)).
 
