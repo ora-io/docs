@@ -2,7 +2,9 @@
 
 ## Models
 
-<table data-full-width="false"><thead><tr><th width="126">Model ID</th><th width="152">Model</th><th>Deployed Network</th><th width="183">Fee</th><th width="415">Note</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 2 (7B)</td><td>Ethereum, Optimism, Arbitrum, Manta</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>/</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Ethereum</td><td>Mainnet: 0.003 ETH<br>Testnet: 0.01 ETH</td><td>/</td></tr><tr><td>50</td><td>Stable Diffusion</td><td>Ethereum, Optimism, Arbitrum, Manta</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Return value is IPFS Hash (access with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>)</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Model ID</th><th>Model</th><th>Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum</td></tr><tr><td>50</td><td>Stable Diffusion*</td><td>Mainnet: 0.005 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea</td></tr></tbody></table>
+
+\*: Return value is IPFS Hash (access with IPFS gateway, see [example](https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt)).
 
 ## Deployed Addresses
 
@@ -12,74 +14,40 @@ SimplePrompt saves gas by only emitting the event without storing all historical
 
 **Ethereum Mainnet**
 
-| Contract     | Mainnet Address                                                                                                       |
-| ------------ | --------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0x6d431EB9563984E5733B95521F7a672ADD8175a4](https://etherscan.io/address/0x6d431EB9563984E5733B95521F7a672ADD8175a4) |
-| Prompt       | [0xb880D47D3894D99157B52A7F869aB3B1E2D4349d](https://etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d) |
-| SimplePrompt | [0x61423153f111BCFB28dd264aBA8d9b5C452228D2](https://etherscan.io/address/0x61423153f111BCFB28dd264aBA8d9b5C452228D2) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d">0xb880D47D3894D99157B52A7F869aB3B1E2D4349d</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://etherscan.io/address/0x61423153f111BCFB28dd264aBA8d9b5C452228D2">0x61423153f111BCFB28dd264aBA8d9b5C452228D2</a></td></tr></tbody></table>
 
 #### **Ethereum Sepolia**
 
-| Contract     | Sepolia Address                                                                                                               |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://sepolia.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0xe47BC46FE676642eAED860E319363350B334236a](https://sepolia.etherscan.io/address/0xe47BC46FE676642eAED860E319363350B334236a) |
-| Prompt       | [0xe75af5294f4CB4a8423ef8260595a54298c7a2FB](https://sepolia.etherscan.io/address/0xe75af5294f4CB4a8423ef8260595a54298c7a2FB) |
-| SimplePrompt | [0x696c83111a49eBb94267ecf4DDF6E220D5A80129](https://sepolia.etherscan.io/address/0x696c83111a49eBb94267ecf4DDF6E220D5A80129) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Sepolia Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://sepolia.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://sepolia.etherscan.io/address/0xe75af5294f4CB4a8423ef8260595a54298c7a2FB">0xe75af5294f4CB4a8423ef8260595a54298c7a2FB</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://sepolia.etherscan.io/address/0x696c83111a49eBb94267ecf4DDF6E220D5A80129">0x696c83111a49eBb94267ecf4DDF6E220D5A80129</a></td></tr></tbody></table>
 
 Deprecated contracts: [AIOracle](https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d), [Prompt](https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2).
 
 **Optimism Mainnet**
 
-| Contract     | Mainnet Address                                                                                                                  |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://optimistic.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://optimistic.etherscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
-| Prompt       | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://optimistic.etherscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
-| SimplePrompt | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://optimistic.etherscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://optimistic.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://optimistic.etherscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD">0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://optimistic.etherscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6">0xBC24514E541d5CBAAC1DD155187A171a593e5CF6</a></td></tr></tbody></table>
 
 **Optimism Sepolia**
 
-| Contract     | Sepolia Address                                                                                                                        |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://sepolia-optimism.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://sepolia-optimism.etherscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
-| Prompt       | [0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0](https://sepolia-optimism.etherscan.io/address/0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0) |
-| SimplePrompt | [0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16](https://sepolia-optimism.etherscan.io/address/0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Sepolia Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://sepolia-optimism.etherscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://sepolia-optimism.etherscan.io/address/0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0">0x3c8Cd1714AC9c380702D160BE4cee0D291Eb89C0</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://sepolia-optimism.etherscan.io/address/0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16">0xf6919ebb1bFdD282c4edc386bFE3Dea1a1D8AC16</a></td></tr></tbody></table>
 
 **Arbitrum Mainnet**
 
-| Contract     | Mainnet Address                                                                                                      |
-| ------------ | -------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://arbiscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://arbiscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
-| Prompt       | [0xC20DeDbE8642b77EfDb4372915947c87b7a526bD](https://arbiscan.io/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD) |
-| SimplePrompt | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://arbiscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://arbiscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://arbiscan.io/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD">0xC20DeDbE8642b77EfDb4372915947c87b7a526bD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://arbiscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD">0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD</a></td></tr></tbody></table>
 
 **Arbitrum Sepolia Testnet**
 
-| Contract     | Testnet Address                                                                                                              |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://sepolia.arbiscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://sepolia.arbiscan.io/address/0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d) |
-| Prompt       | [0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD](https://sepolia.arbiscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD) |
-| SimplePrompt | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://sepolia.arbiscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Testnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://sepolia.arbiscan.io/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://sepolia.arbiscan.io/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD">0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://sepolia.arbiscan.io/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6">0xBC24514E541d5CBAAC1DD155187A171a593e5CF6</a></td></tr></tbody></table>
 
 **Manta Mainnet**
 
-| Contract     | Mainnet Address                                                                                                                         |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://pacific-explorer.manta.network/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://pacific-explorer.manta.network/address/0x293C8D0f9CE7609217De22698e2DCBCFb2Bd3d9D) |
-| Prompt       | [0xBC24514E541d5CBAAC1DD155187A171a593e5CF6](https://pacific-explorer.manta.network/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6) |
-| SimplePrompt | [0x523622DfEd0243B0DF80CC9275764B0f432D33E3](https://pacific-explorer.manta.network/address/0x523622DfEd0243B0DF80CC9275764B0f432D33E3) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://pacific-explorer.manta.network/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://pacific-explorer.manta.network/address/0xBC24514E541d5CBAAC1DD155187A171a593e5CF6">0xBC24514E541d5CBAAC1DD155187A171a593e5CF6</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://pacific-explorer.manta.network/address/0x523622DfEd0243B0DF80CC9275764B0f432D33E3">0x523622DfEd0243B0DF80CC9275764B0f432D33E3</a></td></tr></tbody></table>
 
 **Manta Sepolia Testnet**
 
-| Contract     | Testnet Address                                                                                                                                         |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OAO Proxy    | [0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0](https://pacific-explorer.sepolia-testnet.manta.network/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0) |
-| OAO Logic    | [0x293c8d0f9ce7609217de22698e2dcbcfb2bd3d9d](https://pacific-explorer.sepolia-testnet.manta.network/address/0x293C8D0f9CE7609217De22698e2DCBCFb2Bd3d9D) |
-| Prompt       | [0xC20DeDbE8642b77EfDb4372915947c87b7a526bD](https://pacific-explorer.sepolia-testnet.manta.network/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD) |
-| SimplePrompt | [0x3bfD1Cc919bfeC7795b600E764aDa001b58f122a](https://pacific-explorer.sepolia-testnet.manta.network/address/0x3bfD1Cc919bfeC7795b600E764aDa001b58f122a) |
+<table data-view="cards"><thead><tr><th>Contract</th><th>Testnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://pacific-explorer.sepolia-testnet.manta.network/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://pacific-explorer.sepolia-testnet.manta.network/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD">0xC20DeDbE8642b77EfDb4372915947c87b7a526bD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://pacific-explorer.sepolia-testnet.manta.network/address/0x3bfD1Cc919bfeC7795b600E764aDa001b58f122a">0x3bfD1Cc919bfeC7795b600E764aDa001b58f122a</a></td></tr></tbody></table>
+
+**Linea Mainnet**
+
+
+
+<table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://lineascan.build/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://lineascan.build/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD">0xC20DeDbE8642b77EfDb4372915947c87b7a526bD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://lineascan.build/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d">0xb880D47D3894D99157B52A7F869aB3B1E2D4349d</a></td></tr></tbody></table>
