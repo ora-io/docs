@@ -8,9 +8,9 @@
 
 ## Deployed Addresses
 
-Prompt and SimplePrompt are both example integrated contract.
+[Prompt](https://github.com/ora-io/OAO/blob/main/contracts/Prompt.sol) and [SimplePrompt](https://github.com/ora-io/OAO/blob/main/contracts/SimplePrompt.sol) are both example smart contracts interacted with OAO.
 
-SimplePrompt saves gas by only emitting the event without storing all historical data.
+SimplePrompt saves gas by only emitting the event without storing historical data.
 
 **Ethereum Mainnet**
 
