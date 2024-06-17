@@ -27,6 +27,7 @@
 ## 👀 Points
 
 * [Introduction](points/introduction.md)
+* [Tasks](points/tasks.md)
 
 ## 🛰️ Technology
 
