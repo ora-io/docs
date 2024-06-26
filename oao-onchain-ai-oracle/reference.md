@@ -57,5 +57,3 @@ Deprecated contracts: [AIOracle](https://sepolia.etherscan.io/address/0xb880D47D
 #### Polygon PoS Mainnet
 
 <table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://polygonscan.com/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://polygonscan.com/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD">0xC20DeDbE8642b77EfDb4372915947c87b7a526bD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://polygonscan.com/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD">0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD</a></td></tr></tbody></table>
-
-#### Polygon PoS Mainnet

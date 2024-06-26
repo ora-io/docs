@@ -56,6 +56,18 @@ The former naming format of HyperOracle. Use HyperOracle.
 
 A type of middleware that fetches and organizes data. Commonly used in blockchain due to blockchain data's unique storage model.
 
+### IMO
+
+Initial Model Offering (IMO) is a mechanism for tokenizing an open-source AI model. Through its revenue sharing model, IMO fosters transparent and long-term contributions to any AI model.
+
+The process works as follows:
+
+1. IMO launches an ERC-20 token (more specifically, ERC-7641 Intrinsic RevShare Token) of any AI model to capture its long-term value.
+2. Anyone who purchases the token becomes one of the owners of this AI model.
+3. Token holders share revenue generated from onchain usage of the tokenized AI model.
+
+More information can be found on [Initial Model Offering](https://docs.ora.io/doc/imo/introduction) page.
+
 ### JavaScript
 
 A programming language for Web.
@@ -78,7 +90,14 @@ A computer running client.
 
 ### OAO
 
-Onchain AI Oracle.
+Onchain AI Oracle (OAO) is an oracle system which provides verifiable AI inference to smart contracts.
+
+**The system consists of 2 parts:**
+
+* Network of nodes - Nodes execute AI inference and return results back to the blockchain. Validity of the result is proven through one of the proving frameworks: [zkML](glossary.md#zkml), [opML](glossary.md#opml), [opp/ai](glossary.md#opp-ai).
+* Set of smart contracts - Any dapp can request AI inference by calling OAO smart contracts. Oracle nodes listen to the events emitted by the OAO smart contracts and execute AI inference. Upon the successful execution, the results are returned in the callback function.
+
+For more information check [OAO introduction](broken-reference) page.
 
 ### On/Off-chain
 
@@ -86,7 +105,15 @@ On the (specific) blockchain / not on the (specific) blockchain. Usually refers 
 
 ### opML
 
-[Optimistic machine learning](https://arxiv.org/pdf/2401.17555.pdf).
+Optimistic Machine Learning (opML) is a machine learning proving framework. In uses game-theory to ensure the validity of AI inference results. The proving mechanism works similar to optimistic rollups approach.
+
+For more information check [opML](../technology/proving-frameworks-zkml-opml-opp-ai/opml.md) page.
+
+### opp/ai
+
+Optimistic Privacy Preserving AI (opp/ai) is a machine learning proving framework. It combines cryptography and game-theory to ensure the validity of AI inference results.
+
+For more information check [opp/ai](../technology/proving-frameworks-zkml-opml-opp-ai/opp-ai.md) page.
 
 ### ORA
 
@@ -186,7 +213,9 @@ A zkVM with EVM instruction set as bytecode.
 
 ### zkML
 
-Machine learning based on zk for verifiability and optional privacy.
+Zero-Knowledge Machine Learning (zkML) is a machine learning proving framework. In uses cryptography to ensure the validity of AI inference results.
+
+For more information check [zkML](../technology/proving-frameworks-zkml-opml-opp-ai/keras2circom-zkml.md) page.
 
 ### zkVM
 

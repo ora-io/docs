@@ -15,7 +15,7 @@ Onchain AI Oracle (OAO) brings verifiable AI inference onchain. It empowers dece
 
 Together IMO and OAO are pushing the boundaries of open-source development.
 
-<figure><img src="../.gitbook/assets/Frame 4671.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame 4666 (1).png" alt=""><figcaption><p>System overview</p></figcaption></figure>
 
 ### Benefits for Developers
 
