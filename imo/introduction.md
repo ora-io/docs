@@ -31,3 +31,4 @@ Learn more:
 * Blog - [IMO: Initial Model Offering](https://mirror.xyz/orablog.eth/xYMD27tN23ppbKCluB9faytF\_W6M1hKXTuKcfkm3D50)
 * Announcement - [IMO: Initial Model Offering](https://twitter.com/OraProtocol/status/1763676800297673001)
 * ETHDenver Talk - [AI Isn't Evil and Smart Contract Proves It](https://www.youtube.com/watch?v=6fujouJ26n8)
+* [Sample ERC-7641 implementation](https://github.com/ora-io/imo-token-contract)

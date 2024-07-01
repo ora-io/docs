@@ -1,7 +1,3 @@
----
-description: https://arxiv.org/abs/2402.15006
----
-
 # opp/ai
 
 [opp/ai (Optimistic Privacy-Preserving AI)](https://arxiv.org/abs/2402.15006), invented by ORA, represents an endgame onchain AI framework and an innovative approach to addressing the challenges of privacy and computational efficiency in blockchain-based machine learning systems. Opp/ai integrates Zero-Knowledge Machine Learning (zkML) for privacy with Optimistic Machine Learning (opML) for efficiency, creating a hybrid model tailored for onchain AI.

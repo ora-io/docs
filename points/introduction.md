@@ -1,7 +1,3 @@
----
-description: https://www.ora.io/app/tasks
----
-
 # Introduction
 
 ### Overview

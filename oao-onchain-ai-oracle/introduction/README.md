@@ -1,7 +1,3 @@
----
-description: https://mirror.xyz/orablog.eth/qLBIR_yxmpFJ4dg5p5Sn8Wz46aQDTG1jCW8myeE7zZ8
----
-
 # Introduction
 
 {% hint style="info" %}
@@ -14,7 +10,7 @@ ORA offers:
 * zk+opML with [opp/ai](https://arxiv.org/abs/2402.15006) (futuristic onchain AI fuses zkML's privacy and opML's scalability)
 {% endhint %}
 
-[Onchain AI Oracle (OAO)](https://blockworks.co/news/ora-on-chain-oracle-ethereum) is the ORA's verifiable and decentralized AI oracle.
+[Onchain AI Oracle (OAO)](https://mirror.xyz/orablog.eth/qLBIR\_yxmpFJ4dg5p5Sn8Wz46aQDTG1jCW8myeE7zZ8) is the ORA's verifiable and decentralized AI oracle.
 
 OAO integrates different AI models onchain in ORA AI Oracle nodes.
 

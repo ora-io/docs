@@ -1,7 +1,3 @@
----
-description: https://arxiv.org/abs/2401.17555
----
-
 # opML
 
 ### Introduction
