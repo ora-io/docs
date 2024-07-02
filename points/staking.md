@@ -17,6 +17,10 @@ You can stake your assets, and receive ORA Points as reward by contributing to t
 
 #### Supported Assets
 
+{% hint style="info" %}
+You will still be able to participate in OLM's revenue sharing if OLM staked.
+{% endhint %}
+
 Currently, ORA Points Program Staking supports these assets to be staked in:
 
 * [ETH](https://www.coingecko.com/en/coins/ethereum) (Native ETH)
