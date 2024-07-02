@@ -10,10 +10,12 @@ ORA Points Program Staking is designed to ensure the security of the upcoming fu
 
 You can stake your assets, and receive ORA Points as reward by contributing to the decentralization of AI Oracle network secured by opML.
 
-| Asset                        | Total Cap           | Points Per Day                   |
-| ---------------------------- | ------------------- | -------------------------------- |
-| ETH Pool (ETH, stETH, STONE) | 10,000 in ETH & LST | 8 Points with 1 ETH & LST Staked |
-| OLM Pool (OLM)               | 300,000,000 in OLM  | 24 Points with 10,000 OLM Staked |
+| Asset                        | Total Cap           | Points Per Day\*                   |
+| ---------------------------- | ------------------- | ---------------------------------- |
+| ETH Pool (ETH, stETH, STONE) | 10,000 in ETH & LST | 8n Points with n ETH & LST Staked  |
+| OLM Pool (OLM)               | 300,000,000 in OLM  | 24n Points with 10,000n OLM Staked |
+
+\*: Points are proportional to your staked amount. You will be getting points if you stake any amount.
 
 #### Supported Assets
 
@@ -48,8 +50,6 @@ At the first phase, ORA Points Program Staking is having a cap / limit on the to
 3\) Press "CONFIRM", and sign the transaction in your wallet. You are receiving points once transaction is confirmed on blockchain.
 
 4\) See your points in dashboard: [https://ora.io/app/tasks/dashboard](https://ora.io/app/tasks/dashboard). Please note your points will be distributed every day, instead of every hour.
-
-<figure><img src="../.gitbook/assets/截屏2024-06-26 下午9.22.35.png" alt=""><figcaption></figcaption></figure>
 
 #### Withdraw
 
