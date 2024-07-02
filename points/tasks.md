@@ -4,28 +4,13 @@ description: Here is an updated list of active tasks you can do to earn points.
 
 # Tasks
 
-#### **Task 1: Register in ORA Points Program with Address and Twitter** <a href="#heading-task-1-register-in-ora-points-program-with-address-and-twitter" id="heading-task-1-register-in-ora-points-program-with-address-and-twitter"></a>
-
-> 10 Points, Required Task
-
-To join the ORA Points Program, your first step is to connect to the ORA Points Program via a blockchain address and Twitter. This quest is designed to ensure Proof of Humanity so that real community members, not bots, are rewarded.
-
-To complete task 1:
-
-1. Go to the [ORA Points Program page](https://www.ora.io/app/tasks)
-2. Connect Wallet
-3. Connect Twitter (you will sign in the wallet to confirm, then go to the Twitter page to connect the two accounts)
-4. Once connected, your Twitter account will automatically follow @ORAProtocol to get the latest information.
-
-After completing task 1, you can access and see your score in the [ORA Points Dashboard](https://www.ora.io/app/tasks/dashboard).
-
-#### Task 2: Use ORA Onchain AI Oracle <a href="#heading-task-2-use-ora-onchain-ai-oracle" id="heading-task-2-use-ora-onchain-ai-oracle"></a>
+#### Task 1: Use ORA Onchain AI Oracle <a href="#heading-task-2-use-ora-onchain-ai-oracle" id="heading-task-2-use-ora-onchain-ai-oracle"></a>
 
 > 3 - 6 Points Per Usage, Repeatable Task
 
 ORA OAO enables verifiable, decentralized AI inference onchain. You can call AI directly onchain through OAO.
 
-To complete task 2:
+To complete:
 
 1. Go to the [ORA OAO Page](https://www.ora.io/app/opml/models)
 2. Select a model to use
@@ -34,11 +19,11 @@ To complete task 2:
 
 Once AI results are returned on the same page, you can access and see your score in the [ORA Points Dashboard](https://www.ora.io/app/tasks/dashboard).
 
-You will earn more points if you are using a model tokenised with IMO (right now, there's one available, OLM)
+You will earn more points if you are using a model tokenized with IMO (right now, there's one available, OLM)
 
-#### Task 3: Referral <a href="#heading-task-3-referral" id="heading-task-3-referral"></a>
+#### Task 2: Referral <a href="#heading-task-3-referral" id="heading-task-3-referral"></a>
 
-> 10% of Referee’s Points as Referrer, 5 Points as Referee, Repeatable for Referring others
+> 10% of Referee’s Points (not including Twitter Reward and Referee Reward) as Referrer, 5 Points as Referee, Repeatable for Referring others
 
 The ORA Points Program comes with a Referral System. There are 2 ways to partake: i) Join as a referee through other people’s referral code or ii) become a referrer and share ORA Points Program with others.
 
@@ -54,6 +39,10 @@ Here are the steps for referring others:
 2. Locate your referral code on Dashboard
 3. Distribute referral code to others
 4. Once others used your referral code, you will get 10% of the referee’s points continuously
+
+#### Task 3: Staking
+
+See [Staking Page](staking.md) for more information.
 
 #### More Tasks <a href="#heading-more-tasks" id="heading-more-tasks"></a>
 

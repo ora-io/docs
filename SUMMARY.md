@@ -28,6 +28,7 @@
 
 * [Introduction](points/introduction.md)
 * [Tasks](points/tasks.md)
+* [Staking](points/staking.md)
 
 ## 🛰️ Technology
 
