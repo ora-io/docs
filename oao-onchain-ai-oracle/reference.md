@@ -2,7 +2,7 @@
 
 ## Models
 
-<table data-full-width="false"><thead><tr><th width="125">Model ID</th><th width="165">Model</th><th width="203">Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.0003 ETH / 3 MATIC<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea, Base</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum</td></tr><tr><td>50</td><td>Stable Diffusion*</td><td>Mainnet: 0.0003 ETH / 3 MATIC<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea, Base</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="125">Model ID</th><th width="165">Model</th><th width="203">Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.0003 ETH / 3 MATIC / 3 MNT<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea, Base</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum</td></tr><tr><td>50</td><td>Stable Diffusion*</td><td>Mainnet: 0.0003 ETH / 3 MATIC / 3 MNT<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea, Base</td></tr></tbody></table>
 
 \*: Return value is IPFS Hash (access with IPFS gateway, see [example](https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt)).
 
@@ -57,3 +57,7 @@ Deprecated contracts: [AIOracle](https://sepolia.etherscan.io/address/0xb880D47D
 #### Polygon PoS Mainnet
 
 <table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://polygonscan.com/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://polygonscan.com/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD">0xC20DeDbE8642b77EfDb4372915947c87b7a526bD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://polygonscan.com/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD">0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD</a></td></tr></tbody></table>
+
+#### Mantle Mainnet
+
+<table data-view="cards"><thead><tr><th>Contract</th><th>Mainnet Address</th></tr></thead><tbody><tr><td>OAO Proxy</td><td><a href="https://explorer.mantle.xyz/address/0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0">0x0A0f4321214BB6C7811dD8a71cF587bdaF03f0A0</a></td></tr><tr><td>Prompt</td><td><a href="https://explorer.mantle.xyz/address/0xC20DeDbE8642b77EfDb4372915947c87b7a526bD">0xC20DeDbE8642b77EfDb4372915947c87b7a526bD</a></td></tr><tr><td>SimplePrompt</td><td><a href="https://explorer.mantle.xyz/address/0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD">0xC3287BDEF03b925A7C7f54791EDADCD88e632CcD</a></td></tr></tbody></table>
