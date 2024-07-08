@@ -86,7 +86,7 @@ Staking Points is measured based on the time-integrated amount staked in units o
 Here's the formula for points of one asset being staked, with `p` as total points awarded, `t` as the staking time if you stake for `n` days, `c` as the constant of staking points for different assets, `m` as the amount of staked asset.
 
 $$
-f(p) = \sum_{t=0}^{n} c*m
+f(p) = \sum_{t=0}^{n} c_t*m
 $$
 
 The constant of staking points (equals to the points you get if you stake 1 unit of asset for 1 day):
