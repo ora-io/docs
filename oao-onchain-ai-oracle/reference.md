@@ -2,9 +2,14 @@
 
 ## Models
 
-<table data-full-width="false"><thead><tr><th width="125">Model ID</th><th width="165">Model</th><th width="203">Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.0003 ETH / 3 MATIC / 3 MNT<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea, Base</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum</td></tr><tr><td>50</td><td>Stable Diffusion*</td><td>Mainnet: 0.0003 ETH / 3 MATIC / 3 MNT<br>Testnet: 0.01 ETH</td><td>Ethereum, Optimism, Arbitrum, Manta, Linea, Base</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="125">Model ID</th><th width="165">Model</th><th width="203">Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.0003 ETH / 3 MATIC<br>Testnet: 0.01 ETH</td><td>Ethereum &#x26; Ethereum Sepolia, Optimism &#x26; Optimism Sepolia, Arbitrum &#x26; Arbitrum Sepolia, Manta &#x26; Manta Sepolia, Linea, Base, Mantle</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum &#x26; Ethereum Sepolia</td></tr><tr><td>15</td><td>OpenLM Chat (7B)*</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Arbitrum &#x26; Arbitrum Sepolia, Ethereum Sepolia</td></tr><tr><td>50</td><td>Stable Diffusion**</td><td>Mainnet: 0.0003 ETH / 3 MATIC<br>Testnet: 0.01 ETH</td><td>Ethereum &#x26; Ethereum Sepolia, Optimism &#x26; Optimism Sepolia, Arbitrum &#x26; Arbitrum Sepolia, Manta &#x26; Manta Sepolia, Linea, Base, Mantle</td></tr></tbody></table>
 
-\*: Return value is IPFS Hash (access with IPFS gateway, see [example](https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt)).
+\*:\
+Prompt is with the format of JSON String: `{"instruction":"${instruction}","input":"${prompt}"}`. See [example](https://sepolia.etherscan.io/tx/0x45c32b649e8a3c4b0a8fc419514cf166683ffa92cb89bf534834c058559ec367#eventlog).\
+Default instruction (if sending raw prompt only) is `You are a helpful assistant.`
+
+\*\*:\
+Return value is IPFS Hash (access with IPFS gateway, see [example](https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt)).
 
 ## Deployed Addresses
 
