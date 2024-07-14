@@ -91,8 +91,8 @@ $$
 
 The constant of staking points (equals to the points you get if you stake 1 unit of asset for 1 day):
 
-* **ETH & LST Pool (ETH, stETH, STONE)**: 8. You will receive 8 points per ETH staked every 24 hours.
-* **OLM Pool (OLM)**: 0.00024. You will receive 24 points per 10,000 OLM staked every 24 hours.
+* **ETH & LST Pool (ETH, stETH, STONE)**: 8. You will receive 8m points per m ETH staked every 24 hours.
+* **OLM Pool (OLM)**: 0.0024. You will receive 24m points per 10,000m OLM staked every 24 hours.
 
 In simpler words:
 
