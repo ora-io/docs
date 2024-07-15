@@ -194,7 +194,7 @@ A network with zkOracle nodes for decentralization and trustlessness.
 
 ### zkPoS
 
-Ethereum's consensus algorithm fully verified with zk.
+Ethereum's consensus algorithm is fully verified with zk.
 
 ### zkVM
 

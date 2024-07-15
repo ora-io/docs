@@ -26,7 +26,7 @@ I/O oracles such as Gelato Network and Keep3r Network have governance for securi
 
 Yes.
 
-We believe the advancement in zk technology will drive down the cost of compute power and time required for proof generation to make zkOracle network desirable. We believe a fully trustless, decentralized, secure, and verifiabe oracle network as middleware for DApps is vital. If one component is centralized, the whole DApp is just a App with smart contract.
+We believe the advancement in zk technology will drive down the cost of compute power and time required for proof generation to make zkOracle network desirable. We believe a fully trustless, decentralized, secure, and verifiable oracle network as middleware for DApps is vital. If one component is centralized, the whole DApp is just a App with smart contract.
 
 ### Is HyperOracle a rollup or layer 2?
 
