@@ -99,3 +99,7 @@ In simpler words:
 * You accumulate points over time when you stake into ORA Points Program Staking.
 * Points are updated and awarded every day.
 * You can stake multiple assets and earn points for all of them.
+
+### Audit
+
+Here is the audit report of ORA Staking: [Salus Security 2024-07-13](https://github.com/ora-io/audit-report-staking/blob/main/ORA\_staking-contract\_audit\_report\_2024-07-13.pdf).
