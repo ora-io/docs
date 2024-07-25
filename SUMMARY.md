@@ -9,6 +9,7 @@
 ## 🔥 OAO - Onchain AI Oracle
 
 * [Introduction](oao-onchain-ai-oracle/introduction/README.md)
+  * [Why Verifiability Matters?](oao-onchain-ai-oracle/introduction/why-verifiability-matters.md)
   * [ai/fi](oao-onchain-ai-oracle/introduction/ai-fi.md)
 * [Develop Guide](oao-onchain-ai-oracle/develop-guide/README.md)
   * [Tutorials](oao-onchain-ai-oracle/develop-guide/tutorials/README.md)
