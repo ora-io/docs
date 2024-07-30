@@ -4,17 +4,17 @@
 
 ### Evolution of Blockchain
 
-Blockchain technology provides a robust decentralized infrastructure that can be applied to different use cases. Bitcoin introduced the idea of borderless money and permissionless p2p network for asset transfer. Then Ethereum showed up and introduced an idea of smart contracts and decentralized applications. Ever since, the technology kept evolving, solving different problems. Nowadays there are many L2 solutions solving scalability issues, cross-chain bridges solving liquidity fragmentation, even complex DeFi protocols introducing the whole new world of finance. The technology keeps evolving and changing existing dapps and use cases.
+Blockchain technology provides a robust decentralized infrastructure that can be applied to different use cases. Bitcoin introduced the idea of borderless money and permissionless p2p network for asset transfer. Then Ethereum showed up and introduced an idea of smart contracts and decentralized applications. The technology keeps evolving, and with it, existing dApps and use-cases change and improve. At the same time, the industry faces constant threat from infrastructural vulnerabilities and the attention of malicious actors attracted to attack and manipulate these applications by the massive capital at stake.
 
-On the other hand rapid advancements in Artifical Inteligence significantly enhanced human performance and changed many businesses. Many blockchain companies realized that and strated using AI in their products.
+Rapid advancements in Artificial Intelligence have significantly enhanced human performance and transformed many businesses. Recognizing this, many blockchain companies have started integrating AI into their products. AI can analyze vast amounts of data to detect fraud, predict market trends, and enhance security protocols. It can also optimize smart contract performance, automate complex trading strategies, and personalize user experiences in decentralized applications. The synergy between AI and blockchain holds great promise for the future, driving innovation and efficiency in various sectors. As these technologies converge, we can expect to see even more sophisticated solutions that leverage the strengths of both AI and blockchain, paving the way for a more secure and efficient digital economy.
 
 ### Issues with Centralized AI
 
-Many traditional AI powered applications use centralized APIs. For most of the use cases this is good enough. But for end-to-end trustless, decentralized applications, we don't want to rely on AI inference provided by a centralized servers, hosted by single authority. Instead, we should be able to prove that certain AI model generated results, and also be able to differentiate between different models.
+Many traditional AI powered applications use centralized APIs. For most of the use cases this is good enough. But for end-to-end trustless, decentralized applications, we don't want to rely on AI inference provided by a centralized servers, hosted by single authority. Instead, we should be able to prove that certain AI model generated results, and also be able to differentiate between different models. This will ensure that the benefits of AI can enter the blockchain landscape securely, and without increasing attack vectors and uncertainty.
 
-### OAO provides verifiable AI
+### OAO Provides Verifiable AI
 
-With the introduction of ORA's Onchain AI Oracle (OAO), dapps can now use the power of AI in a verifiable way, thus avoiding any trust assumptions. ORA introduced Optimistic Machine Learning ([opML](../../technology/proving-frameworks-zkml-opml-opp-ai/opml.md)), which serves as a verifiability layer of AI oracle.
+With the introduction of ORA's Onchain AI Oracle (OAO), dapps can now use the power of AI in a verifiable way, thus avoiding any trust assumptions. ORA introduced Optimistic Machine Learning ([opML](../../technology/proving-frameworks-zkml-opml-opp-ai/opml.md)), which serves as a verifiability layer of AI oracle. The oracle system consist of the network of oracle nodes and a set of smart contracts. Any dapp can request AI inference from the oracle by interacting with OAO smart contracts. Once inference request is initiated, oracle network generates verifiable results and send them back to the caller. To start building with ORA's AI Oracle, you can check [Interaction with OAO - Tutorial](../develop-guide/tutorials/interaction-with-oao-tutorial.md).
 
 ### Use Cases
 
