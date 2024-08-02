@@ -53,10 +53,6 @@ At the first phase, ORA Points Program Staking is having a cap / limit on the to
 
 #### Withdraw
 
-{% hint style="info" %}
-Withdraw will be enabled 1 month after the genesis of ORA Points Program Staking for effectively securing the AI Oracle network.
-{% endhint %}
-
 1\) Go to ORA Staking Page: [https://ora.io/app/stake](https://ora.io/app/stake).
 
 2\) Switch to "WITHDRAW" tab.
@@ -91,8 +87,8 @@ $$
 
 The constant of staking points (equals to the points you get if you stake 1 unit of asset for 1 day):
 
-* **ETH & LST Pool (ETH, stETH, STONE)**: 8. You will receive 8m points per m ETH staked every 24 hours.
-* **OLM Pool (OLM)**: 0.0024. You will receive 24m points per 10,000m OLM staked every 24 hours.
+* **ETH & LST Pool (ETH, stETH, STONE)**: 8. You will receive 8n points per n ETH staked every 24 hours.
+* **OLM Pool (OLM)**: 0.0024. You will receive 24n points per 10,000n OLM staked every 24 hours.
 
 In simpler words:
 
