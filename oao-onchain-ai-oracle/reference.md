@@ -1,19 +1,36 @@
+---
+description: Supported AI Models and Deployment Addresses of Onchain AI Oracle.
+---
+
 # Reference
 
 ## Models
 
-<table data-full-width="false"><thead><tr><th width="125">Model ID</th><th width="165">Model</th><th width="203">Fee</th><th>Deployed Network</th></tr></thead><tbody><tr><td>11</td><td>LlaMA 3 (8B)</td><td>Mainnet: 0.0003 ETH / 3 MATIC<br>Testnet: 0.01 ETH</td><td>Ethereum &#x26; Ethereum Sepolia, Optimism &#x26; Optimism Sepolia, Arbitrum &#x26; Arbitrum Sepolia, Manta &#x26; Manta Sepolia, Linea, Base, Mantle</td></tr><tr><td>13</td><td>OpenLM (1B)</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Ethereum &#x26; Ethereum Sepolia</td></tr><tr><td>14</td><td>(A.I.)location Oracle / OpenLM Score (7B)*</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Arbitrum &#x26; Arbitrum Sepolia, Ethereum Sepolia</td></tr><tr><td>15</td><td>OpenLM Chat (7B)*</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td><td>Arbitrum &#x26; Arbitrum Sepolia, Ethereum Sepolia</td></tr><tr><td>50</td><td>Stable Diffusion**</td><td>Mainnet: 0.0003 ETH / 3 MATIC<br>Testnet: 0.01 ETH</td><td>Ethereum &#x26; Ethereum Sepolia, Optimism &#x26; Optimism Sepolia, Arbitrum &#x26; Arbitrum Sepolia, Manta &#x26; Manta Sepolia, Linea, Base, Mantle</td></tr></tbody></table>
+#### [Llama3 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
 
-\*:\
-Prompt is with the format of JSON String: `{"instruction":"${instruction}","input":"${prompt}"}`. See [example](https://sepolia.etherscan.io/tx/0x45c32b649e8a3c4b0a8fc419514cf166683ffa92cb89bf534834c058559ec367#eventlog).\
-Default instruction (if sending raw prompt only) is `You are a helpful assistant.`
+<table data-full-width="true"><thead><tr><th width="130"></th><th>Llama3 8B Instruct</th></tr></thead><tbody><tr><td>Model ID</td><td>11</td></tr><tr><td>Deployed Network</td><td>Ethereum &#x26; Ethereum Sepolia, Optimism &#x26; Optimism Sepolia, Arbitrum &#x26; Arbitrum Sepolia, Manta &#x26; Manta Sepolia, Linea, Base, Mantle</td></tr><tr><td>Fee</td><td>Mainnet: 0.0003 ETH / 3 MATIC / 3 MNT<br>Testnet: 0.01 ETH</td></tr><tr><td>Usage</td><td>Input: Prompt (<a href="https://etherscan.io/tx/0xa2e4af640c8aed49b689ac47d46534c7e1854212b3cb877f4bc2c55f3c6c04d5">example tx</a>).<br>Output: Inference result (<a href="https://etherscan.io/tx/0x738e20692c6159f3ebe4eb993b007dd6da26b2db15ecb97d2994d64741b547a3">example tx</a>).</td></tr></tbody></table>
 
-\*\*:\
-Return value is IPFS Hash (access with IPFS gateway, see [example](https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt)).
+#### [OpenLM 1B](https://github.com/mlfoundations/open\_lm)
+
+<table data-full-width="true"><thead><tr><th width="130"></th><th>OpenLM 1B</th></tr></thead><tbody><tr><td>Model ID</td><td>13</td></tr><tr><td>Deployed Network</td><td>Ethereum &#x26; Ethereum Sepolia</td></tr><tr><td>Fee</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td></tr><tr><td>Usage</td><td>Input: Prompt (<a href="https://etherscan.io/tx/0x307d219dfd91fd77e92e0e199be54feda5eaa8ffd426ac592a069190f8038c72">example tx</a>).<br>Output: Inference result (<a href="https://etherscan.io/tx/0xc72bed0224607dbf967a424de6ef09bdff8b65e08df4a7cd3149cd607e63ba79">example tx</a>).</td></tr></tbody></table>
+
+#### [OpenLM Score 7B](https://huggingface.co/OLMResearch/olm-score-7b), aka. (A.I.)location Oracle
+
+<table data-full-width="true"><thead><tr><th width="130"></th><th>OpenLM Score 7B, aka. (A.I.)location Oracle</th></tr></thead><tbody><tr><td>Model ID</td><td>14</td></tr><tr><td>Deployed Network</td><td>Arbitrum &#x26; Arbitrum Sepolia, Ethereum Sepolia</td></tr><tr><td>Fee</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td></tr><tr><td>Usage</td><td>Input: Instruction and prompt with the format of JSON String: <code>{"instruction":"${instruction}","input":"${prompt}"}</code> (<a href="https://arbiscan.io/tx/0x26fe26d3cee4aae650cb40718592e42969a84862620ff69a03cf23fafb8391ec">example tx</a>). Default instruction (if sending raw prompt only) is <code>You are a helpful assistant</code>.<br>Output: Inference result (<a href="https://arbiscan.io/tx/0xe9e0a45d0f263ec010ff60e508d8b1acb49216223ced21c8d5d6d46aa94a40b1">example tx</a>).</td></tr></tbody></table>
+
+#### [OpenLM Chat 7B](https://huggingface.co/OLMResearch/olm-chat-7b)
+
+<table data-full-width="true"><thead><tr><th width="130"></th><th>OpenLM Score 7B, aka. (A.I.)location Oracle</th></tr></thead><tbody><tr><td>Model ID</td><td>15</td></tr><tr><td>Deployed Network</td><td>Arbitrum &#x26; Arbitrum Sepolia, Ethereum Sepolia</td></tr><tr><td>Fee</td><td>Mainnet: 0.0003 ETH<br>Testnet: 0.01 ETH</td></tr><tr><td>Usage</td><td>Input: Instruction and prompt with the format of JSON String: <code>{"instruction":"${instruction}","input":"${prompt}"}</code> (<a href="https://arbiscan.io/tx/0x29aef16c9eb5e9233e9ece7ff68043b247a1bc42a39d132e340f9eb0d332d13c">example tx</a>). Default instruction (if sending raw prompt only) is <code>You are a helpful assistant</code>.<br>Output: Inference result (<a href="https://arbiscan.io/tx/0x3b242919ea952400ca7240ddc8f9976aede2c0b77a039f89ba71f707112b5d47">example tx</a>).</td></tr></tbody></table>
+
+#### [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4)
+
+<table data-full-width="true"><thead><tr><th width="130"></th><th>Stable Diffusion</th></tr></thead><tbody><tr><td>Model ID</td><td>11</td></tr><tr><td>Deployed Network</td><td>Ethereum &#x26; Ethereum Sepolia, Optimism &#x26; Optimism Sepolia, Arbitrum &#x26; Arbitrum Sepolia, Manta &#x26; Manta Sepolia, Linea, Base, Mantle</td></tr><tr><td>Fee</td><td>Mainnet: 0.0003 ETH / 3 MATIC / 3 MNT<br>Testnet: 0.01 ETH</td></tr><tr><td>Usage</td><td>Input: Prompt (<a href="https://etherscan.io/tx/0x7fc0e6cb44d6a450b5b1cb5fc5e7ea64f6c8f7b60052f3fba5eae1ea3edd2ff7">example tx</a>).<br>Output: IPFS hash of inference result (<a href="https://etherscan.io/tx/0xf1dec4934204edde2f8ba1957ae4e97df56c2a55e55eec7efb8831a1bcf68e60">example tx</a>). Access with IPFS gateway, see <a href="https://ipfs.io/ipfs/QmTJGTnAHLaYSVz8xbWZBVwAWNUJSi7GKZDzkCLMHTxAXt">example</a>.</td></tr></tbody></table>
 
 ## Deployed Addresses
 
 [Prompt](https://github.com/ora-io/OAO/blob/main/contracts/Prompt.sol) and [SimplePrompt](https://github.com/ora-io/OAO/blob/main/contracts/SimplePrompt.sol) are both example smart contracts interacted with OAO.
+
+For simpler application scenarios (eg. Prompt Engineering based AI like GPTs), you can directly use Prompt or SimplePrompt.
 
 SimplePrompt saves gas by only emitting the event without storing historical data.
 
