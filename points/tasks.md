@@ -44,6 +44,17 @@ Here are the steps for referring others:
 
 See [Staking Page](staking.md) for more information.
 
+#### Task 4: Running Validator Node
+
+> 3 Points Per Onchain Validation, Repeatable Task
+
+Running validator node to participate the decentralized network of OAO will benefit the decentralization of verifiable AI inference.
+
+To complete:
+
+1. Go to the [TORA Node Page](../oao-onchain-ai-oracle/node-operator-guide/validator-node-tutorials/)
+2. Follow the guide to set up and run the node to confirm AI inference result on Ethereum mainnet
+
 #### More Tasks <a href="#heading-more-tasks" id="heading-more-tasks"></a>
 
 In the future, we will enable more tasks for users to learn about and participate in ORA’s ecosystem.
