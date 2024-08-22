@@ -2,7 +2,7 @@
 
 ### Introduction
 
-**TORA Validator Node** is a validator client of the AI Oracle network, written in TypeScript.
+**Tora Validator Node** is a validator client of the AI Oracle network, written in TypeScript.
 
 As the first released version of ORA node, it validates AI inference results submitted by AI Oracle nodes.
 
@@ -12,18 +12,18 @@ To enhance client diversity and further decentralize the network, future updates
 
 ### What It Does
 
-TORA Validator Node performs two main functions:
+Tora Validator Node performs two main functions:
 
 * **Validation**: It validates AI inference results by executing AI computations within the opML framework.
 * **Blockchain Interaction**: The node interacts with the Onchain AI Oracle's smart contracts by monitoring AI requests and confirming validated inference results.
 
 ### Technical Details
 
-Currently, TORA Validator supports the OpenLM model (model ID: 13) on the Ethereum mainnet. The node runs this model and confirms its AI inference results on-chain, contributing to the overall security and trustworthiness of the network.
+Currently, Tora Validator supports the OpenLM model (model ID: 13) on the Ethereum mainnet. The node runs this model and confirms its AI inference results on-chain, contributing to the overall security and trustworthiness of the network.
 
 ### Tutorials
 
-To encourage participation, TORA offers two options for running the node:
+To encourage participation, Tora offers two options for running the node:
 
 * **Desktop App**: A beginner-friendly approach for users who prefer a graphical interface.
 * **CLI**: An advanced option for those comfortable with command-line operations, offering more control and flexibility.
