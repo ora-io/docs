@@ -26,6 +26,8 @@ Interact and build with OAO
 
 ## Workflow
 
+OAO is a pull-based oracle, meaning user will get one response (AI inference result) on one request (AI prompt) in an on-demand basis.
+
 1. The user contract sends the AI request to OAO on chain, by calling `requestCallback` function on the OAO contract.
 2. Each AI request will initiate an opML request.
 3. OAO will emit a `requestCallback` event which will be collected by opML node.
@@ -39,9 +41,9 @@ Interact and build with OAO
 
 ### Overview
 
-To integrate with OAO, you will need to write your own contract.
+To interact with OAO, you will need to write your own contract.
 
-To build with AI models of OAO, we provided an example of integration to LlaMA2 model: [Prompt](https://sepolia.etherscan.io/address/0x3E774275c7761CFb781715A47cAE694BA9dEb44A).
+To build with AI models of OAO, we provided an example of interaction to Llama model: [Prompt](https://github.com/ora-io/OAO/blob/main/contracts/Prompt.sol).
 
 ### Smart Contract Integration
 
