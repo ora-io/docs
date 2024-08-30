@@ -292,7 +292,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
 2.  Create a deployment script
 
-    Go to [Reference](../../reference.md) page and find the OAO\_PROXY address for the network you want to deploy to.
+    Go to [Reference](../../../reference.md) page and find the OAO\_PROXY address for the network you want to deploy to.
 
     Then open script/Prompt.s.sol and add the following code:
 
@@ -343,7 +343,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
         <div align="left">
 
-        <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
         </div>
     2.  Then request AI inference from OAO by calling _calculateAIResult_ method. Pass the model id and the prompt for the image generation. Remember to provide estimated fee as a value for the transaction.\
@@ -351,7 +351,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
         <div align="left">
 
-        <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
         </div>
     3.  After the transaction is executed, and the OAO calculates the result, you can check it by calling _prompts_ method. Simply input model id and the prompt you used for image generation. In the case of Stable Diffusion, the output will be a CID (content identifier on [ipfs](https://ipfs.tech/)). To check the image go to [https://ipfs.io/ipfs/\[Replace\_your\_CID\]](https://ipfs.io/ipfs/).\
@@ -359,7 +359,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
         <div align="left">
 
-        <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
         </div>
 
@@ -372,7 +372,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
     <div align="left">
 
-    <figure><img src="../../../.gitbook/assets/remix_explorer.png" alt="" width="563"><figcaption><p>remix explorer</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/remix_explorer.png" alt="" width="563"><figcaption><p>remix explorer</p></figcaption></figure>
 
     </div>
 4.  Choose the solidity compiler version and compile the contract to the bytecode\
@@ -380,7 +380,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
     <div align="left">
 
-    <figure><img src="../../../.gitbook/assets/remix_compile.png" alt="" width="299"><figcaption><p>remix compiler</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/remix_compile.png" alt="" width="299"><figcaption><p>remix compiler</p></figcaption></figure>
 
     </div>
 5.  Deploy the compiled bytecode\
@@ -393,18 +393,18 @@ contract Prompt is AIOracleCallbackReceiver {
 
     <div align="left">
 
-    <figure><img src="../../../.gitbook/assets/remix_deployment.png" alt=""><figcaption><p>deployment</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/remix_deployment.png" alt=""><figcaption><p>deployment</p></figcaption></figure>
 
     </div>
 6. Once the contract is deployed, you can interact with it.\
    Remix supports API for interaction, but you can also use blockchain explorers like [Etherscan](https://etherscan.io/).\
    Let's use Stable Diffusion model (id = 50).&#x20;
    1. First call `estimateFee` method to calculate fee for the callback.\
-      ![](../../../.gitbook/assets/estimateFee\_remix.png)
+      ![](../../../../.gitbook/assets/estimateFee\_remix.png)
    2. Then request AI inference from OAO by calling \`calculateAIResult\` method. Pass the model id and the prompt for the image generation. Remember to provide estimated fee as a value for the transaction.\
-      ![](../../../.gitbook/assets/calculateAIResult\_remix.png)
+      ![](../../../../.gitbook/assets/calculateAIResult\_remix.png)
    3. After the transaction is executed, and the OAO calculates result, you can check it by calling prompts method. Simply input model id and the prompt you used for image generation. In the case of Stable Diffusion, the output will be a CID (content identifier on [ipfs](https://ipfs.tech/)).\
-      ![](../../../.gitbook/assets/prompts\_remix.png)
+      ![](../../../../.gitbook/assets/prompts\_remix.png)
 
 ### Conclusion
 

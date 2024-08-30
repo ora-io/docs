@@ -6,6 +6,6 @@ description: >-
 
 # Tutorials
 
-[Interaction with OAO - Tutorial](interaction-with-oao-tutorial.md) covers step by step creation of simple Prompt contract that interacts with OAO.\
+[Interaction with OAO - Tutorial](interaction-with-oao-tutorial/) covers step by step creation of simple Prompt contract that interacts with OAO.\
 \
 [Integration into OAO - Tutorial](integration-into-oao-tutorial.md) covers the process of creating model for your AI model and integration into OAO.

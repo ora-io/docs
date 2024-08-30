@@ -14,7 +14,7 @@ Many traditional AI powered applications use centralized APIs. For most of the u
 
 ### OAO Provides Verifiable AI
 
-With the introduction of ORA's Onchain AI Oracle (OAO), dapps can now use the power of AI in a verifiable way, thus avoiding any trust assumptions. ORA introduced Optimistic Machine Learning ([opML](../../technology/proving-frameworks-zkml-opml-opp-ai/opml.md)), which serves as a verifiability layer of AI oracle. The oracle system consist of the network of oracle nodes and a set of smart contracts. Any dapp can request AI inference from the oracle by interacting with OAO smart contracts. Once inference request is initiated, oracle network generates verifiable results and send them back to the caller. To start building with ORA's AI Oracle, you can check [Interaction with OAO - Tutorial](../develop-guide/tutorials/interaction-with-oao-tutorial.md).
+With the introduction of ORA's Onchain AI Oracle (OAO), dapps can now use the power of AI in a verifiable way, thus avoiding any trust assumptions. ORA introduced Optimistic Machine Learning ([opML](../../technology/proving-frameworks-zkml-opml-opp-ai/opml.md)), which serves as a verifiability layer of AI oracle. The oracle system consist of the network of oracle nodes and a set of smart contracts. Any dapp can request AI inference from the oracle by interacting with OAO smart contracts. Once inference request is initiated, oracle network generates verifiable results and send them back to the caller. To start building with ORA's AI Oracle, you can check [Interaction with OAO - Tutorial](../develop-guide/tutorials/interaction-with-oao-tutorial/).
 
 ### Use Cases
 
