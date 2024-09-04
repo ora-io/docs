@@ -1,5 +1,5 @@
 ---
-description: https://www.ora.io/app/tasks
+description: https://www.ora.io/app/points-program
 ---
 
 # Introduction

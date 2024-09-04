@@ -11,7 +11,7 @@ ORA provides set of tools and services to bring AI and complex computation oncha
 ORA's two main offerings are:
 
 * [**Onchain AI Oracle (OAO)**](oao-onchain-ai-oracle/introduction/)
-* [**Initial Model Offering (IMO)**](imo/introduction.md)
+* [**Initial Model Offering (IMO)**](imo-initial-model-offering/introduction.md)
 
 #### Why ORA?
 

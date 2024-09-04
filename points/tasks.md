@@ -60,7 +60,7 @@ To complete:
 In the future, we will enable more tasks for users to learn about and participate in ORA’s ecosystem.
 
 * We may host special challenges featuring bonus points. Stay up-to-date with our official communications on [ORA’s X account](https://x.com/oraprotocol).
-* Regularly check the [ORA Points Program](https://www.ora.io/app/tasks) page for new developments and additional tasks.
+* Regularly check the [ORA Points Program](https://www.ora.io/app/tasks/dashboard) page for new developments and additional tasks.
 * If you experience any issues, feel free to reach out on [ORA’s Discord](https://discord.com/invite/MgyYbW9dQj).
 
 ### ORA Points Program Tips <a href="#heading-ora-points-program-tips" id="heading-ora-points-program-tips"></a>

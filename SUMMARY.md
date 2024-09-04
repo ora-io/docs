@@ -24,11 +24,11 @@
   * [Retrieve Historical AI Inference](oao-onchain-ai-oracle/user-guide/retrieve-historical-ai-inference.md)
 * [Reference](oao-onchain-ai-oracle/reference.md)
 
-## 🏦 IMO
+## 🏦 IMO - INITIAL MODEL OFFERING
 
-* [Introduction](imo/introduction.md)
-* [Ecosystem](imo/ecosystem.md)
-* [Technology](imo/technology.md)
+* [Introduction](imo-initial-model-offering/introduction.md)
+* [Ecosystem](imo-initial-model-offering/ecosystem.md)
+* [Technology](imo-initial-model-offering/technology.md)
 
 ## 👀 Points
 

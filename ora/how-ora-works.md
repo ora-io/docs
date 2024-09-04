@@ -5,7 +5,7 @@ ORA provides developers with the tools necessary to build end-to-end trustless a
 ORA's two main offerings are:
 
 * [**Onchain AI Oracle (OAO)**](../oao-onchain-ai-oracle/introduction/)
-* [**Initial Model Offering (IMO)**](../imo/introduction.md)
+* [**Initial Model Offering (IMO)**](../imo-initial-model-offering/introduction.md)
 
 ### Architecture Overview
 
