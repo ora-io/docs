@@ -54,5 +54,5 @@
 * [Mirror](https://mirror.xyz/orablog.eth)
 * [Twitter](https://twitter.com/OraProtocol)
 * [GitHub](https://github.com/ora-io)
-* [Discord](https://discord.gg/MgyYbW9dQj)
+* [Discord](https://discord.gg/ora-io)
 * [Telegram](https://t.me/Hyper\_Oracle)
