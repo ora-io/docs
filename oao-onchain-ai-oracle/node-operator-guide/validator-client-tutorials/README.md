@@ -1,8 +1,8 @@
-# Validator Node Tutorials
+# Validator Client Tutorials
 
 ### Introduction
 
-**Tora Validator Node** is a validator client of the AI Oracle network, written in TypeScript.
+**Tora Validator** is a validator client of the AI Oracle network, written in TypeScript.
 
 As the first released version of ORA node, it validates AI inference results submitted by AI Oracle nodes.
 
@@ -23,7 +23,7 @@ Currently, Tora Validator supports the OpenLM model (model ID: 13) on the Ethere
 
 ### Tutorials
 
-To encourage participation, Tora offers two options for running the node:
+To encourage participation, Tora offers two options of client software for running the node:
 
-* **Desktop App**: A beginner-friendly approach for users who prefer a graphical interface.
+* **Desktop App (Tora Launcher)**: A beginner-friendly approach for users who prefer a graphical interface.
 * **CLI**: An advanced option for those comfortable with command-line operations, offering more control and flexibility.
