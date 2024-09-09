@@ -19,7 +19,7 @@
 * [Node Operator Guide](oao-onchain-ai-oracle/node-operator-guide/README.md)
   * [Validator Client Tutorials](oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/README.md)
     * [Tora Launcher - Tutorial](oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/tora-launcher-tutorial.md)
-    * [CLI - Tutorial](oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/cli-tutorial.md)
+    * [Tora CLI - Tutorial](oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/tora-cli-tutorial.md)
 * [User Guide](oao-onchain-ai-oracle/user-guide/README.md)
   * [Retrieve Historical AI Inference](oao-onchain-ai-oracle/user-guide/retrieve-historical-ai-inference.md)
 * [Reference](oao-onchain-ai-oracle/reference.md)

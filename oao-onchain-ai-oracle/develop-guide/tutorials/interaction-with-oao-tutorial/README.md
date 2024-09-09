@@ -343,7 +343,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
         <div align="left">
 
-        <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
         </div>
     2.  Then request AI inference from OAO by calling _calculateAIResult_ method. Pass the model id and the prompt for the image generation. Remember to provide estimated fee as a value for the transaction.\
@@ -351,7 +351,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
         <div align="left">
 
-        <figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
         </div>
     3.  After the transaction is executed, and the OAO calculates the result, you can check it by calling _prompts_ method. Simply input model id and the prompt you used for image generation. In the case of Stable Diffusion, the output will be a CID (content identifier on [ipfs](https://ipfs.tech/)). To check the image go to [https://ipfs.io/ipfs/\[Replace\_your\_CID\]](https://ipfs.io/ipfs/).\
