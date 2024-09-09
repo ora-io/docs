@@ -15,7 +15,7 @@ HyperOracle is a decentralized protocol and network:
 
 ### Advantages as Network
 
-* A unstoppable autonomous protocol and network
+* An unstoppable autonomous protocol and network
 * Optimal cryptography-native decentralization
 * Verifiable, decentralized, and secure network
 * Safeguarding the security of the base layer
