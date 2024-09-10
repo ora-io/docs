@@ -6,20 +6,21 @@ description: https://github.com/ora-io/tora-docker-compose/releases
 
 ### **Prerequisites**
 
-Please confirm that your computer has Docker installed and ensure there is a smooth network connection. The installation, operation, and upgrade of Tora validator client will be based on Docker.
+Please confirm that your computer has Docker installed and ensure there is a reliable network connection. The installation, operation, and upgrade of Tora validator client is based on Docker.
 
 ### **Minimal requirements**
 
 To run a Tora validator client, your computer must have:
 
-* Any Operating System with Docker installed.
-* 1-core CPU that exceeds 8 GB RAM (12GB recommended). This configuration is sufficient to run an OpenLM model server.
+* A Operating System with Docker installed.
+* 1-core CPU that exceeds 8 GB RAM (12GB recommended). 
+This configuration is sufficient to run an OpenLM model server.
 
-💡 Set up a new fresh wallet to run the node. Do not use "everyday wallet".
+💡 Set up a fresh wallet to run the node. Do not use a wallet that frequents other transactions daily.
 
-💡 Please ensure that there is sufficient balance in the wallet used for `confirmation`, which can be used to pay for `transaction.Gas`.
+💡 Please ensure that there is sufficient balance in the wallet used for`confirmation`, in order to pay for gas `transaction.Gas`.
 
-💡 Make sure to set appropriate RAM limit in the docker engine configuration.
+💡 Make sure to set an appropriate RAM limit in the docker engine configuration.
 
 <figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -39,14 +40,14 @@ For the parameters that need to be configured in `.env`, please refer to the nex
 
 #### RPC (required)
 
-You need to modify the following four environment variables.
+Modify the following four environment variables.
 
 * `MAINNET_WSS`
 * `MAINNET_HTTP`
 * `SEPOLIA_WSS`
 * `SEPOLIA_HTTP`
 
-The Tora validator client does not currently provide a default public RPC. To create your own API key, please register an provider account like the Alchemy.
+The Tora validator client does not currently provide a default public RPC. To create your own API key, please register a provider account (e.g. Alchemy).
 
 ```bash
 MAINNET_WSS=""
@@ -59,11 +60,11 @@ SEPOLIA_HTTP=""
 
 The Tora validator client currently supports Ethereum Mainnet and Sepolia.
 
-You need to modify the `CONFIRM_CHAINS` environment variable to select the chain you want to listen to.
+Modify the `CONFIRM_CHAINS` environment variable to select the chain you want to listen to.
 
-This variable requires a string type, but you can listen to multiple chains at the same time by using a JSON-formatted string.
+This variable requires a string type, you may listen to multiple chains at the same time by using a JSON-formatted string.
 
-The following examples are feasible:
+The following examples are currently possible:
 
 ```bash
 CONFIRM_CHAINS="mainnet"
@@ -73,9 +74,9 @@ CONFIRM_CHAINS='["mainnet","sepolia"]'
 
 #### PRIV\_KEY (required)
 
-You need to modify the PRIV\_KEY environment variable to set the wallet used for confirmation.
+Modify the PRIV\_KEY environment variable to set the wallet used for confirmation.
 
-Please ensure that the wallet has enough balance to pay transaction gas.
+Ensure that the wallet has enough balance to pay transaction gas.
 
 For example:
 
@@ -85,13 +86,13 @@ PRIV_KEY="0x..."
 
 #### CONFIRM\_MODELS (required)
 
-The TORA validator currently supports OpenLM model.
+The TORA validator currently supports the OpenLM model.
 
-You can modify the `CONFIRM_MODELS` environment variable to select the model you want to validate.
+You may modify the `CONFIRM_MODELS` environment variable to select the model you want to validate.
 
 This variable requires a number Array type encoded in JSON.
 
-The following example is feasible:
+The following example is currently possible:
 
 ```bash
 CONFIRM_MODELS='[13]'
@@ -101,9 +102,9 @@ CONFIRM_MODELS='[13]'
 
 When `CONFIRM_USE_CROSSCHECK` is set to `true`, the node will periodically check if any events are missed.
 
-If set to `false`, it will not check for misses.
+If set to `false`, it will not check for missed events.
 
-The following example is feasible:
+This is an example:
 
 ```bash
 CONFIRM_USE_CROSSCHECK=true
@@ -129,7 +130,7 @@ BATCH_BLOCKS_MAX=600 # default 600 means blocks in 2 hours on eth
 
 #### CONFIRM\_TASK\_TTL ( optional )
 
-Confirm Task will be processed within a certain period of time. After the timeout, the node will skip this Task.
+Confirm Task will be processed within a certain period of time. After a timeout, the node will skip this Task.
 
 ```bash
 CONFIRM_TASK_TTL=7200000
@@ -137,7 +138,7 @@ CONFIRM_TASK_TTL=7200000
 
 #### CONFIRM\_CC\_TTL ( optional )
 
-This environment variable can be set to determine how often crosscheck should be performed. note that this can be safely set to a small number, since the crosschecker also waits for fulfilling the `BATCH_BLOCKS_COUNT` for each check.
+This environment variable can be set to determine how often crosscheck should be performed. Note that this can be safely set to a small number, since the crosschecker also waits for fulfilling the `BATCH_BLOCKS_COUNT` for each check.
 
 ```sh
 CONFIRM_CC_TTL=7200000 # 2 hours in ms
@@ -145,7 +146,7 @@ CONFIRM_CC_TTL=7200000 # 2 hours in ms
 
 #### TORA\_ENV ( optional )
 
-This environment variable will affect the log level. The default is production, changing it to other values will generate more detailed logs.
+This environment variable will affect the log level. The default setting is production, changing it to other values will generate more detailed logs.
 
 ```bash
 TORA_ENV=production
@@ -153,7 +154,7 @@ TORA_ENV=production
 
 #### REDIS\_TTL ( optional )
 
-This environment variable determines the lifespan of redis connections, which is set to one day by default.
+This environment variable determines the lifespan of redis connections,it is set to one day by default.
 
 ```bash
 REDIS_TTL=86400000 # 1 day in ms 
@@ -177,7 +178,7 @@ This will start 4 docker containers:
 
 If Docker Desktop is installed, you can view the logs by following `docker desktop - container - tora-olm`
 
-Otherwise, you can use the following command line to view.
+Alternatively, you can use the following command line to view.
 
 ```bash
 docker container logs ora-tora
@@ -189,7 +190,7 @@ docker container logs ora-tora
 
 After executing the command "docker compose up", the Tora validator starts the initialization process.
 
-When you see `[confirm] [+] RPC Server running on port 5001`, it means that the Tora validator has completed initialization and everything is ready.
+When you see `[confirm] [+] RPC Server running on port 5001`, it means that the Tora validator has completed initialization.
 
 ```bash
 2024-08-22 23:05:46 ora-openlm   | Loading model into the right classes...
