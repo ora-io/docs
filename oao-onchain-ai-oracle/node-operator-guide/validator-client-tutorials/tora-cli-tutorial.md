@@ -57,6 +57,10 @@ SEPOLIA_HTTP=""
 
 #### CONFIRM\_CHAINS (required)
 
+{% hint style="info" %}
+Currently, running multiple networks in one node is not supported.
+{% endhint %}
+
 The Tora validator client currently supports Ethereum Mainnet and Sepolia.
 
 You need to modify the `CONFIRM_CHAINS` environment variable to select the chain you want to listen to.
