@@ -4,6 +4,10 @@ description: Frequently Asked Questions
 
 # FAQ
 
+### When Token?
+
+Soon.&#x20;
+
 ### Is ORA a rollup or layer 2?
 
 Neither.
