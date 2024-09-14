@@ -3,8 +3,9 @@
 ## 🔵 ORA
 
 * [About ORA](README.md)
-* [How ORA Works](ora/how-ora-works.md)
-* [Towards a World Supercomputer](ora/towards-a-world-supercomputer.md)
+* [Key Milestones](ora/key-milestones.md)
+* [Use Cases](ora/use-cases.md)
+* [Resources](ora/resources.md)
 
 ## 🔥 OAO - Onchain AI Oracle
 
