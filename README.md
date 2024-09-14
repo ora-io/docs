@@ -1,44 +1,9 @@
 ---
-description: Overview, Mission, Offerings
-icon: question
+icon: circle-play
 ---
 
-# About ORA
+# Quick Start
 
-### **Overview**
 
-**ORA** is chain-agnostic infrastructure that bridges the gap between AI and blockchain.
 
-We empower developers with the tools necessary to build end-to-end trustless and decentralized applications enhanced by verifiable AI.
-
-ORA is live today, offering the capability to verify and run inference on the largest and most sophisticated AI models without limitations.
-
-***
-
-### **Our Mission**
-
-At ORA, we believe the intersection of AI and crypto unlocks entirely new use cases.
-
-Our mission is to provide developers and organizations with accessible, scalable, and verifiable AI solutions that seamlessly integrate on-chain. By providing these tools and enabling the tokenization of AI models, we create a unified platform that not only advances decentralized applications but also funds open-source AI development.
-
-***
-
-### **Our Offerings**
-
-#### [**AI Oracle**](https://docs.ora.io/doc/oao-onchain-ai-oracle/introduction)
-
-**AI Oracle** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly.
-
-* **Verifiable AI Inference**: Bring AI computations onchain with assurance of correctness and trustlessness.
-* **Developer-Friendly Integration**: Build custom smart contracts that interact with the AI Oracle to utilize AI models.
-* **Wide Range of Use Cases**: From AI-generated NFTs and onchain games to prediction markets and content verification, ORA provides the tools necessary to build your unique application.
-
-#### [**Initial Model Offerings (IMO)**](https://docs.ora.io/doc/imo-initial-model-offering/introduction)
-
-**IMOs** represent a new mechanism for tokenizing AI models onchain, promoting sustainable funding for open-source contributors while distributing revenue to tokenholders.
-
-* **Tokenization of AI Models**: Share ownership and profits of AI models through ERC-7641.
-* **Sustainable Open-Source Funding**: Encourage ongoing contributions and development in the open-source AI community.
-* **Benefits to Tokenholders**: Capture value from onchain revenue and AI-generated content assets.
-
-***
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>🛠️</td><td><p><strong>Build</strong> with </p><p><a href="https://docs.ora.io/doc/oao-onchain-ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial">ORA's AI Oracle </a></p></td></tr><tr><td></td><td>💻</td><td><strong>Run a Node</strong><br><a href="https://docs.ora.io/doc/oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/tora-launcher-tutorial">Tora Launcher </a><br><a href="https://docs.ora.io/doc/oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/tora-cli-tutorial">Tora CLI</a></td></tr><tr><td></td><td>📚</td><td><strong>Learn</strong> about <br><a href="https://docs.ora.io/doc/imo-initial-model-offering/introduction">Initial Model Offering (IMO)</a></td></tr></tbody></table>

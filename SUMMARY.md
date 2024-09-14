@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Quick Start](README.md)
+
 ## 🔵 ORA
 
-* [About ORA](README.md)
+* [About ORA](<README (1).md>)
 * [Key Milestones](ora/key-milestones.md)
 * [Use Cases](ora/use-cases.md)
 * [Resources](ora/resources.md)
