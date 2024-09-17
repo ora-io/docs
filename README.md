@@ -1,9 +1,9 @@
 ---
 icon: circle-play
 description: >-
-  ORA is chain-agnostic infrastructure that bridges the gap between AI and
-  blockchain, build trustless and decentralized applications with ORA's
-  verifiable AI oracle in your smart contracts.
+  ORA is chain-agnostic infrastructure that seamlessly connects AI and
+  blockchain. We equip developers with the essential tools to create
+  decentralized, trustless applications powered by verifiable AI.
 ---
 
 # Quick Start
