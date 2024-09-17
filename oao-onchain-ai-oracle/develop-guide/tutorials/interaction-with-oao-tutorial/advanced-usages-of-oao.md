@@ -1,14 +1,18 @@
 # Advanced Usages of OAO
 
-In this tutorial we'll modify [Prompt](https://github.com/ora-io/Interaction\_With\_OAO\_Template/blob/main/src/Prompt.sol) contract to support nested inference request. NestedCallback contract should execute multiple inference requests in 1 transaction. In our example, it will call Llama3 model first, then use inference result as the prompt to another request to StableDiffusion model.
-
-The main goal of this tutorial is to understand what changes we need to make to Prompt contract in order to implement logic for various use cases.
+In this tutorial, we are providing advanced usages on Interaction with OAO including Nested Inference.
 
 ## Prerequisites
 
 * Good understanding of [.](./ "mention")
 
-## Use Cases
+### 1. Nested Inference
+
+We'll modify [Prompt](https://github.com/ora-io/Interaction\_With\_OAO\_Template/blob/main/src/Prompt.sol) contract to support nested inference request. NestedCallback contract should execute multiple inference requests in 1 transaction. In our example, it will call Llama3 model first, then use inference result as the prompt to another request to StableDiffusion model.
+
+The main goal of this tutorial is to understand what changes we need to make to Prompt contract in order to implement logic for various use cases.
+
+#### Use Cases
 
 Some of the use cases for nested inference call could be:
 
@@ -18,14 +22,14 @@ Some of the use cases for nested inference call could be:
 
 💡 This is executed within a single transaction, which simplifies user experience when interacting with your AI dapp.
 
-## Implementation Steps
+#### Implementation Steps
 
 1. modify `CalculateAIResult` method to support multiple requests
 2. modify `aiOracleCallback` with the logic to handle second inference request
 
 💡 When estimating gas cost for the callback, we should take both models into the consideration.
 
-### CalculateAIResult
+#### CalculateAIResult
 
 As we now have additional function parameter for second model id. Not that we encode and forward `model2Id` as a callback data in `aiOracle.requestCallback` call.
 
@@ -45,7 +49,7 @@ As we now have additional function parameter for second model id. Not that we en
 }
 ```
 
-### aiOralceCallback
+#### aiOracleCallback
 
 The main change here is the within "if" block. If the callback data (`model2Id`) is returned, we want to execute second inference request to OAO.&#x20;
 
@@ -82,7 +86,7 @@ function aiOracleCallback(uint256 requestId, bytes calldata output, bytes callda
 }
 ```
 
-### Interaction with Contract
+#### Interaction with Contract
 
 This is an example of contract interaction from Foundry testing environment. Note that we're estimating fee for both models and passing cumulative amount during the function call (we're passing slightly more to ensure that the call will execute if the gas price changes).&#x20;
 
@@ -95,7 +99,7 @@ uint256 llamaFee = prompt.estimateFee(LLAMA_ID);
 uint256 requestId = prompt.calculateAIResult{value: ((stableDiffusionFee + llamaFee)*11/10)}(STABLE_DIFFUSION_ID, LLAMA_ID, SD_PROMPT);
 ```
 
-## Conclusion
+#### Conclusion
 
 In this tutorial we explained what functions need to be changed to implement different logic in your Prompt contract. Depending on the use case, new state variables and events could be defined as well.
 
