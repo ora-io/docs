@@ -20,7 +20,9 @@ Some of the use cases for nested inference call could be:
 * extract data from the data set then visual data with different models
 * add transcript to video, then translate it to different languages with different models
 
-💡 This is executed within a single transaction, which simplifies user experience when interacting with your AI dapp.
+For demo purposes we built a [farcaster frame](example-oao-farcaster-frame.md) that uses Onchain AI Oracle.
+
+💡 Nested inference request is executed within a single transaction, which simplifies user experience when interacting with your AI dapp.
 
 #### Implementation Steps
 

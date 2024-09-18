@@ -48,7 +48,7 @@ To address the issues above, multi-phase verification game introduces the follow
 * **Lazy Loading Design**\
   To optimize the memory usage and performance of the fraud proof VM, we implement a lazy loading technique. This means that we do not load all the data into the VM memory at once, but only the keys that identify each data item. When the VM needs to access a specific data item, it uses the key to fetch it from the external source and load it into the memory. Once the data item is no longer needed, it is swapped out of the memory to free up space for other data items. This way, we can handle large amounts of data without exceeding the memory capacity or compromising the efficiency of the VM.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>Multi-phase verification game</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>Multi-phase verification game</p></figcaption></figure>
 
 ### Further readings
 
