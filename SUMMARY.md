@@ -18,7 +18,7 @@
   * [Tutorials](oao-onchain-ai-oracle/develop-guide/tutorials/README.md)
     * [Interaction with OAO - Tutorial](oao-onchain-ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial/README.md)
       * [Advanced Usages of OAO](oao-onchain-ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial/advanced-usages-of-oao.md)
-      * [Example: OAO Farcaster Frame](oao-onchain-ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial/example-oao-farcaster-frame.md)
+      * [Example: Fortune Teller](oao-onchain-ai-oracle/develop-guide/tutorials/interaction-with-oao-tutorial/example-fortune-teller.md)
     * [Integration into OAO - Tutorial](oao-onchain-ai-oracle/develop-guide/tutorials/integration-into-oao-tutorial.md)
 * [Node Operator Guide](oao-onchain-ai-oracle/node-operator-guide/README.md)
   * [Validator Client Tutorials](oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/README.md)
