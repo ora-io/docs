@@ -52,7 +52,7 @@ Running validator node to participate the decentralized network of OAO will bene
 
 To complete:
 
-1. Go to the [Tora Node Page](../oao-onchain-ai-oracle/node-operator-guide/validator-client-tutorials/)
+1. Go to the [Tora Node Page](../oras-ai-oracle/node-operator-guide/validator-client-tutorials/)
 2. Follow the guide to set up and run the node to confirm AI inference result on Ethereum mainnet
 3. For running each AI inference and validating on Ethereum mainnet with Tora, you will get 3 points.
 

@@ -1,3 +1,7 @@
+---
+icon: a
+---
+
 # Glossary
 
 ### Aggregation

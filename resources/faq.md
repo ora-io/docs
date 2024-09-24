@@ -1,6 +1,6 @@
 ---
-description: Frequently Asked Questions
 icon: question
+description: Frequently Asked Questions
 ---
 
 # FAQ
@@ -43,7 +43,7 @@ The contracts were audited by Salus. Reference here: [https://x.com/salus\_sec/s
 
 ## Tora Client
 
-Information about running Tora Client can be found under our [Node Operator Guide](../oao-onchain-ai-oracle/node-operator-guide/).
+Information about running Tora Client can be found under our [Node Operator Guide](../oras-ai-oracle/node-operator-guide/).
 
 ### How to run Tora Client?
 
@@ -82,10 +82,10 @@ Files can be retrieved via the IPFS gateway with the given ID from ORA's AI Orac
 ### I want to build with ORA's AI Oracle, what options do I have?
 
 * zkML of [keras2circom](https://github.com/ora-io/keras2circom) (the most battle-tested and performant zkML framework)
-* [opML](https://arxiv.org/abs/2401.17555) of [AI Oracle](../oao-onchain-ai-oracle/introduction/) (run huge model like LlaMA2-7B and Stable Diffusion now)
+* [opML](https://arxiv.org/abs/2401.17555) of [AI Oracle](../oras-ai-oracle/introduction/) (run huge model like LlaMA2-7B and Stable Diffusion now)
 * zk+opML with [opp/ai](https://arxiv.org/abs/2402.15006) (futuristic onchain AI fuses zkML's privacy and opML's scalability)
 
-We recommend you [build with Ora's AI Oracle secured by opML](../oao-onchain-ai-oracle/introduction/). It is production-ready and an out-of-the-box solution, with support to LlaMA2-7B and Stable Diffusion.
+We recommend you [build with Ora's AI Oracle secured by opML](../oras-ai-oracle/introduction/). It is production-ready and an out-of-the-box solution, with support to LlaMA2-7B and Stable Diffusion.
 
 ### What does the AI Oracle fee consist of?
 
