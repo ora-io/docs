@@ -1,10 +1,10 @@
 ---
-description: Bring Your Own Model into OAO
+description: Bring Your Own Model
 ---
 
-# Integration into OAO - Tutorial
+# Integrating ORAs AI Oracle
 
-In this tutorial we explain how to integrate your own AI model into Onchain AI Oracle (OAO). We will start by looking at [mlgo](https://github.com/OPML-Labs/mlgo) repository and trying to understand what's happening there. At the end we will showcase how [opML](https://github.com/ora-io/opml) works, by running a simple dispute game script inside a docker container.
+In this tutorial we explain how to integrate your own AI model with ORA's AI Oracle. We will start by looking at [mlgo](https://github.com/OPML-Labs/mlgo) repository and trying to understand what's happening there. At the end we will showcase how [opML](https://github.com/ora-io/opml) works, by running a simple dispute game script inside a docker container.
 
 ### Learning Objectives
 

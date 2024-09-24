@@ -1,10 +1,10 @@
-# Advanced Usages of OAO
+# Advanced Use Cases
 
 In this tutorial, we are providing advanced usages on Interaction with OAO including Nested Inference.
 
 ## Prerequisites
 
-* Good understanding of [.](./ "mention")
+* Good understanding of [interaction-with-ai-oracle.md](interaction-with-ai-oracle.md "mention")
 
 ### 1. Nested Inference
 
