@@ -18,14 +18,20 @@ description: Frequently Asked Questions
 
 💡All relevant information for staking can be found on [Staking page](../points/staking.md)
 
-### How many points are earned from staking?
+<details>
+
+<summary>How many points are earned from staking?</summary>
 
 8N per N ETH (If you stake 1 ETH, you get 8 points every day). \
 N represents the amount of ETH or other assets you staked.
 
 You can find more information on the ORA Points Program by checking the following link – [https://docs.ora.io/doc/points/staking#staking-points](https://docs.ora.io/doc/points/staking#staking-points)
 
-### Is there a minimum stake period?
+</details>
+
+<details>
+
+<summary>Is there a minimum stake period?</summary>
 
 In Phase 1, there is no lock up period. It takes 24 hours to take to initiate your withdrawal before you are able to claim it.
 
@@ -35,51 +41,75 @@ In Phase 2, there are 2 options, locked and flexible staking. Locked staking is 
 
 Read more here: [https://docs.ora.io/doc/points/staking#withdraw](https://docs.ora.io/doc/points/staking#withdraw)
 
-### Have staking contracts been audited?&#x20;
+</details>
+
+<details>
+
+<summary>Have staking contracts been audited?</summary>
 
 The contracts were audited by Salus. Reference here: [https://x.com/salus\_sec/status/1811658734998811005](https://x.com/salus\_sec/status/1811658734998811005)
 
-
+</details>
 
 ## Tora Client
 
 Information about running Tora Client can be found under our [Node Operator Guide](../oras-ai-oracle/node-operator-guide/).
 
-### How to run Tora Client?
+<details>
+
+<summary>How do I run a Tora Client?</summary>
 
 Currently there are 2 options for running a Tora client, Tora Launcher and CLI option.&#x20;
 
-### Are there incentives for running a Tora Client?
+</details>
+
+<details>
+
+<summary>Are there incentives for running a Tora Client?</summary>
 
 The incentive is in form of ORA points. Read more on [Points page](broken-reference).
 
 Each validated transaction will earn 3 points. Read more here: [https://docs.ora.io/doc/points/tasks#task-4-running-validator-node](https://docs.ora.io/doc/points/tasks#task-4-running-validator-node)
 
-### How can I monitor Node network health?
+</details>
 
-You can check the logs in the running docker containers.&#x20;
+<details>
 
+<summary>How can I monitor Node network health?</summary>
 
+Node network health can be found in docker container logs
+
+</details>
 
 ## ORA Network
 
-### Is ORA  network a rollup or layer 2?
+<details>
+
+<summary>Is ORA  network a rollup or layer 2?</summary>
 
 Neither.
 
 ORA is a verifiable AI oracle network.  It contains a set of smart contracts capable of making calls to a network of nodes computing AI inference, secured by opML.&#x20;
 
+</details>
+
 
 
 ## AI Oracle
 
-### How does AI Oracle handle large responses to generate videos or images?
+<details>
+
+<summary>How does AI Oracle handle large responses to generate videos or images?</summary>
 
 The generated content can be stored on a decentralized storage network, eg. IPFS.
 
 Files can be retrieved via the IPFS gateway with the given ID from ORA's AI Oracle.
 
-### I want to build with ORA's AI Oracle, what options do I have?
+</details>
+
+<details>
+
+<summary>I want to build with ORA's AI Oracle, what options do I have?</summary>
 
 * zkML of [keras2circom](https://github.com/ora-io/keras2circom) (the most battle-tested and performant zkML framework)
 * [opML](https://arxiv.org/abs/2401.17555) of [AI Oracle](../oras-ai-oracle/introduction/) (run huge model like LlaMA2-7B and Stable Diffusion now)
@@ -87,7 +117,11 @@ Files can be retrieved via the IPFS gateway with the given ID from ORA's AI Orac
 
 We recommend you [build with Ora's AI Oracle secured by opML](../oras-ai-oracle/introduction/). It is production-ready and an out-of-the-box solution, with support to LlaMA2-7B and Stable Diffusion.
 
-### What does the AI Oracle fee consist of?
+</details>
+
+<details>
+
+<summary>What does the AI Oracle fee consist of?</summary>
 
 AI Oracle fee = Model Fee (for LlaMA2 or Stable Diffusion) + Callback Fee (for node to submit a inference result back to onchain) + Network Fee (gas)
 
@@ -95,23 +129,39 @@ Callback fee and network fees may be higher when network is experiencing congest
 
 Callback fees may be lower if you are using model such as Stable Diffusion, because the inference result will be shorter (just an IPFS hash, instead of long paragraphs in LLM).
 
+</details>
+
 
 
 ## OPML
 
-### How does opML guarantee consistency, given ML models are non-deterministic?
+<details>
+
+<summary>How does opML guarantee consistency, given ML models are non-deterministic?</summary>
 
 The model uses deterministic inference (learn more from [this talk on determinism on ML](https://www.youtube.com/watch?v=ghU\_-ADHBaw)), there are [built using Nvidia's deterministic feature](https://docs.nvidia.com/clara/clara-train-archive/3.1/nvmidl/additional\_features/determinism.html) or are moved into our deterministic vm (this is recommended for better support).
 
-### What's the challenge time of opML? 7 days?
+</details>
+
+<details>
+
+<summary>What's the challenge time of opML? </summary>
 
 Similar to Optimistic rollups, opML has a 7 day challenge period. It is possible that this may be reduced in the future.  When optimized, the challenge period can operate similarly to [a sovereign rollup](https://modularmedia.substack.com/i/132840875/do-optimistic-sovereign-rollups-make-sense), with this period reduced to  [a few minutes](https://twitter.com/nickwh8te/status/1674419952517009409) or [even a few seconds](https://twitter.com/colludingnode/status/1673730479000809473).
 
-### What is the limitation of opML?
+</details>
+
+<details>
+
+<summary>What are the limitations of opML?</summary>
 
 Privacy, because all models in opML needs to be public and open-source for network participants to challenge. This can be mitigated with [opp/ai](https://arxiv.org/abs/2402.15006).
 
-### **What is the proving overhead, performance, and limitations of zkML frameworks?**
+</details>
+
+<details>
+
+<summary>What is the proving overhead, performance, and limitations of zkML frameworks?</summary>
 
 * Modulus Labs zkML bringing GPT2-1B onchain resulted in a  [1m+ times overhead (200+ hours for each call), 128-core CPU and 1TB RAM](https://medium.com/@ModulusLabs/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e).
 * The zkML framework with EZKL [takes around 80 minutes to generate a proof of a 1M-nanoGPT model](https://hackmd.io/mGwARMgvSeq2nGvQWLL2Ww#Honey-I-SNARKED-the-GPT).
@@ -120,11 +170,17 @@ Privacy, because all models in opML needs to be public and open-source for netwo
 
 For more information reference [this Ethereum Foundation granted benchmark](https://hackmd.io/\_vrpMIusSEaROYUU7-Shaw) on our zkML framework with others.
 
+</details>
+
 ## Other Questions
 
-### How can I be a OG on discord?
+<details>
+
+<summary>How can I be a OG on discord?</summary>
 
 Unfortunately, the OG role was a limited-time opportunity exclusively for our first 100 Discord community members, and that window has closed. However, we appreciate your interest and look forward to having you as part of our community!
+
+</details>
 
 
 
