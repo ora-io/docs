@@ -26,7 +26,7 @@ Interact and build with OAO
 
 ## Workflow
 
-AI Oracle is a pull-based oracle, meaning users will get one response (i.e. an AI inference result) from one request (i.e. a prompt) on-demand.
+AI Oracle is a pull-based oracle, meaning users will get one response (i.e. an AI inference result) from one request (i.e. a prompt) on-demand. Our batch mint feature enables one request to return multiple AI inference results in one response.
 
 ### Usage
 
@@ -56,7 +56,7 @@ AI Oracle is a pull-based oracle, meaning users will get one response (i.e. an A
 * **LLaMA 3-8B**: Large Language Model (LLM) for text-based tasks.
 * **Stable Diffusion**: Image generation model.
 
-
+For more information refer to this page [https://docs.ora.io/doc/ora-network/references](https://docs.ora.io/doc/ora-network/references)
 
 ## Smart Contract Integration
 

@@ -111,13 +111,13 @@ On the (specific) blockchain / not on the (specific) blockchain. Usually refers 
 
 Optimistic Machine Learning (opML) is a machine learning proving framework. In uses game-theory to ensure the validity of AI inference results. The proving mechanism works similar to optimistic rollups approach.
 
-For more information check [opML](../technology/proving-frameworks-zkml-opml-opp-ai/opml.md) page.
+For more information check [opML](broken-reference) page.
 
 ### opp/ai
 
 Optimistic Privacy Preserving AI (opp/ai) is a machine learning proving framework. It combines cryptography and game-theory to ensure the validity of AI inference results.
 
-For more information check [opp/ai](../technology/proving-frameworks-zkml-opml-opp-ai/opp-ai.md) page.
+For more information check [opp/ai](broken-reference) page.
 
 ### ORA
 
@@ -219,7 +219,7 @@ A zkVM with EVM instruction set as bytecode.
 
 Zero-Knowledge Machine Learning (zkML) is a machine learning proving framework. In uses cryptography to ensure the validity of AI inference results.
 
-For more information check [zkML](../technology/proving-frameworks-zkml-opml-opp-ai/keras2circom-zkml.md) page.
+For more information check [zkML](../the-ora-network/fraud-proof-virtual-machine-fpvm/keras2circom-zkml.md) page.
 
 ### zkVM
 

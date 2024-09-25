@@ -2,13 +2,13 @@
 description: Bring Your Own Model
 ---
 
-# Integrating ORAs AI Oracle
+# Integrating ORA's AI Oracle
 
 In this tutorial we explain how to integrate your own AI model with ORA's AI Oracle. We will start by looking at [mlgo](https://github.com/OPML-Labs/mlgo) repository and trying to understand what's happening there. At the end we will showcase how [opML](https://github.com/ora-io/opml) works, by running a simple dispute game script inside a docker container.
 
 ### Learning Objectives
 
-* Understand how to transform AI model and inference code in order to integrate it into Onchain AI Oracle (OAO).
+* Understand how to transform an AI model inference code and integrate it with ORA's AI Oracle&#x20;
 * Execute a simple dispute game and understand the process of AI inference verification.
 
 ### Prerequisites

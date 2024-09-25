@@ -1,6 +1,6 @@
-# Interaction with AI Oracle
+# Using ORA's AI Oracle
 
-This tutorial will help you understand the structure of the AI Oracle,  guide you through the process of building a simple Prompt contract that interacts with OAO. We will implement the contract step by step. At the end we will deploy the contract to the blockchain network and interact with it.
+This tutorial will help you understand the structure of the AI Oracle,  guide you through the process of building a simple Prompt contract that interacts with the ORA network. We will implement the contract step by step. At the end we will deploy the contract to the blockchain network and interact with it.
 
 If you prefer a video version of the tutorial, check it [here](https://www.youtube.com/watch?v=8fcJbeKN1uM).
 
@@ -408,4 +408,4 @@ contract Prompt is AIOracleCallbackReceiver {
 
 ### Conclusion
 
-In this tutorial we covered a step by step writing of a solidity smart contract that interacts with ORA's Onchain AI Oracle. Then we compiled and deployed our contract to the live network and interacted with it. In the next tutorial, we will extend the functionality of the Prompt contract to support AI generated NFT collections.
+In this tutorial we covered a step by step writing of a solidity smart contract that interacts with ORA's AI Oracle. Then we compiled and deployed our contract to the live network and interacted with it. In the next tutorial, we will extend the functionality of the Prompt contract to support AI generated NFT collections.
