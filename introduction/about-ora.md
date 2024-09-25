@@ -1,6 +1,6 @@
 ---
-description: Overview, Mission, Offerings
 icon: question
+description: Overview, Mission, Offerings
 ---
 
 # About ORA
@@ -11,7 +11,7 @@ icon: question
 
 We empower developers with the tools necessary to build end-to-end trustless and decentralized applications enhanced by verifiable AI.
 
-ORA is live today, offering the capability to verify and run inference on the largest and most sophisticated AI models without limitations.
+ORA is live today, offering the capability to verify and run inference on the largest and most sophisticated AI models with few limitations.
 
 ***
 
@@ -19,7 +19,7 @@ ORA is live today, offering the capability to verify and run inference on the la
 
 At ORA, we believe the intersection of AI and crypto unlocks entirely new use cases.
 
-Our mission is to provide developers and organizations with accessible, scalable, and verifiable AI solutions that seamlessly integrate on-chain. By providing these tools and enabling the tokenization of AI models, we create a unified platform that not only advances decentralized applications but also funds open-source AI development.
+Our mission is to provide developers and organizations with accessible, scalable, and verifiable AI solutions that seamlessly integrate on-chain. By providing these tools and enabling the tokenization of AI models, we create a unified platform that not only advances decentralized AI applications but also funds open-source AI development.
 
 ***
 
@@ -27,7 +27,7 @@ Our mission is to provide developers and organizations with accessible, scalable
 
 #### [**AI Oracle**](https://docs.ora.io/doc/oao-onchain-ai-oracle/introduction)
 
-**AI Oracle** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly.
+**AI Oracle** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly. The AI Oracle is supported by ORA's network of permissionless nodes running the TORA client and secured by optimistic Machine Learning (opML).
 
 * **Verifiable AI Inference**: Bring AI computations onchain with assurance of correctness and trustlessness.
 * **Developer-Friendly Integration**: Build custom smart contracts that interact with the AI Oracle to utilize AI models.

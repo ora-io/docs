@@ -5,8 +5,8 @@
 ## 🔘 Introduction&#x20;
 
 * [About ORA](introduction/about-ora.md)
-* [Key Milestones](introduction/key-milestones.md)
 * [Use Cases](introduction/use-cases.md)
+* [Key Milestones](introduction/key-milestones.md)
 * [Resources](introduction/resources.md)
 
 ## 🔮 The ORA Network
@@ -18,7 +18,7 @@
     * [Example: Fortune Teller](the-ora-network/ai-oracle/integrating-oras-ai-oracle/example-fortune-teller.md)
   * [Advanced Use Cases](the-ora-network/ai-oracle/advanced-use-cases.md)
   * [Retrieve Historical AI Inference](the-ora-network/ai-oracle/retrieve-historical-ai-inference.md)
-  * [Interaction Methods](the-ora-network/ai-oracle/interaction-methods.md)
+  * [Non-Developers: Interaction Methods](the-ora-network/ai-oracle/non-developers-interaction-methods.md)
 * [Fraud Proof Virtual Machine (FPVM)](the-ora-network/fraud-proof-virtual-machine-fpvm/README.md)
   * [opML](the-ora-network/fraud-proof-virtual-machine-fpvm/opml.md)
   * [opp/ai](the-ora-network/fraud-proof-virtual-machine-fpvm/opp-ai.md)

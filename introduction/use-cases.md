@@ -1,11 +1,9 @@
 ---
-description: The ORA unlock
 icon: rectangles-mixed
+description: The ORA unlock
 ---
 
 # Use Cases
-
-
 
 #### **Trustless AI Oracles for Smart Contracts**
 
@@ -26,7 +24,7 @@ icon: rectangles-mixed
 
 #### **Improved Protocol Efficiency and Autonomy**
 
-* **Automated Governance**: Utilize AI models to analyze proposals and assist in decision-making processes within decentralized organizations.
+* **Automated Governance**: Utilize AI models to analyze proposals and assist in decision-making processes within DAOs.
 * **Risk Management**: Implement AI for real-time risk assessment in lending platforms or asset management protocols.
 * **Optimized Yield Strategies**: Use AI to enhance yield farming and liquidity provision, maximizing returns for DeFi users.
 

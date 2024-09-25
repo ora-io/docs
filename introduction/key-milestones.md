@@ -1,9 +1,11 @@
 ---
-description: ZKML, OPML, IMO
 icon: key-skeleton
+description: ZKML, OPML, IMO
 ---
 
 # Key Milestones
+
+The ORA team has been tirelessly publishing research and shipping developer tools, read about our key milestones here:
 
 * **Developed** [**Keras2Circom**](https://github.com/ora-io/keras2circom)**:** The pioneering zero-knowledge machine learning (zkML) framework, outperforming other leading zkML frameworks according to [benchmarks](https://hackmd.io/\_vrpMIusSEaROYUU7-Shaw) by the Ethereum Foundation.
 * **Introduced opML:** A novel fraud-proof mechanism enabling the verification of large AI models directly on-chain. [Read the research paper](https://arxiv.org/abs/2401.17555).

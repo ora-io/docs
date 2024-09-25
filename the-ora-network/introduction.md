@@ -6,7 +6,7 @@ description: An AI Oracle powered Optimistic Machine Learning (opML)
 
 
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="introduction.md#components">Integrate ORA's<br>AI Oracle🔮</a></td><td></td></tr><tr><td></td><td><a href="introduction.md#components">Operate a Node <br>using TORA  Client 💻</a></td><td></td></tr><tr><td></td><td>Learn: Fraud Proof Virtual Machine (FPVM) ⚙️</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><p><a href="introduction.md#components">Integrate ORA's<br>AI Oracle</a></p><p><a href="introduction.md#components">🔮</a></p></td><td></td></tr><tr><td></td><td><p><a href="introduction.md#components">Operate a Node:</a></p><p><a href="introduction.md#components">TORA  Client </a></p><p><a href="introduction.md#components">💻</a></p></td><td></td></tr><tr><td></td><td><a href="introduction.md#components">Learn: Fraud Proof Virtual Machine (FPVM)</a> ⚙️</td><td></td></tr></tbody></table>
 
 
 
