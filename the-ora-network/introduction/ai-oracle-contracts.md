@@ -1,28 +1,8 @@
 ---
-description: Developer guides
+description: Quick Overview
 ---
 
-# AI Oracle
-
-## Pre-requisites
-
-#### Required
-
-* Basic knowledge of Ethereum smart contract development ([tutorials](https://ethereum.org/en/developers/tutorials/))
-
-## Resources
-
-Source code of OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
-
-For supported models in OAO and deployment addresses, see [Reference](../references.md) page.
-
-For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
-
-Check out [video tutorial on interacting and building with OAO](https://www.youtube.com/watch?v=8fcJbeKN1uM).
-
-{% embed url="https://www.youtube.com/watch?v=8fcJbeKN1uM" %}
-Interact and build with OAO
-{% endembed %}
+# AI Oracle Contracts
 
 ## Workflow
 
@@ -37,12 +17,16 @@ AI Oracle is a pull-based oracle, meaning users will get one response (i.e. an A
 5. **Result Submission**: The opML node uploads the result on-chain.
 6. **Callback Execution**: The result is dispatched to the user's smart contract via a callback function.
 
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
 ### Challenge Process
 
 1. **Challenge Window**: Begins after the result is submitted on-chain (step 5 above).
 2. **Verification**: opML validators or any network participant can check the results and challenge the output if it is incorrect.
 3. **Result Update**: If a challenge is successful, the incorrect result is updated on-chain.
 4. **Finalization**: After the challenge period, the result is finalized and immutable.
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ## Deployments
 
@@ -85,3 +69,16 @@ Usage of AI Oracle requires a fee for each request. You can request the current 
 2. You’ll receive back the estimated fee in wei
 3. Call to write and request the AI inference on your contract, filling in the estimated fee in ether
 
+{% embed url="https://www.youtube.com/watch?v=8fcJbeKN1uM" %}
+Interact and build with OAO
+{% endembed %}
+
+## Resources
+
+Source code of OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
+
+For supported models in OAO and deployment addresses, see [Reference](../references/) page.
+
+For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
+
+Check out [video tutorial on interacting and building with OAO](https://www.youtube.com/watch?v=8fcJbeKN1uM).

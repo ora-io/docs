@@ -4,7 +4,7 @@ In this tutorial, we are providing advanced usages on Interaction with OAO inclu
 
 ## Prerequisites
 
-* Good understanding of [using-oras-ai-oracle.md](using-oras-ai-oracle.md "mention")
+* Good understanding of [user-contracts.md](../introduction/user-contracts.md "mention")
 
 ### 1. Nested Inference
 
@@ -20,7 +20,7 @@ Some of the use cases for nested inference call could be:
 * extract data from the data set then visual data with different models
 * add transcript to video, then translate it to different languages with different models
 
-For demo purposes we built a [farcaster frame](integrating-oras-ai-oracle/example-fortune-teller.md) that uses Onchain AI Oracle.
+For demo purposes we built a [farcaster frame](example-fortune-teller.md) that uses Onchain AI Oracle.
 
 💡 Nested inference request is executed within a single transaction, which simplifies user experience when interacting with your AI dapp.
 

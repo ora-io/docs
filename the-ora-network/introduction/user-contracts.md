@@ -1,4 +1,4 @@
-# Using ORA's AI Oracle
+# User Contracts
 
 This tutorial will help you understand the structure of the AI Oracle,  guide you through the process of building a simple Prompt contract that interacts with the ORA network. We will implement the contract step by step. At the end we will deploy the contract to the blockchain network and interact with it.
 
@@ -10,7 +10,7 @@ Final version of the code can be found [here](https://github.com/ora-io/Interact
 
 * Setup development environment
 * Understand the project setup and template repository structure
-* Learn how to interact with the OAO and build an AI powered smart contract
+* Learn how to interact with the AI Oracle and build an AI powered smart contract
 
 ### Prerequisites
 
@@ -292,7 +292,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
 2.  Create a deployment script
 
-    Go to [Reference](../references.md) page and find the OAO\_PROXY address for the network you want to deploy to.
+    Go to [Reference](../references/) page and find the OAO\_PROXY address for the network you want to deploy to.
 
     Then open script/Prompt.s.sol and add the following code:
 

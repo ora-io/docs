@@ -1,6 +1,6 @@
 ---
 icon: rectangles-mixed
-description: The ORA unlock
+description: How can the ORA network be used?
 ---
 
 # Use Cases

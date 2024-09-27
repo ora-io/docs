@@ -27,11 +27,11 @@ Our mission is to provide developers and organizations with accessible, scalable
 
 #### [**AI Oracle**](https://docs.ora.io/doc/oao-onchain-ai-oracle/introduction)
 
-**AI Oracle** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly. The AI Oracle is supported by ORA's network of permissionless nodes running the TORA client and secured by optimistic Machine Learning (opML).
+**AI Oracle** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly. The AI Oracle is supported by ORA's network of permissionless nodes running the TORA client and is secured by optimistic Machine Learning (opML).
 
 * **Verifiable AI Inference**: Bring AI computations onchain with assurance of correctness and trustlessness.
 * **Developer-Friendly Integration**: Build custom smart contracts that interact with the AI Oracle to utilize AI models.
-* **Wide Range of Use Cases**: From AI-generated NFTs and onchain games to prediction markets and content verification, ORA provides the tools necessary to build your unique application.
+* **Use Cases**: From AI-generated NFTs and onchain games to prediction markets and content verification, ORA provides the tools necessary to build your unique application.
 
 #### [**Initial Model Offerings (IMO)**](https://docs.ora.io/doc/imo-initial-model-offering/introduction)
 
