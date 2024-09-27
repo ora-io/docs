@@ -28,6 +28,7 @@
   * [Validator Client Tutorials](the-ora-network/node-operator-guide/validator-client-tutorials.md)
   * [Tora Launcher - Tutorial](the-ora-network/node-operator-guide/tora-launcher-tutorial.md)
   * [Tora CLI - Tutorial](the-ora-network/node-operator-guide/tora-cli-tutorial.md)
+  * [Troubleshooting](the-ora-network/node-operator-guide/troubleshooting.md)
 * [References](the-ora-network/references.md)
 
 ## 🪙 INITIAL MODEL OFFERING (IMO)
