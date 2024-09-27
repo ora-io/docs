@@ -17,7 +17,7 @@
   * [OPML Contracts](the-ora-network/introduction/opml-contracts.md)
   * [Non-Developers: Interaction Methods](the-ora-network/introduction/non-developers-interaction-methods.md)
 * [Node Operator Guide](the-ora-network/node-operator-guide/README.md)
-  * [Validator Client Tutorials](the-ora-network/node-operator-guide/validator-client-tutorials.md)
+  * [Validator Client - Tutorial](the-ora-network/node-operator-guide/validator-client-tutorial.md)
   * [Tora Launcher - Tutorial](the-ora-network/node-operator-guide/tora-launcher-tutorial.md)
   * [Tora CLI - Tutorial](the-ora-network/node-operator-guide/tora-cli-tutorial.md)
   * [Troubleshooting](the-ora-network/node-operator-guide/troubleshooting.md)
