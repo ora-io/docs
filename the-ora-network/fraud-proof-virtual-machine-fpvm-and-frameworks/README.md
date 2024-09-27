@@ -1,8 +1,8 @@
 ---
-description: opML and opp/AI
+description: opML, zkml and opp/AI
 ---
 
-# Fraud Proof Virtual Machine (FPVM)
+# Fraud Proof Virtual Machine (FPVM) and Frameworks
 
 The FPVM is a specialized virtual machine designed for opML that can:
 

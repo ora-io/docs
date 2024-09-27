@@ -77,7 +77,7 @@ Interact and build with OAO
 
 Source code of OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
-For supported models in OAO and deployment addresses, see [Reference](../references/) page.
+For supported models in OAO and deployment addresses, see [Reference](references/) page.
 
 For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
 

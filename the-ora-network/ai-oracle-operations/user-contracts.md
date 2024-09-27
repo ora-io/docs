@@ -292,7 +292,7 @@ contract Prompt is AIOracleCallbackReceiver {
 
 2.  Create a deployment script
 
-    Go to [Reference](../references/) page and find the OAO\_PROXY address for the network you want to deploy to.
+    Go to [Reference](references/) page and find the OAO\_PROXY address for the network you want to deploy to.
 
     Then open script/Prompt.s.sol and add the following code:
 

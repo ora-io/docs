@@ -219,7 +219,7 @@ A zkVM with EVM instruction set as bytecode.
 
 Zero-Knowledge Machine Learning (zkML) is a machine learning proving framework. In uses cryptography to ensure the validity of AI inference results.
 
-For more information check [zkML](../the-ora-network/fraud-proof-virtual-machine-fpvm/keras2circom-zkml.md) page.
+For more information check [zkML](../the-ora-network/fraud-proof-virtual-machine-fpvm-and-frameworks/keras2circom-zkml.md) page.
 
 ### zkVM
 
