@@ -11,13 +11,13 @@
 
 ## 🔮 The ORA Network
 
-* [Introduction](the-ora-network/introduction/README.md)
-  * [AI Oracle Contracts](the-ora-network/introduction/ai-oracle-contracts.md)
-  * [User Contracts](the-ora-network/introduction/user-contracts.md)
-  * [OPML Contracts](the-ora-network/introduction/opml-contracts.md)
-  * [Non-Developers: Interaction Methods](the-ora-network/introduction/non-developers-interaction-methods.md)
+* [AI Oracle Usage](the-ora-network/ai-oracle-usage/README.md)
+  * [AI Oracle Contracts](the-ora-network/ai-oracle-usage/ai-oracle-contracts.md)
+  * [User Contracts](the-ora-network/ai-oracle-usage/user-contracts.md)
+  * [OPML Contracts](the-ora-network/ai-oracle-usage/opml-contracts.md)
+  * [Non-Developers: Interaction Methods](the-ora-network/ai-oracle-usage/non-developers-interaction-methods.md)
 * [Node Operator Guide](the-ora-network/node-operator-guide/README.md)
-  * [Validator Client - Tutorial](the-ora-network/node-operator-guide/validator-client-tutorial.md)
+  * [Validator Client - Tutorial](the-ora-network/node-operator-guide/validator-client-tutorials.md)
   * [Tora Launcher - Tutorial](the-ora-network/node-operator-guide/tora-launcher-tutorial.md)
   * [Tora CLI - Tutorial](the-ora-network/node-operator-guide/tora-cli-tutorial.md)
   * [Troubleshooting](the-ora-network/node-operator-guide/troubleshooting.md)

@@ -4,7 +4,7 @@ In this tutorial, we are providing advanced usages on Interaction with OAO inclu
 
 ## Prerequisites
 
-* Good understanding of [user-contracts.md](../introduction/user-contracts.md "mention")
+* Good understanding of [user-contracts.md](../ai-oracle-usage/user-contracts.md "mention")
 
 ### 1. Nested Inference
 

@@ -1,4 +1,4 @@
-# Validator Client Tutorials
+# Validator Client - Tutorial
 
 ### Introduction
 
@@ -8,7 +8,7 @@ As the first released version of ORA node, it validates AI inference results sub
 
 To enhance client diversity and further decentralize the network, future updates will introduce additional types of nodes.
 
-<figure><img src="../../../.gitbook/assets/tora fig thumbnail.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tora fig thumbnail.png" alt=""><figcaption></figcaption></figure>
 
 ### What It Does
 
