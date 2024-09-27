@@ -8,8 +8,8 @@ description: Frequently Asked Questions
 Contents
 
 * [Staking](faq.md#staking)
-* [Tora Node](faq.md#tora-node)
-* [ORA](faq.md#ora)
+* [Tora Client and Node Operations ](faq.md#tora-client)
+* [ORA Network](faq.md#ora-network)
 * [AI Oracle](faq.md#ai-oracle)
 * [OPML](faq.md#opml)
 * [Other Questions](faq.md#other-questions)
