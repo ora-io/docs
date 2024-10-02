@@ -4,17 +4,17 @@ description: Here is an updated list of active tasks you can do to earn points.
 
 # Tasks
 
-#### Task 1: Use ORA Onchain AI Oracle <a href="#heading-task-2-use-ora-onchain-ai-oracle" id="heading-task-2-use-ora-onchain-ai-oracle"></a>
+#### Task 1: Use ORA's AI Oracle <a href="#heading-task-2-use-ora-onchain-ai-oracle" id="heading-task-2-use-ora-onchain-ai-oracle"></a>
 
 > 3 - 6 Points Per Usage, Repeatable Task
 
-ORA OAO enables verifiable, decentralized AI inference onchain. You can call AI directly onchain through OAO.
+ORA's AI Oracle enables verifiable, decentralized AI inference onchain. You can interact with AI Oracle to obtain verifiable inference results.
 
 To complete:
 
-1. Go to the [ORA OAO Page](https://www.ora.io/app/opml/models)
+1. Go to the [AI Oracle Page](https://www.ora.io/app/opml/models) on the website
 2. Select a model to use
-3. Use OAO on mainnets (eg. Ethereum mainnet, Optimism mainnet…). Follow [this video tutorial](https://www.youtube.com/watch?v=8fcJbeKN1uM) if you have questions.
+3. Use AI Oracle on mainnets (eg. Ethereum mainnet, Optimism mainnet…). Follow [this video tutorial](https://www.youtube.com/watch?v=8fcJbeKN1uM) if you have questions.
 4. Sign transaction for calling AI request
 
 Once AI results are returned on the same page, you can access and see your score in the [ORA Points Dashboard](https://www.ora.io/app/tasks/dashboard).
@@ -48,7 +48,7 @@ See [Staking Page](staking.md) for more information.
 
 > 3 Points Per Onchain Validation, Repeatable Task
 
-Running validator node to participate the decentralized network of OAO will benefit the decentralization of verifiable AI inference.
+By operating an ORA node, you can actively participate in the ORA Network, helping to decentralize verifiable AI inference processes.
 
 To complete:
 
