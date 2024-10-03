@@ -4,13 +4,6 @@ description: Supported AI Models and Deployment Addresses of ORA's AI Oracle.
 
 # References
 
-## Resources
-
-* Source Code: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
-* Supported models and deployment addresses: [https://docs.ora.io/doc/oao-onchain-ai-oracle/reference](https://docs.ora.io/doc/oao-onchain-ai-oracle/reference)
-* Example Use Cases:[https://docs.ora.io/doc/ora/use-case](https://docs.ora.io/doc/ora/use-case)
-* Video Tutorial: [https://www.youtube.com/watch?v=8fcJbeKN1uM](https://www.youtube.com/watch?v=8fcJbeKN1uM)
-
 ## Models
 
 #### [Llama3 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)

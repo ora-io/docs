@@ -1,8 +1,8 @@
 ---
-description: Quick Overview
+description: https://github.com/ora-io/OAO
 ---
 
-# AI Oracle Contracts
+# AI Oracle Overview
 
 ## Workflow
 
@@ -28,40 +28,27 @@ AI Oracle is a pull-based oracle, meaning users will get one response (i.e. an A
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-## Deployments
-
-#### Deployed Contracts
-
-* **AIOracle Contract**: [0xb880D47D3894D99157B52A7F869aB3B1E2D4349d](https://sepolia.etherscan.io/address/0xb880D47D3894D99157B52A7F869aB3B1E2D4349d)
-* **Prompt Contract**: [0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2](https://sepolia.etherscan.io/address/0x5d6963003Ad172Fd1D2A2fD18bB3967eA7Aef1a2)
-
-#### Available Models
-
-* **LLaMA 3-8B**: Large Language Model (LLM) for text-based tasks.
-* **Stable Diffusion**: Image generation model.
-
-For more information refer to this page [https://docs.ora.io/doc/ora-network/references](https://docs.ora.io/doc/ora-network/references)
-
-## Smart Contract Integration
+## Simple Smart Contract Integration
 
 To connect your smart contract with AI Oracle:
 
-1. Inherit `AIOracleCallbackReceiver` in your contract and bind with a specific AI Oracle address:
+* Inherit `AIOracleCallbackReceiver` in your contract and bind with a specific AI Oracle address:
 
 ```solidity
 constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle) {}
 ```
 
-1.  Write your callback function to handle the inference result from AI Oracle. Note that only AI Oracle can call this function:
+* Write your callback function to handle the inference result from AI Oracle. Note that only AI Oracle can call this function:
 
-    ```solidity
-    function aiOracleCallback(uint256 requestId, bytes calldata output, bytes calldata callbackData) external override onlyAIOracleCallback()
-    ```
-2.  When you want to initiate an AI inference request, call AI Oracle as follows:
+```solidity
+function aiOracleCallback(uint256 requestId, bytes calldata output, bytes calldata callbackData) external override onlyAIOracleCallback()
+```
 
-    ```solidity
-    aiOracle.requestCallback(modelId, input, address(this), gas_limit, callbackData);
-    ```
+* When you want to initiate an AI inference request, call AI Oracle as follows:
+
+```solidity
+aiOracle.requestCallback(modelId, input, address(this), gas_limit, callbackData);
+```
 
 Usage of AI Oracle requires a fee for each request. You can request the current fee by:
 

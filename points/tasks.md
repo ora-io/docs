@@ -52,7 +52,7 @@ By operating an ORA node, you can actively participate in the ORA Network, helpi
 
 To complete:
 
-1. Go to the [Tora Node Page](../the-ora-network/node-operator-guide/validator-client-tutorials.md)
+1. Go to the [Tora Node Page](../the-ora-network/node-operator-guide/tora-validator-client.md)
 2. Follow the guide to set up and run the node to confirm AI inference result on Ethereum mainnet
 3. For running each AI inference and validating on Ethereum mainnet with Tora, you will get 3 points.
 
