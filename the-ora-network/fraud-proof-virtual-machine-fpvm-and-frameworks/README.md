@@ -10,4 +10,4 @@ The FPVM is a specialized virtual machine designed for opML that can:
 * **State Management**: Uses Merkle trees to represent and manage computation states efficiently.
 * **Onchain Arbitration**: Runs on smart contracts, enabling the on-chain verification of disputed steps.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td><a href="broken-reference">opML</a></td></tr><tr><td></td><td><p></p><p><a href="broken-reference">opp/ai</a></p></td><td></td></tr><tr><td></td><td></td><td><a href="broken-reference">zkml</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td><a href="https://arxiv.org/abs/2401.17555">opML</a></td></tr><tr><td></td><td><p></p><p><a href="https://arxiv.org/abs/2402.15006">opp/ai</a></p></td><td></td></tr><tr><td></td><td></td><td><a href="keras2circom-zkml.md">zkML</a></td></tr></tbody></table>

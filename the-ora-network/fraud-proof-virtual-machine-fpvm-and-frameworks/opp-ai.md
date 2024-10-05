@@ -166,7 +166,7 @@ Given this limitation of zkML, the opp/ai framework instead focuses on model par
 
 ### **Resources and Links**
 
-* **opML Documentation**: [https://app.gitbook.com/o/rWlGmOlOvnmpt08RvxKm/s/llyHj70MVMOxu2WT7tZv/\~/changes/245/the-ora-network/fraud-proof-virtual-machine-fpvm/opml](https://app.gitbook.com/o/rWlGmOlOvnmpt08RvxKm/s/llyHj70MVMOxu2WT7tZv/\~/changes/245/the-ora-network/fraud-proof-virtual-machine-fpvm/opml)
+* [**opML**](opml.md) **Documentation**&#x20;
 * **Community and Support**:
   * **Discussion Forums**: [https://discord.gg/ora-io](https://discord.gg/ora-io)
 * **Related Papers and Research**:

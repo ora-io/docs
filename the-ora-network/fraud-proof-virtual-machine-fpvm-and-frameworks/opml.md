@@ -8,7 +8,7 @@ description: Scalable machine learning (ML) inference onchain
 
 **opML** (Optimistic Machine Learning) is an innovative framework that enables efficient and scalable machine learning (ML) inference directly on the blockchain. By leveraging an optimistic approach inspired by optimistic rollups (e.g., Optimism and Arbitrum), opML overcomes the computational limitations of blockchains, allowing for the execution of large ML models without sacrificing decentralization or security.
 
-opML is currently available via ORA’s [**AI Oracle**.](opml.md#introduction)
+opML is currently available via ORA’s [**AI Oracle**.](../ai-oracle-network/)
 
 The following is a comprehensive overview of opML, including its architecture, technical components, and frequently asked questions.
 
