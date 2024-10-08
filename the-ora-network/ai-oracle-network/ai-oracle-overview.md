@@ -1,5 +1,5 @@
 ---
-description: https://github.com/ora-io/OAO
+description: AI Oracle is a pull-based oracle built on opML
 ---
 
 # AI Oracle Overview
@@ -57,15 +57,15 @@ Usage of AI Oracle requires a fee for each request. You can request the current 
 3. Call to write and request the AI inference on your contract, filling in the estimated fee in ether
 
 {% embed url="https://www.youtube.com/watch?v=8fcJbeKN1uM" %}
-Interact and build with OAO
+Interact and build with AI oracle
 {% endembed %}
 
 ## Resources
 
-Source code of OAO: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
+Source code of AI Oracle: [https://github.com/ora-io/OAO](https://github.com/ora-io/OAO)
 
-For supported models in OAO and deployment addresses, see [Reference](references/) page.
+For supported models and deployment addresses, see [Reference](references/) page.
 
 For example integrations and ideas to build, see [awesome-ora](https://github.com/ora-io/awesome-ora#-ai-oracle-cle-ecosystem).
 
-Check out [video tutorial on interacting and building with OAO](https://www.youtube.com/watch?v=8fcJbeKN1uM).
+Check out [video tutorial on interacting and building with ](https://www.youtube.com/watch?v=8fcJbeKN1uM)AI oracle.

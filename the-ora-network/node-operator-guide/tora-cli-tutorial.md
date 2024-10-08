@@ -1,8 +1,10 @@
 ---
-description: https://github.com/ora-io/tora-docker-compose/releases
+description: Quick Start guides to the CLI
 ---
 
 # Tora CLI - Tutorial
+
+### **Releases:** [**https://github.com/ora-io/tora-docker-compose/releases**](https://github.com/ora-io/tora-docker-compose/releases)
 
 ### **Prerequisites**
 
@@ -21,7 +23,7 @@ To run a Tora validator client, your computer must have:
 
 💡 Make sure to set appropriate RAM limit in the docker engine configuration.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Setup
 

@@ -1,3 +1,7 @@
+---
+description: Common Issues
+---
+
 # Troubleshooting
 
 ## General&#x20;

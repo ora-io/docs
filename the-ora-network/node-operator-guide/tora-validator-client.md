@@ -1,4 +1,8 @@
-# Validator Client - Tutorial
+---
+description: Running ORA nodes with the Tora Validator Client
+---
+
+# Tora Validator Client
 
 ### Introduction
 

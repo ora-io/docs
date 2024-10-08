@@ -1,4 +1,8 @@
-# User Contracts
+---
+description: Build your dApp with ORA's AI Oracle
+---
+
+# Build with AI Oracle
 
 This tutorial will help you understand the structure of the AI Oracle,  guide you through the process of building a simple Prompt contract that interacts with the ORA network. We will implement the contract step by step. At the end we will deploy the contract to the blockchain network and interact with it.
 
@@ -64,7 +68,7 @@ We'll start by implementing the constructor, which accepts the address of the de
 constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle){}
 ```
 
-Now let’s define a method that will interact with the OAO. This method takes 2 parameters, id of the model and input prompt data. It also needs to be payable, because a user needs to pass the fee for the callback execution.
+Now let’s define a method that will interact with the AI Oracle. This method takes 2 parameters, id of the model and input prompt data. It also needs to be payable, because a user needs to pass the fee for the callback execution.
 
 ```solidity
 function calculateAIResult(uint256 modelId, string calldata prompt) payable external {
@@ -83,7 +87,7 @@ In the code above we do the following:
 2. Call the requestCallback function with the following parameters:
    * **modelId**: ID of the AI model in use.
    * **input**: User-provided prompt.
-   * **callbackAddress**: The address of the contract that will receive OAO's callback.
+   * **callbackAddress**: The address of the contract that will receive AI Oracle's callback.
    * **callbackGasLimit\[modelId]**: Maximum amount of that that can be spent on the callback, yet to be defined.
    * **callbackData**: Callback data that is used in the callback.
 
@@ -146,7 +150,7 @@ function calculateAIResult(uint256 modelId, string calldata prompt) payable exte
 
 In the code snippet above we added prompt, sender and the modelId to the request and also emitted an event.
 
-Now that we implemented a method for interaction with the OAO, let's define a callback that will be invoked by the OAO after the computation of the result.
+Now that we implemented a method for interaction with the AI Oracle, let's define a callback that will be invoked by the AI Oracle after the computation of the result.
 
 ```solidity
 event promptsUpdated(
@@ -172,7 +176,7 @@ function aiOracleCallback(uint256 requestId, bytes calldata output, bytes callda
 }
 ```
 
-We've overridden the callback function from the `AIOracleCallbackReceiver.sol`. It's important to use the modifier, so that only OAO can callback into our contract.
+We've overridden the callback function from the `AIOracleCallbackReceiver.sol`. It's important to use the modifier, so that only AI Oracle can callback into our contract.
 
 Function flow:
 

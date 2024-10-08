@@ -14,7 +14,7 @@
 * [AI Oracle Network](the-ora-network/ai-oracle-network/README.md)
   * [AI Oracle Overview](the-ora-network/ai-oracle-network/ai-oracle-overview.md)
   * [Build with AI Oracle](the-ora-network/ai-oracle-network/build-with-ai-oracle.md)
-  * [Advanced Integrations](the-ora-network/ai-oracle-network/advanced-integrations.md)
+  * [Advance Intergrations](the-ora-network/ai-oracle-network/advance-intergrations.md)
   * [Onboard AI Models](the-ora-network/ai-oracle-network/onboard-ai-models.md)
   * [Non-Developer Guides](the-ora-network/ai-oracle-network/non-developer-guides.md)
   * [References](the-ora-network/ai-oracle-network/references/README.md)
@@ -32,14 +32,13 @@
 
 ## 🪙 INITIAL MODEL OFFERING (IMO)
 
-* [Introduction](initial-model-offering-imo/introduction.md)
-* [Ecosystem](initial-model-offering-imo/ecosystem.md)
-* [Technology](initial-model-offering-imo/technology.md)
+* [IMO Overview](initial-model-offering-imo/imo-overview.md)
+* [ERC-7641: Intrinsic RevShare Token](initial-model-offering-imo/erc-7641-intrinsic-revshare-token.md)
+* [ERC-7007: Verifiable AI-Generated Content Token](initial-model-offering-imo/erc-7007-verifiable-ai-generated-content-token.md)
 
 ## 🏆 Points
 
-* [Introduction](points/introduction.md)
-* [Tasks](points/tasks.md)
+* [Points](points/points.md)
 * [Staking](points/staking.md)
 
 ## 📚 Resources

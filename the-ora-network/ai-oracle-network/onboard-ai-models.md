@@ -2,7 +2,7 @@
 description: Bring Your Own Model
 ---
 
-# Integrating ORA's AI Oracle
+# Onboard AI Models
 
 In this tutorial we explain how to integrate your own AI model with ORA's AI Oracle. We will start by looking at [mlgo](https://github.com/OPML-Labs/mlgo) repository and trying to understand what's happening there. At the end we will showcase how [opML](https://github.com/ora-io/opml) works, by running a simple dispute game script inside a docker container.
 
@@ -202,14 +202,8 @@ After executing the steps above you should be able to see interactive challenge 
 
 Script first deploys necessary contracts to the local node. Proposer opML node executes AI inference and then the challenger nodes can dispute it, if they think that the result is not valid. Challenger and proposer are interacting in order to find the differing step between their computations. Once the dispute step is found it's sent to the smart contract for the arbitration. If the challenge is successful the proposer node gets slashed.
 
-### Conclusion
-
 In this tutorial we achieved the following:
 
 * converted our AI model from Python to ggml format
 * compiled AI inference code written in go to MIPS VM executable format
 * run the dispute game inside a docker container and understood the opML verification process
-
-### Next steps
-
-In order to use your AI model onchain, you need to run your own opML nodes, then this AI model will be able to integrated into OAO. Try to reproduce this tutorial with your own model.

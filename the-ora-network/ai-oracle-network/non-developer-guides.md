@@ -1,3 +1,7 @@
+---
+description: Easy to use guides for non-developers
+---
+
 # Non-Developer Guides
 
 ### Using AI Oracle

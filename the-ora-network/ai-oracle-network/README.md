@@ -2,11 +2,11 @@
 description: An AI Oracle powered Optimistic Machine Learning (opML)
 ---
 
-# Introduction
+# AI Oracle Network
 
 
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><p><a href="./#components">Integrate ORA's<br>AI Oracle</a></p><p><a href="./#components">🔮</a></p></td><td></td></tr><tr><td></td><td><p><a href="./#components">Operate a Node:</a></p><p><a href="./#components">TORA  Client </a></p><p><a href="./#components">💻</a></p></td><td></td></tr><tr><td></td><td><a href="./#components">Learn: Fraud Proof Virtual Machine (FPVM)</a> ⚙️</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><p><a href="build-with-ai-oracle.md">Build Using ORA's AI Oracle</a></p><p><a href="./#components">🔮</a></p></td><td></td></tr><tr><td></td><td><p><a href="../node-operator-guide/tora-validator-client.md">Operate a Node:</a></p><p><a href="../node-operator-guide/tora-validator-client.md">TORA  Client </a></p><p><a href="./#components">💻</a></p></td><td></td></tr><tr><td></td><td><a href="../fraud-proof-virtual-machine-fpvm-and-frameworks/">Learn: Fraud Proof Virtual Machine (FPVM) </a>⚙️</td><td></td></tr></tbody></table>
 
 
 

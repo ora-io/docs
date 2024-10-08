@@ -1,10 +1,20 @@
-# Advanced Integrations
+---
+description: Advanced uses of the AI Oracle
+---
 
-In this tutorial, we are providing advanced usages on Interaction with OAO including Nested Inference.
+# Advance Intergrations
 
-## Prerequisites
+Nested Inference enables multiple inferences to be called synchronously.&#x20;
 
-* Good understanding of [build-with-ai-oracle.md](build-with-ai-oracle.md "mention")
+#### Use Cases
+
+Some of the use cases for a nested inference call include:
+
+* generating a prompt with LLM for AIGC (AI Generated Content) NFT
+* extracting data from the data set then visual data with different models
+* adding transcript to video, then translate it to different languages with different models
+
+For demo purposes we built a [farcaster frame](references/example-fortune-teller.md) that uses ORA's AI Oracle.
 
 ### 1. Nested Inference
 
@@ -12,17 +22,7 @@ We'll modify [Prompt](https://github.com/ora-io/Interaction\_With\_OAO\_Template
 
 The main goal of this tutorial is to understand what changes we need to make to Prompt contract in order to implement logic for various use cases.
 
-#### Use Cases
-
-Some of the use cases for nested inference call could be:
-
-* generate the prompt with LLM for AIGC (AI Generated Content) NFT
-* extract data from the data set then visual data with different models
-* add transcript to video, then translate it to different languages with different models
-
-For demo purposes we built a [farcaster frame](references/example-fortune-teller.md) that uses Onchain AI Oracle.
-
-💡 Nested inference request is executed within a single transaction, which simplifies user experience when interacting with your AI dapp.
+💡 A Nested inference request is executed within a single transaction, which simplifies the user experience for AI dapp interactions.
 
 #### Implementation Steps
 
@@ -53,7 +53,7 @@ As we now have additional function parameter for second model id. Not that we en
 
 #### aiOracleCallback
 
-The main change here is the within "if" block. If the callback data (`model2Id`) is returned, we want to execute second inference request to OAO.&#x20;
+The main change here is the within "if" block. If the callback data (`model2Id`) is returned, we want to execute second inference request to the AI Oracle.&#x20;
 
 Output from the first inference call, will be passed to second one. This allows for interesting use cases, where you can combine text-to-text (eg. Llama3) and text-to-image (eg. Stable-Diffusion) models.&#x20;
 
@@ -100,9 +100,5 @@ uint256 llamaFee = prompt.estimateFee(LLAMA_ID);
 
 uint256 requestId = prompt.calculateAIResult{value: ((stableDiffusionFee + llamaFee)*11/10)}(STABLE_DIFFUSION_ID, LLAMA_ID, SD_PROMPT);
 ```
-
-#### Conclusion
-
-In this tutorial we explained what functions need to be changed to implement different logic in your Prompt contract. Depending on the use case, new state variables and events could be defined as well.
 
 You can also check the full implementation of [PromptNestedInference](https://github.com/ora-io/Interaction\_With\_OAO\_Template/blob/main/src/PromptNestedInference.sol).

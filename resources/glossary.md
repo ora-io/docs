@@ -94,14 +94,16 @@ A computer running client.
 
 ### OAO
 
-Onchain AI Oracle (OAO) is an oracle system which provides verifiable AI inference to smart contracts.
+{% hint style="info" %}
+Onchain AI Oracle (OAO) is an old term, this is now renamed to AI Oracle, though you may still see this in some of our documentation. &#x20;
+{% endhint %}
+
+AI Oracle is an oracle system which provides verifiable AI inference to smart contracts.
 
 **The system consists of 2 parts:**
 
 * Network of nodes - Nodes execute AI inference and return results back to the blockchain. Validity of the result is proven through one of the proving frameworks: [zkML](glossary.md#zkml), [opML](glossary.md#opml), [opp/ai](glossary.md#opp-ai).
-* Set of smart contracts - Any dapp can request AI inference by calling OAO smart contracts. Oracle nodes listen to the events emitted by the OAO smart contracts and execute AI inference. Upon the successful execution, the results are returned in the callback function.
-
-For more information check [OAO introduction](broken-reference) page.
+* Set of smart contracts - Any dapp can request AI inference by calling AI Oracle smart contracts. Oracle nodes listen to the events emitted by the AI Oracle smart contracts and execute AI inference. Upon the successful execution, the results are returned in the callback function.
 
 ### On/Off-chain
 

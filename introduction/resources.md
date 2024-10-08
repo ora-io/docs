@@ -1,6 +1,6 @@
 ---
-description: Read more about our work
 icon: books
+description: Read more about our work
 ---
 
 # Resources
@@ -12,10 +12,6 @@ icon: books
 * **opML Paper**: [https://arxiv.org/abs/2401.17555](https://arxiv.org/abs/2401.17555)
 * **ERC-7007 and AIGC NFTs**: [https://ethereum-magicians.org/t/eip-7007-zkml-aigc-nfts-an-erc-721-extension-interface-for-zkml-based-aigc-nfts/14216](https://ethereum-magicians.org/t/eip-7007-zkml-aigc-nfts-an-erc-721-extension-interface-for-zkml-based-aigc-nfts/14216)
 * **ERC 7641 for IMOs**: [https://ethereum-magicians.org/t/erc-7641-intrinsic-revshare-token/18999](https://ethereum-magicians.org/t/erc-7641-intrinsic-revshare-token/18999)
-
-World Supercomputer is a set of topologically heterogenous peer-to-peer networks connected by a secure data bus. While Ethereum consensus maintains its global ledger, the specialized networks scale computing power and storage capacity.&#x20;
-
-ORA is committed to supporting Ethereum as the World Computer and its ecosystem for the future of DeFi, zkML, AI x Crypto, etc.
 
 We hold regular World Supercomputer Summits. Check out the recaps:
 

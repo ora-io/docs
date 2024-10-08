@@ -25,7 +25,7 @@ Our mission is to provide developers and organizations with accessible, scalable
 
 ### **Our Offerings**
 
-#### [**AI Oracle**](https://docs.ora.io/doc/oao-onchain-ai-oracle/introduction)
+#### [**AI Oracle**](../the-ora-network/ai-oracle-network/)
 
 **AI Oracle** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly. The AI Oracle is supported by ORA's network of permissionless nodes running the TORA client and is secured by optimistic Machine Learning (opML).
 

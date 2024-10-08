@@ -1,8 +1,10 @@
 ---
-description: https://github.com/ora-io/tora-electron-releases/releases/
+description: Quick Start Tutorial Guide
 ---
 
 # Tora Launcher - Tutorial
+
+### Releases:[https://github.com/ora-io/tora-electron-releases/releases/](https://github.com/ora-io/tora-electron-releases/releases/)
 
 ### Introduction
 
@@ -24,7 +26,7 @@ This is the guide for MacOS version. If you are using other operating systems, p
 
 Go to [releases page](https://github.com/ora-io/tora-electron-releases/releases/), find the release tagged with "Latest", and download the file ending with .dmg.
 
-<figure><img src="../../../.gitbook/assets/截屏2024-09-09 上午1.54.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/截屏2024-09-09 上午1.54.30.png" alt=""><figcaption></figcaption></figure>
 
 #### 2) Install App
 
@@ -40,7 +42,7 @@ After opening up the app, you will need to install the Tora docker image that in
 
 Click on "INSTALL TORA".
 
-<figure><img src="../../../.gitbook/assets/截屏2024-09-09 上午2.01.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/截屏2024-09-09 上午2.01.08.png" alt=""><figcaption></figcaption></figure>
 
 It is required to keep [docker app](https://docs.docker.com/engine/install/) open when installing. If you don't have docker open when going into this step, you will need to restart Tora app.
 
@@ -48,7 +50,7 @@ It is required to keep [docker app](https://docs.docker.com/engine/install/) ope
 
 After installation, you will see the app's main screen.
 
-<figure><img src="../../../.gitbook/assets/截屏2024-09-09 上午2.10.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/截屏2024-09-09 上午2.10.53.png" alt=""><figcaption></figcaption></figure>
 
 Click on "SETTING".
 
@@ -61,20 +63,20 @@ Enter configurations to all required fields:
 
 Scroll down and click on "START" to start your node.
 
-<figure><img src="../../../.gitbook/assets/截屏2024-09-09 上午2.24.04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/截屏2024-09-09 上午2.24.04.png" alt=""><figcaption></figcaption></figure>
 
 If you are starting the node for the first time, you are required to set up password.
 
-<figure><img src="../../../.gitbook/assets/截屏2024-09-09 上午2.18.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/截屏2024-09-09 上午2.18.31.png" alt=""><figcaption></figcaption></figure>
 
 #### 5) Running the node
 
 When node is running, you will be see the status on the top-right corner and "NODE" page.
 
-<figure><img src="../../../.gitbook/assets/截屏2024-09-09 上午2.25.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/截屏2024-09-09 上午2.25.41.png" alt=""><figcaption></figcaption></figure>
 
 You can also check out logs in "LOG" page.
 
-<figure><img src="../../../.gitbook/assets/截屏2024-09-09 上午2.24.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/截屏2024-09-09 上午2.24.54.png" alt=""><figcaption></figcaption></figure>
 
 For any question, please join [our discord](https://discord.gg/ora-io).
