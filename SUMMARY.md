@@ -45,6 +45,9 @@
 * [Resources](resources/resources.md)
 * [FAQ](resources/faq.md)
 * [Glossary](resources/glossary.md)
+* [Legal](resources/legal/README.md)
+  * [Privacy Policy](resources/legal/privacy-policy.md)
+  * [Terms of Use](resources/legal/terms-of-use.md)
 
 ## 📧 Get in touch
 
