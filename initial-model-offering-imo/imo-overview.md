@@ -1,10 +1,8 @@
 ---
-description: Introducing Initial Model Offering
+description: 'Initial Model Offering: Tokenising AI Models Onchain'
 ---
 
 # IMO Overview
-
-## **Introduction**
 
 Open-source AI models are vital for fostering innovation and collaboration. However, sustaining these models financially remains a significant challenge. As a result, the AI industry is currently dominated by closed-source, for-profit companies.
 
@@ -65,9 +63,9 @@ The **ERC-7641 Intrinsic RevShare Token** standardizes interaction and revenue s
 * **ETHDenver Talk**: [AI Isn't Evil and Smart Contract Proves It](https://www.youtube.com/watch?v=6fujouJ26n8)
 * **Sample ERC-7641 Implementation**: [GitHub Repository](https://github.com/ora-io/imo-token-contract)
 * **ERC-7007:** [**Verifiable AI-Generated Content Token**](https://app.gitbook.com/o/rWlGmOlOvnmpt08RvxKm/s/llyHj70MVMOxu2WT7tZv/\~/changes/263/resources/erc-7007-verifiable-ai-generated-content-token)
-* **ERC-7641: Intrinsice RevShare Token**
+* **ERC-7641:** [**Intrinsic RevShare Token**](erc-7641-intrinsic-revshare-token.md)
 
 ***
 
-_For questions or contributions to the IMO ecosystem, please contact ORA._
+_For questions or contributions to the IMO ecosystem,_ [_please contact ORA._](broken-reference)
 

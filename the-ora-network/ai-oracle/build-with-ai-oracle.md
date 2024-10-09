@@ -1,10 +1,10 @@
 ---
-description: Build your dApp with ORA's AI Oracle
+description: Build your dApp using ORA's AI Oracle
 ---
 
 # Build with AI Oracle
 
-This tutorial will help you understand the structure of the AI Oracle,  guide you through the process of building a simple Prompt contract that interacts with the ORA network. We will implement the contract step by step. At the end we will deploy the contract to the blockchain network and interact with it.
+This tutorial will help you understand the structure of the AI Oracle,  guide you through the process of building a simple Prompt contract that interacts with the ORA network.&#x20;
 
 If you prefer a video version of the tutorial, check it [here](https://www.youtube.com/watch?v=8fcJbeKN1uM).
 
@@ -12,7 +12,7 @@ Final version of the code can be found [here](https://github.com/ora-io/Interact
 
 ### Learning Objectives
 
-* Setup development environment
+* Setup the development environment
 * Understand the project setup and template repository structure
 * Learn how to interact with the AI Oracle and build an AI powered smart contract
 
@@ -68,7 +68,7 @@ We'll start by implementing the constructor, which accepts the address of the de
 constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle){}
 ```
 
-Now let’s define a method that will interact with the AI Oracle. This method takes 2 parameters, id of the model and input prompt data. It also needs to be payable, because a user needs to pass the fee for the callback execution.
+Now let’s define a method that will interact with the AI Oracle. This method requires 2 parameters, id of the model and input prompt data. It also needs to be payable, because a user needs to pass the fee for the callback execution.
 
 ```solidity
 function calculateAIResult(uint256 modelId, string calldata prompt) payable external {
@@ -114,7 +114,7 @@ constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle) {
 }
 ```
 
-We want to store all the requests that happened, so we create a data structure for the request data and the mapping between requestId and the request data.
+We want to store all the requests that occurred, so we create a data structure for the request data and the mapping between requestId and the request data.
 
 ```solidity
 event promptRequest(
@@ -176,7 +176,7 @@ function aiOracleCallback(uint256 requestId, bytes calldata output, bytes callda
 }
 ```
 
-We've overridden the callback function from the `AIOracleCallbackReceiver.sol`. It's important to use the modifier, so that only AI Oracle can callback into our contract.
+We've overridden the callback function from the `AIOracleCallbackReceiver.sol`. It is important to use the modifier, so that only AI Oracle can callback into our contract.
 
 Function flow:
 
@@ -194,7 +194,7 @@ function estimateFee(uint256 modelId) public view returns (uint256) {
 }
 ```
 
-With this we finished with the source code for our contract. The final version should look like this:
+With this, we've completed with the source code for our contract. The final version should look like this:
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -340,7 +340,7 @@ contract Prompt is AIOracleCallbackReceiver {
     Go to blockchain explorer for your chosen network (eg. [Etherscan](https://etherscan.io/)), and paste the address of the deployed Prompt contract.\
 
 
-    Let's use Stable Diffusion model (id = 50).&#x20;
+    Let's use Stable Diffusion model (id = 50) as an example.&#x20;
 
     1.  First call `estimateFee` method to calculate fee for the callback.\
 
@@ -350,7 +350,7 @@ contract Prompt is AIOracleCallbackReceiver {
         <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
         </div>
-    2.  Then request AI inference from OAO by calling _calculateAIResult_ method. Pass the model id and the prompt for the image generation. Remember to provide estimated fee as a value for the transaction.\
+    2.  Request the AI inference from the AI Oracle by calling _calculateAIResult_ method. Pass the model id and the prompt for the image generation. Remember to provide an estimated fee as a value for the transaction.\
 
 
         <div align="left">
@@ -358,7 +358,7 @@ contract Prompt is AIOracleCallbackReceiver {
         <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
         </div>
-    3.  After the transaction is executed, and the OAO calculates the result, you can check it by calling _prompts_ method. Simply input model id and the prompt you used for image generation. In the case of Stable Diffusion, the output will be a CID (content identifier on [ipfs](https://ipfs.tech/)). To check the image go to [https://ipfs.io/ipfs/\[Replace\_your\_CID\]](https://ipfs.io/ipfs/).\
+    3.  After the transaction is executed, and the AI Oracle calculates the result, you can check it by calling _prompts_ method. Simply input model id and the prompt you used for image generation. In the case of Stable Diffusion, the output will be a CID (content identifier on [ipfs](https://ipfs.tech/)). To check the image go to [https://ipfs.io/ipfs/\[Replace\_your\_CID\]](https://ipfs.io/ipfs/).\
 
 
         <div align="left">
@@ -405,9 +405,9 @@ contract Prompt is AIOracleCallbackReceiver {
    Let's use Stable Diffusion model (id = 50).&#x20;
    1. First call `estimateFee` method to calculate fee for the callback.\
       ![](../../.gitbook/assets/estimateFee\_remix.png)
-   2. Then request AI inference from OAO by calling \`calculateAIResult\` method. Pass the model id and the prompt for the image generation. Remember to provide estimated fee as a value for the transaction.\
+   2. Then request AI inference from the AI Oracle by calling \`calculateAIResult\` method. Pass the model id and the prompt for the image generation. Remember to provide estimated fee as a value for the transaction.\
       ![](../../.gitbook/assets/calculateAIResult\_remix.png)
-   3. After the transaction is executed, and the OAO calculates result, you can check it by calling prompts method. Simply input model id and the prompt you used for image generation. In the case of Stable Diffusion, the output will be a CID (content identifier on [ipfs](https://ipfs.tech/)).\
+   3. After the transaction is executed, and the AI Oracle calculates result, you can check it by calling prompts method. Simply input model id and the prompt you used for image generation. In the case of Stable Diffusion, the output will be a CID (content identifier on [ipfs](https://ipfs.tech/)).\
       ![](../../.gitbook/assets/prompts\_remix.png)
 
 ### Conclusion

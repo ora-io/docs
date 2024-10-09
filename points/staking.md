@@ -1,5 +1,5 @@
 ---
-description: Staking to earn points
+description: 'Early contributors: Staking'
 ---
 
 # Staking

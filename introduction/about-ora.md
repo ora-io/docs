@@ -7,7 +7,7 @@ description: Overview, Mission, Offerings
 
 ### **Overview**
 
-**ORA** is chain-agnostic infrastructure that bridges the gap between AI and blockchain.
+**ORA** provides chain-agnostic infrastructure that bridges the gap between AI and blockchain.
 
 We empower developers with the tools necessary to build end-to-end trustless and decentralized applications enhanced by verifiable AI.
 
@@ -25,7 +25,7 @@ Our mission is to provide developers and organizations with accessible, scalable
 
 ### **Our Offerings**
 
-#### [**AI Oracle**](../the-ora-network/ai-oracle-network/)
+#### [**AI Oracle**](../the-ora-network/ai-oracle/)
 
 **AI Oracle** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly. The AI Oracle is supported by ORA's network of permissionless nodes running the TORA client and is secured by optimistic Machine Learning (opML).
 
@@ -33,12 +33,14 @@ Our mission is to provide developers and organizations with accessible, scalable
 * **Developer-Friendly Integration**: Build custom smart contracts that interact with the AI Oracle to utilize AI models.
 * **Use Cases**: From AI-generated NFTs and onchain games to prediction markets and content verification, ORA provides the tools necessary to build your unique application.
 
-#### [**Initial Model Offerings (IMO)**](https://docs.ora.io/doc/imo-initial-model-offering/introduction)
+#### [**Initial Model Offerings (IMO)**](../initial-model-offering-imo/imo-overview.md)
 
 **IMOs** represent a new mechanism for tokenizing AI models onchain, promoting sustainable funding for open-source contributors while distributing revenue to tokenholders.
 
 * **Tokenization of AI Models**: Share ownership and profits of AI models through ERC-7641.
 * **Sustainable Open-Source Funding**: Encourage ongoing contributions and development in the open-source AI community.
 * **Benefits to Tokenholders**: Capture value from onchain revenue and AI-generated content assets.
+
+_ORA was previously named HyperOracle._
 
 ***

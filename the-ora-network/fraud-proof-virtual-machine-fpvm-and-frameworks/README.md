@@ -6,7 +6,7 @@ description: opML, zkml and opp/AI
 
 The FPVM is a specialized virtual machine designed for opML that can:
 
-* **Execute and Verify Computation Steps**: Capable of performing individual computation steps to resolve disputes.
+* **Execute and Verify Computation**: Capable of performing individual computation steps to resolve disputes.
 * **State Management**: Uses Merkle trees to represent and manage computation states efficiently.
 * **Onchain Arbitration**: Runs on smart contracts, enabling the on-chain verification of disputed steps.
 

@@ -4,7 +4,7 @@ To showcase how AI Oracle can enhance consumer-facing products, we introduce [Fo
 
 ### About Fortune Teller
 
-Fortune Teller leverages the NestedInference smart contract, as discussed in the [Advanced Usages of AI Oracle](../advance-intergrations.md). This application aims to onboard new users to Web3 and demonstrate the capabilities of [AI Oracle](https://ai.ora.io/).
+Fortune Teller leverages the NestedInference smart contract, as discussed in the [Advanced Usages of AI Oracle](../advance-examples.md). This application aims to onboard new users to Web3 and demonstrate the capabilities of [AI Oracle](https://ai.ora.io/).
 
 ### Application Flow
 

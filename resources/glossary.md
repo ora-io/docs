@@ -1,5 +1,6 @@
 ---
 icon: a
+description: Frequently Used Terms
 ---
 
 # Glossary
@@ -7,6 +8,19 @@ icon: a
 ### Aggregation
 
 An operation that brings together multiple elements
+
+### AI Oracle (Previously OAO)
+
+{% hint style="info" %}
+Onchain AI Oracle (OAO) has been renamed to AI Oracle. You may still see this term in some of our documentation and code base.&#x20;
+{% endhint %}
+
+AI Oracl**e** is ORA's verifiable and decentralized AI oracle, enabling developers to integrate AI functionalities into their smart contracts seamlessly. The AI Oracle is supported by ORA's network of permissionless nodes running the TORA client and is secured by optimistic Machine Learning (opML).
+
+**The system consists of 2 parts:**
+
+* Network of nodes - Nodes execute AI inference and return results back to the blockchain. Validity of the result is proven through one of the proving frameworks: [zkML](glossary.md#zkml), [opML](glossary.md#opml), [opp/ai](glossary.md#opp-ai).
+* Set of smart contracts - Any dapp can request AI inference by calling AI Oracle smart contracts. Oracle nodes listen to the events emitted by the AI Oracle smart contracts and execute AI inference. Upon the successful execution, the results are returned in the callback function.
 
 ### AssemblyScript
 
@@ -54,7 +68,7 @@ A high-performance implementation of zk-SNARK by Electric Coin Co.
 
 ### Hyper Oracle
 
-The former naming format of HyperOracle. Use HyperOracle.
+Hyper Oracle has been rebranded to ORA.&#x20;
 
 ### Indexing
 
@@ -90,20 +104,7 @@ Services or infrastructure needed in pipeline of development.
 
 ### Node
 
-A computer running client.
-
-### OAO
-
-{% hint style="info" %}
-Onchain AI Oracle (OAO) is an old term, this is now renamed to AI Oracle, though you may still see this in some of our documentation. &#x20;
-{% endhint %}
-
-AI Oracle is an oracle system which provides verifiable AI inference to smart contracts.
-
-**The system consists of 2 parts:**
-
-* Network of nodes - Nodes execute AI inference and return results back to the blockchain. Validity of the result is proven through one of the proving frameworks: [zkML](glossary.md#zkml), [opML](glossary.md#opml), [opp/ai](glossary.md#opp-ai).
-* Set of smart contracts - Any dapp can request AI inference by calling AI Oracle smart contracts. Oracle nodes listen to the events emitted by the AI Oracle smart contracts and execute AI inference. Upon the successful execution, the results are returned in the callback function.
+A computer running a client.
 
 ### On/Off-chain
 
@@ -111,15 +112,11 @@ On the (specific) blockchain / not on the (specific) blockchain. Usually refers 
 
 ### opML
 
-Optimistic Machine Learning (opML) is a machine learning proving framework. In uses game-theory to ensure the validity of AI inference results. The proving mechanism works similar to optimistic rollups approach.
-
-For more information check [opML](broken-reference) page.
+[Optimistic Machine Learning (opML)](../the-ora-network/fraud-proof-virtual-machine-fpvm-and-frameworks/opml.md) is a machine learning proving framework. In uses game-theory to ensure the validity of AI inference results. The proving mechanism works similar to optimistic rollups approach.
 
 ### opp/ai
 
-Optimistic Privacy Preserving AI (opp/ai) is a machine learning proving framework. It combines cryptography and game-theory to ensure the validity of AI inference results.
-
-For more information check [opp/ai](broken-reference) page.
+[Optimistic Privacy Preserving AI (opp/ai) ](../the-ora-network/fraud-proof-virtual-machine-fpvm-and-frameworks/opp-ai.md)is a machine learning proving framework. It combines cryptography and game-theory to ensure the validity of AI inference results.
 
 ### ORA
 

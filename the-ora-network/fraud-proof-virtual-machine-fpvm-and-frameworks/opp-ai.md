@@ -63,7 +63,7 @@ opp/ai relies on the three major components of opML for opML submodels:
 
 The FPVM is a specialized virtual machine designed for opML that can:
 
-* **Execute and Verify Computation Steps**: Capable of performing individual computation steps to resolve disputes.
+* **Execute and Verify Computation**: Capable of performing individual computation steps to resolve disputes.
 * **State Management**: Uses Merkle trees to represent and manage computation states efficiently.
 * **Onchain Arbitration**: Runs on smart contracts, enabling the on-chain verification of disputed steps.
 
@@ -175,4 +175,4 @@ Given this limitation of zkML, the opp/ai framework instead focuses on model par
 
 ***
 
-_For further questions or support, please reach out to the ORA team through the community channels listed above._
+_For further questions or support, please reach out to the ORA team through the_ [_community channels_](broken-reference)_._

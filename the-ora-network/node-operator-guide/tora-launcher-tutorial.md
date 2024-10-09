@@ -4,7 +4,9 @@ description: Quick Start Tutorial Guide
 
 # Tora Launcher - Tutorial
 
-### Releases:[https://github.com/ora-io/tora-electron-releases/releases/](https://github.com/ora-io/tora-electron-releases/releases/)
+{% hint style="info" %}
+### Check for the latest release here: [https://github.com/ora-io/tora-electron-releases/releases/](https://github.com/ora-io/tora-electron-releases/releases/)
+{% endhint %}
 
 ### Introduction
 

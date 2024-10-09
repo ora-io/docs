@@ -2,27 +2,25 @@
 description: Advanced uses of the AI Oracle
 ---
 
-# Advance Intergrations
+# Advance Examples
 
-Nested Inference enables multiple inferences to be called synchronously.&#x20;
+A user can perform **nested inference** by initiating a second inference based on the result of the first inference within a smart contract. This action can be completed atomically and is not restricted to a two-step function.&#x20;
 
-#### Use Cases
+#### Nested Inference Use Cases
 
 Some of the use cases for a nested inference call include:
 
 * generating a prompt with LLM for AIGC (AI Generated Content) NFT
-* extracting data from the data set then visual data with different models
-* adding transcript to video, then translate it to different languages with different models
+* extracting data from a data set, then generate visual data with different models
+* adding transcript to a video, then translate it to different languages with different models
 
 For demo purposes we built a [farcaster frame](references/example-fortune-teller.md) that uses ORA's AI Oracle.
 
 ### 1. Nested Inference
 
-We'll modify [Prompt](https://github.com/ora-io/Interaction\_With\_OAO\_Template/blob/main/src/Prompt.sol) contract to support nested inference request. NestedCallback contract should execute multiple inference requests in 1 transaction. In our example, it will call Llama3 model first, then use inference result as the prompt to another request to StableDiffusion model.
+In this example, we'll modify [Prompt](https://github.com/ora-io/Interaction\_With\_OAO\_Template/blob/main/src/Prompt.sol) contract to support nested inference request. NestedCallback contract should execute multiple inference requests in 1 transaction. In our example, it will call Llama3 model first, then use inference result as the prompt to another request to StableDiffusion model.
 
 The main goal of this tutorial is to understand what changes we need to make to Prompt contract in order to implement logic for various use cases.
-
-💡 A Nested inference request is executed within a single transaction, which simplifies the user experience for AI dapp interactions.
 
 #### Implementation Steps
 
@@ -57,7 +55,7 @@ The main change here is the within "if" block. If the callback data (`model2Id`)
 
 Output from the first inference call, will be passed to second one. This allows for interesting use cases, where you can combine text-to-text (eg. Llama3) and text-to-image (eg. Stable-Diffusion) models.&#x20;
 
-If nested inference call is not successful the whole function will revert.
+**If nested inference call is not successful the whole function will revert.**
 
 💡 When interacting with the contract from the client side, we need to pass cumulative fee (for both models), then for each inference call we need to pass part of that cumulative fee. This is why we are calling `estimateFee` for `model2Id`.
 

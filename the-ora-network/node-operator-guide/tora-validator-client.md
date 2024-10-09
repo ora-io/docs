@@ -14,16 +14,14 @@ To enhance client diversity and further decentralize the network, future updates
 
 <figure><img src="../../.gitbook/assets/tora fig thumbnail.png" alt=""><figcaption></figcaption></figure>
 
-### What It Does
-
 Tora Validator Node performs two main functions:
 
 * **Validation**: It validates AI inference results by executing AI computations within the opML framework.
-* **Blockchain Interaction**: The node interacts with the Onchain AI Oracle's smart contracts by monitoring AI requests and confirming validated inference results.
+* **Blockchain Interaction**: The node interacts with ORA's AI Oracle smart contracts by monitoring AI requests and confirming validated inference results.
 
 ### Technical Details
 
-Currently, Tora Validator supports the OpenLM model (model ID: 13) on the Ethereum mainnet. The node runs this model and confirms its AI inference results on-chain, contributing to the overall security and trustworthiness of the network.
+Tora Validator supports the OpenLM model (model ID: 13) on the Ethereum mainnet. The node runs this model and confirms its AI inference results on-chain, contributing to the overall security and trustworthiness of the network.
 
 ### Tutorials
 

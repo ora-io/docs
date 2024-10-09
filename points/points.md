@@ -47,10 +47,10 @@ ii) Refer a friend:
 
 Refer to the [Staking Page](staking.md) for more information.
 
-#### Task 4: Running a Tora Client
+### Task 4: Running a Tora Client
 
 By operating an ORA node, you can actively participate in the ORA Network.
 
 1. Go to the [Tora Node Page](../the-ora-network/node-operator-guide/tora-validator-client.md)
 2. Follow the guide to set up and run the node to confirm AI inference result on Ethereum mainnet
-3. For running each AI inference and validating on Ethereum mainnet, 3 points are earned
+3. Users are rewarded points for running each AI inference and validating on Ethereum mainnet

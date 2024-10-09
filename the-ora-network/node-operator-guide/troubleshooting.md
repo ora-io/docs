@@ -7,7 +7,7 @@ description: Common Issues
 ## General&#x20;
 
 * Make sure you have downloaded the latest version of the Tora client: [https://github.com/ora-io/tora-electron-releases/releases/](https://github.com/ora-io/tora-electron-releases/releases/).
-* Make sure to have official installation of [docker](https://www.docker.com/).
+* Make sure you have the official installation of [docker](https://www.docker.com/).
 
 ## Issues
 

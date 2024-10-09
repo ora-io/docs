@@ -4,7 +4,9 @@ description: Quick Start guides to the CLI
 
 # Tora CLI - Tutorial
 
-### **Releases:** [**https://github.com/ora-io/tora-docker-compose/releases**](https://github.com/ora-io/tora-docker-compose/releases)
+{% hint style="info" %}
+### **Check for the latest release here:** [**https://github.com/ora-io/tora-docker-compose/releases**](https://github.com/ora-io/tora-docker-compose/releases)
+{% endhint %}
 
 ### **Prerequisites**
 

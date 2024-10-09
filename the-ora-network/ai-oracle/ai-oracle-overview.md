@@ -4,27 +4,27 @@ description: AI Oracle is a pull-based oracle built on opML
 
 # AI Oracle Overview
 
-## Workflow
+## Introduction
 
-AI Oracle is a pull-based oracle, meaning users will get one response (i.e. an AI inference result) from one request (i.e. a prompt) on-demand. Our batch mint feature enables one request to return multiple AI inference results in one response.
+AI Oracle is a pull-based oracle. This means users will get one response (an AI inference result) from one request (one prompt) on-demand. Our new batch mint feature enables one request to return multiple AI inference results in one response.
 
-### Usage
+### Workflow
 
 1. **Initiate Request**: The user contract sends an inference request to AI Oracle by calling the `requestCallback` function.
 2. **opML Request**: AI Oracle creates an opML request based on the user contract request.
 3. **Event Emission**: AI Oracle emits a `requestCallback` event collected by the opML node.
-4. **ML Inference**: The opML node performs the AI computation.
+4. **ML Inference**: The opML node performs the AI model computation.
 5. **Result Submission**: The opML node uploads the result on-chain.
 6. **Callback Execution**: The result is dispatched to the user's smart contract via a callback function.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>AI Oracle and opML Architecture</p></figcaption></figure>
 
 ### Challenge Process
 
 1. **Challenge Window**: Begins after the result is submitted on-chain (step 5 above).
 2. **Verification**: opML validators or any network participant can check the results and challenge the output if it is incorrect.
 3. **Result Update**: If a challenge is successful, the incorrect result is updated on-chain.
-4. **Finalization**: After the challenge period, the result is finalized and immutable.
+4. **Finality**: After the challenge period, the result is finalized onchain and made immutable.
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ To connect your smart contract with AI Oracle:
 constructor(IAIOracle _aiOracle) AIOracleCallbackReceiver(_aiOracle) {}
 ```
 
-* Write your callback function to handle the inference result from AI Oracle. Note that only AI Oracle can call this function:
+* Write your callback function to handle the inference result from AI Oracle. Note that only the AI Oracle can call this function:
 
 ```solidity
 function aiOracleCallback(uint256 requestId, bytes calldata output, bytes calldata callbackData) external override onlyAIOracleCallback()
